@@ -1,0 +1,9 @@
+{
+  "name": "CJKVI-IDS / CHISE IDS",
+  "commit": "86b4d16159f0079437870408f0ca186e529015db",
+  "url": "https://github.com/cjkvi/cjkvi-ids/blob/86b4d16159f0079437870408f0ca186e529015db/ids.txt",
+  "upstream_sha256": "bfc70a8c09f9f5616ebf0543bd6681e67314e9f7ae2307e5ae8c6f15bdc5c6a6",
+  "license": "GPL-2.0",
+  "selection": "Prefer J variant, then untagged. Retain only required composition trees. Overlays and undefined placeholders require explicit project-authored components.",
+  "scope": "Character decomposition only; no font geometry imported."
+}
