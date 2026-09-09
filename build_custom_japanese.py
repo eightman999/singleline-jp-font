@@ -25,9 +25,8 @@ def glyph_mask(lines, size, filled=False):
 def main():
     source = Path(__file__).with_name("custom_japanese_strokes.py")
     sources = [source, source.with_name('custom_symbol_strokes.py'),
-               *sorted(source.parent.glob('education_strokes_*.py')),
-               *[source.with_name(name) for name in ('joyo_composer.py', 'joyo_components.py',
-                                                     'joyo_primitive_strokes.py', 'joyo_repertoire.py')]]
+               source.with_name('custom_ascii_strokes.py'),
+               *sorted((source.parent / 'glyphs').glob('*.py'))]
     for size in (18, 24):
         masks = {c: glyph_mask(lines, size, filled=c in FILLED) for c, lines in GLYPHS.items()}
         for char, ascii_char in FULLWIDTH_ALIASES.items():
@@ -35,7 +34,7 @@ def main():
         save_atlas(f"custom-jp-{size}", masks,
                    {"name": "Project original geometric Japanese single-line subset",
                     "coordinates": source.name, "sha256": hashlib.sha256(source.read_bytes()).hexdigest(),
-                    "coordinate_sources": {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in sources},
+                    "coordinate_sources": {str(p.relative_to(source.parent)): hashlib.sha256(p.read_bytes()).hexdigest() for p in sources},
                     "composition_data": {name: hashlib.sha256((source.parent/'assets/fonts/source'/name).read_bytes()).hexdigest()
                                          for name in ('joyo-compositions.json', 'joyo-kanji.txt')},
                     "composition_reference": "CJKVI-IDS / CHISE (character structure only)",

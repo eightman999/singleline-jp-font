@@ -7,3 +7,5 @@ Character decomposition data: CJKVI-IDS / CHISE, GPL v2. The source attribution,
 
 The centerline coordinates are project-authored; the CJKVI data supplies character structure only. No ChocoKanji, KanjiVG or Hershey outlines are included.
 Official repertoire source: https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/joyokanjihyo_sakuin/index.html
+
+Categorization update: resolved final coordinates are now canonical in glyphs/. Identical paths are interned without changing geometry. The original composition data is retained for provenance, not executed at build time. TrueType outputs trace lit pixels as closed rectangles and preserve the respective asset notices.

@@ -1,2 +1,4 @@
 -r requirements.txt
 opencv-python==5.0.0.93
+fonttools==4.64.0
+shapely==2.1.2

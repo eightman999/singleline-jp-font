@@ -17,10 +17,11 @@ def ascii_mask(char, size, fullwidth=False):
 
 
 def main():
-    source=Path(__file__).with_name('custom_ascii_strokes.py')
+    source=Path(__file__).parent/'glyphs/ascii.py'
     for size in (18,24):
         save_atlas(f'custom-ascii-{size}',{c:ascii_mask(c,size) for c in GLYPHS},
-                   {'name':'Project original geometric ASCII','coordinates':source.name,
+                   {'name':'Project original geometric ASCII','coordinates':'glyphs/ascii.py',
+                    'coordinate_sources': {str(p.relative_to(source.parent.parent)): hashlib.sha256(p.read_bytes()).hexdigest() for p in (source,source.with_name('paths.py'))},
                     'sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'opencv':cv2.__version__},
                    dotted=False,advance_gap=2,
                    rasterization={'thickness':1,'line_type':'LINE_8','thinning':None,'coordinate_grid':24})
