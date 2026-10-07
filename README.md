@@ -1,8 +1,15 @@
 # Singleline JP Font
 
-**16/32px追加・全書体再検査:** [追加更新の説明](docs/UPDATE-16-32.md)。16/18/24/32px × 8書体を1bitデータで生成します。
+**V2 配布準備版: 2.0.0-rc.1。正式リリースではありません。** 独自中心線から作った静的TTF 8書体、可変TTF 2書体、16/18/24/32px × 8書体の1bitビットマップ32組を扱います。従来の2,584文字・18/24px資産は維持します。拡張漢字は機械合成を含む未校正の試作字形で、収録率やテスト成功は日本語字体の正確性・可読性の認定ではありません。
 
-**新しい実験版ファミリー:** [設計・生成・検証の説明](docs/FAMILY.md)。従来の18/24px PNG/JSONとTTFを変更せず、独自中心線から8書体のスケーラブルTTF、2書体の可変TTF、1bitバイナリ書体を生成します。拡張漢字は機械合成を含む未校正の試作字形です。正確な収録数と欠字は生成される `build/family/coverage.json` を参照してください。
+**TTFをアプリで使うだけならPythonは不要です。** ZIPを展開して `.ttf` をOSへインストールします。まず [インストール・更新・削除](docs/INSTALL.md) を参照してください。
+
+- [用途別の4分割ZIP・検証とバージョン対応](docs/DISTRIBUTION.md): static / variable / bitmap / source。各ZIPは独立して使えます
+- [変更履歴](docs/CHANGELOG.md) · [再現性・macOS差分への対処](docs/REPRODUCIBILITY.md) · [出典・ライセンス対応表](NOTICE.md)
+- [優先字形の実測: 己已巳・未末・土士・高髙・吉𠮷](docs/PRIORITY-GLYPH-QA.md): 一部の16/18pxビットマップに同形が残ります
+- [ファミリー設計・生成・検証](docs/FAMILY.md): 正確な収録数と欠字は `build/family/coverage.json` を参照
+
+配布版 `2.0.0-rc.1` とフォント内部の版番号は別です。新ファミリーは `Singleline JP Lab …` / `Version 0.201`、従来TTFは `Singleline JP …` / `Version 1.000` のままです。V2という名前を理由に既存フォントを上書きしたり版番号を一括変更したりしません。OSの導入・アプリ別表示試験は、機械検査とは別の未完了項目です。
 
 [新8書体TTF](build/family/static/) · [可変TTF](build/family/variable/) · [16/18/24/32pxの1bit資産](build/family/bitmaps/) · [全書体の再検査](docs/STYLE-RASTER-QA.md)
 
@@ -15,7 +22,7 @@
 [全収録文字](assets/fonts/CHARACTERS.md) · [検索可能なカタログ](assets/fonts/catalog.html) · [出典とライセンス](NOTICE.md)
 カタログはダウンロードしてブラウザで開いてください。[インストール用TTF](fonts/)も同梱します。複雑な字の18px表示や実機LEDの可読性は保証しません。
 
-## すぐ使う
+## 従来PNG/JSONをすぐ使う
 
 PNG/JSONだけで利用可能です。`assets/fonts/custom-jp-24.*` と `custom-ascii-24.*` を組で使います。JSONの `glyphs` は文字をキーとし、`x/y/width/height` がPNG内の矩形、`advance` が送り幅です。白が点灯、黒が背景です。18px版も同じ形式です。
 
@@ -50,7 +57,7 @@ pixels = font.mask('日本語 ABC')   # NumPy bool配列
 
 コード・独自線分は元プロジェクトのAGPL v3、外部構成データと日本語生成物の扱いは[NOTICE.md](NOTICE.md)を参照してください。ゲーム、通信、Pi制御、旧フォント資産は含みません。
 
-## インストール用 TrueType
+## 従来版のインストール用 TrueType
 
 | 版 | 18px設計 | 24px設計 | 収録 |
 |---|---|---|---|

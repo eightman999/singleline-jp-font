@@ -1,5 +1,7 @@
 # Font repertoire and format reference, checked 2026-10-06
 
+> Historical reference snapshot checked on 2026-10-06. Its proposed acceptance checklist is not evidence that every item was executed or passed. Current distribution status is in [DISTRIBUTION.md](DISTRIBUTION.md).
+
 These are character-identity reference data, not third-party glyph outlines or designs. All files here were created outside the lead checkout.
 
 ## Reproducible coverage

@@ -38,7 +38,7 @@ from family.geometry import centerlines, contours, make_glyph
 from family.model import Glyph, glyph_name
 from family.styles import STYLES, variable_style
 from build_family import compress_centerlines, write_centerlines
-from family.tools.package_family import package_family
+from family.tools.package_family import editable_centerlines
 
 DATA = ROOT / 'family' / 'data'
 OUTPUT = Path(os.environ.get('FAMILY_OUTPUT', ROOT / 'build' / 'family'))
@@ -266,36 +266,20 @@ def test_centerlines_exports_deterministic_lossless_svgz(tmp_path, small_source)
 
 
 @pytest.mark.parametrize('raw_present', [False, True])
-def test_package_includes_editable_svg_from_compressed_source(tmp_path, raw_present):
-    root=tmp_path/'checkout'
-    out=root/'build/family'
-    (out/'reports').mkdir(parents=True)
-    (out/'reports/full-tests.json').write_text(json.dumps({'outcome':'passed'}))
+def test_editable_svg_from_compressed_source(tmp_path, raw_present):
     raw='<svg xmlns="http://www.w3.org/2000/svg"><title>日本語</title></svg>\n'.encode()
     compressed=compress_centerlines(raw)
-    (out/'centerlines.svgz').write_bytes(compressed)
-    if raw_present:(out/'centerlines.svg').write_bytes(raw)
-    destination=tmp_path/'source.zip'
-    result=package_family(root,destination)
-    with zipfile.ZipFile(destination) as archive:
-        prefix='singleline-jp-font/'
-        assert archive.read(prefix+'build/family/centerlines.svg')==raw
-        assert archive.read(prefix+'build/family/centerlines.svgz')==compressed
-        sums=json.loads(archive.read(prefix+'PACKAGE-SHA256.json'))
-        assert sums['build/family/centerlines.svg']==hashlib.sha256(raw).hexdigest()
-        assert all(hashlib.sha256(archive.read(prefix+name)).hexdigest()==digest for name,digest in sums.items())
-        assert result['files']==len(sums)==3
-    assert (out/'centerlines.svg').exists()==raw_present
+    (tmp_path/'centerlines.svgz').write_bytes(compressed)
+    if raw_present:(tmp_path/'centerlines.svg').write_bytes(raw)
+    assert editable_centerlines(tmp_path)==raw
+    assert (tmp_path/'centerlines.svg').exists()==raw_present
 
 
 def test_package_rejects_stale_raw_centerlines(tmp_path):
-    out=tmp_path/'build/family'
-    (out/'reports').mkdir(parents=True)
-    (out/'reports/full-tests.json').write_text(json.dumps({'outcome':'passed'}))
-    (out/'centerlines.svgz').write_bytes(compress_centerlines(b'<svg/>\n'))
-    (out/'centerlines.svg').write_bytes(b'<svg>stale</svg>\n')
+    (tmp_path/'centerlines.svgz').write_bytes(compress_centerlines(b'<svg/>\n'))
+    (tmp_path/'centerlines.svg').write_bytes(b'<svg>stale</svg>\n')
     with pytest.raises(ValueError,match='disagree'):
-        package_family(tmp_path,tmp_path/'source.zip')
+        editable_centerlines(tmp_path)
 
 
 def test_jis_manifest_exact_identities_and_level_counts(manifests):

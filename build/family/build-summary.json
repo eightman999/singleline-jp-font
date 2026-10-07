@@ -5,7 +5,7 @@
   },
   "fonts": [
     {
-      "path": "/workspace/shared/singleline-jp-font/build/family/static/SinglelineJPLab-singleline.ttf",
+      "path": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/static/SinglelineJPLab-singleline.ttf",
       "cmap": 12165,
       "glyphs": 13041,
       "standardized_variants": 75,
@@ -13,7 +13,7 @@
       "size_bytes": 3808240
     },
     {
-      "path": "/workspace/shared/singleline-jp-font/build/family/static/SinglelineJPLab-pc98-mincho.ttf",
+      "path": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/static/SinglelineJPLab-pc98-mincho.ttf",
       "cmap": 12165,
       "glyphs": 13041,
       "standardized_variants": 75,
@@ -21,7 +21,7 @@
       "size_bytes": 4395640
     },
     {
-      "path": "/workspace/shared/singleline-jp-font/build/family/static/SinglelineJPLab-gothic.ttf",
+      "path": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/static/SinglelineJPLab-gothic.ttf",
       "cmap": 12165,
       "glyphs": 13041,
       "standardized_variants": 75,
@@ -29,7 +29,7 @@
       "size_bytes": 3808748
     },
     {
-      "path": "/workspace/shared/singleline-jp-font/build/family/static/SinglelineJPLab-italian.ttf",
+      "path": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/static/SinglelineJPLab-italian.ttf",
       "cmap": 12165,
       "glyphs": 13041,
       "standardized_variants": 75,
@@ -37,7 +37,7 @@
       "size_bytes": 4393596
     },
     {
-      "path": "/workspace/shared/singleline-jp-font/build/family/static/SinglelineJPLab-serif.ttf",
+      "path": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/static/SinglelineJPLab-serif.ttf",
       "cmap": 12165,
       "glyphs": 13041,
       "standardized_variants": 75,
@@ -45,7 +45,7 @@
       "size_bytes": 4395876
     },
     {
-      "path": "/workspace/shared/singleline-jp-font/build/family/static/SinglelineJPLab-italic.ttf",
+      "path": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/static/SinglelineJPLab-italic.ttf",
       "cmap": 12165,
       "glyphs": 13041,
       "standardized_variants": 75,
@@ -53,7 +53,7 @@
       "size_bytes": 4702184
     },
     {
-      "path": "/workspace/shared/singleline-jp-font/build/family/static/SinglelineJPLab-subscript.ttf",
+      "path": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/static/SinglelineJPLab-subscript.ttf",
       "cmap": 12165,
       "glyphs": 13041,
       "standardized_variants": 75,
@@ -61,7 +61,7 @@
       "size_bytes": 3648032
     },
     {
-      "path": "/workspace/shared/singleline-jp-font/build/family/static/SinglelineJPLab-superscript.ttf",
+      "path": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/static/SinglelineJPLab-superscript.ttf",
       "cmap": 12165,
       "glyphs": 13041,
       "standardized_variants": 75,
@@ -69,7 +69,7 @@
       "size_bytes": 3650660
     },
     {
-      "path": "/workspace/shared/singleline-jp-font/build/family/variable/SinglelineJPLab-gothic-VF.ttf",
+      "path": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/variable/SinglelineJPLab-gothic-VF.ttf",
       "cmap": 12165,
       "glyphs": 13041,
       "standardized_variants": 75,
@@ -77,7 +77,7 @@
       "size_bytes": 10916024
     },
     {
-      "path": "/workspace/shared/singleline-jp-font/build/family/variable/SinglelineJPLab-serif-VF.ttf",
+      "path": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/variable/SinglelineJPLab-serif-VF.ttf",
       "cmap": 12165,
       "glyphs": 13041,
       "standardized_variants": 75,
@@ -90,200 +90,262 @@
       "name": "singleline-16",
       "glyphs": 12851,
       "bytes": 1113144,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/singleline-16.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/singleline-16.sjpb"
     },
     {
       "name": "singleline-18",
       "glyphs": 12851,
       "bytes": 1213214,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/singleline-18.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/singleline-18.sjpb"
     },
     {
       "name": "singleline-24",
       "glyphs": 12851,
       "bytes": 1621152,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/singleline-24.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/singleline-24.sjpb"
     },
     {
       "name": "singleline-32",
       "glyphs": 12851,
       "bytes": 2394768,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/singleline-32.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/singleline-32.sjpb"
     },
     {
       "name": "pc98-mincho-16",
       "glyphs": 12851,
       "bytes": 1118444,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/pc98-mincho-16.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/pc98-mincho-16.sjpb"
     },
     {
       "name": "pc98-mincho-18",
       "glyphs": 12851,
       "bytes": 1213214,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/pc98-mincho-18.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/pc98-mincho-18.sjpb"
     },
     {
       "name": "pc98-mincho-24",
       "glyphs": 12851,
       "bytes": 1677642,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/pc98-mincho-24.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/pc98-mincho-24.sjpb"
     },
     {
       "name": "pc98-mincho-32",
       "glyphs": 12851,
       "bytes": 2432568,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/pc98-mincho-32.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/pc98-mincho-32.sjpb"
     },
     {
       "name": "gothic-16",
       "glyphs": 12851,
       "bytes": 1116564,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/gothic-16.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/gothic-16.sjpb"
     },
     {
       "name": "gothic-18",
       "glyphs": 12851,
       "bytes": 1213214,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/gothic-18.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/gothic-18.sjpb"
     },
     {
       "name": "gothic-24",
       "glyphs": 12851,
       "bytes": 1652352,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/gothic-24.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/gothic-24.sjpb"
     },
     {
       "name": "gothic-32",
       "glyphs": 12851,
       "bytes": 2405608,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/gothic-32.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/gothic-32.sjpb"
     },
     {
       "name": "italian-16",
       "glyphs": 12851,
       "bytes": 1116924,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/italian-16.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/italian-16.sjpb"
     },
     {
       "name": "italian-18",
       "glyphs": 12851,
       "bytes": 1213214,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/italian-18.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/italian-18.sjpb"
     },
     {
       "name": "italian-24",
       "glyphs": 12851,
       "bytes": 1647162,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/italian-24.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/italian-24.sjpb"
     },
     {
       "name": "italian-32",
       "glyphs": 12851,
       "bytes": 2445608,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/italian-32.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/italian-32.sjpb"
     },
     {
       "name": "serif-16",
       "glyphs": 12851,
       "bytes": 1119664,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/serif-16.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/serif-16.sjpb"
     },
     {
       "name": "serif-18",
       "glyphs": 12851,
       "bytes": 1213214,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/serif-18.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/serif-18.sjpb"
     },
     {
       "name": "serif-24",
       "glyphs": 12851,
       "bytes": 1689702,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/serif-24.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/serif-24.sjpb"
     },
     {
       "name": "serif-32",
       "glyphs": 12851,
       "bytes": 2461608,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/serif-32.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/serif-32.sjpb"
     },
     {
       "name": "italic-16",
       "glyphs": 12851,
       "bytes": 1136055,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/italic-16.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/italic-16.sjpb"
     },
     {
       "name": "italic-18",
       "glyphs": 12851,
       "bytes": 1214358,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/italic-18.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/italic-18.sjpb"
     },
     {
       "name": "italic-24",
       "glyphs": 12851,
       "bytes": 1883012,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/italic-24.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/italic-24.sjpb"
     },
     {
       "name": "italic-32",
       "glyphs": 12851,
       "bytes": 2857878,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/italic-32.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/italic-32.sjpb"
     },
     {
       "name": "subscript-16",
       "glyphs": 12851,
       "bytes": 912763,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/subscript-16.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/subscript-16.sjpb"
     },
     {
       "name": "subscript-18",
       "glyphs": 12851,
       "bytes": 980948,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/subscript-18.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/subscript-18.sjpb"
     },
     {
       "name": "subscript-24",
       "glyphs": 12851,
       "bytes": 1414312,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/subscript-24.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/subscript-24.sjpb"
     },
     {
       "name": "subscript-32",
       "glyphs": 12851,
       "bytes": 1880058,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/subscript-32.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/subscript-32.sjpb"
     },
     {
       "name": "superscript-16",
       "glyphs": 12851,
       "bytes": 897111,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/superscript-16.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/superscript-16.sjpb"
     },
     {
       "name": "superscript-18",
       "glyphs": 12851,
       "bytes": 960012,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/superscript-18.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/superscript-18.sjpb"
     },
     {
       "name": "superscript-24",
       "glyphs": 12851,
       "bytes": 1414042,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/superscript-24.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/superscript-24.sjpb"
     },
     {
       "name": "superscript-32",
       "glyphs": 12851,
       "bytes": 1879854,
-      "binary": "/workspace/shared/singleline-jp-font/build/family/bitmaps/superscript-32.sjpb"
+      "binary": "/workspace/scratch/9fc1a6d60bb3/font-v2-fixes/build/family/bitmaps/superscript-32.sjpb"
     }
   ],
-  "source_commit": "c1f5774",
+  "source_commit": "f2bc9ebd76a9c3e45cac525d73f01d09d218cfcb",
+  "source_tree_dirty": true,
+  "source_identity_note": "source_commit is the checkout base; source_hashes bind actual working bytes, including uncommitted changes.",
   "python": "3.12.14",
   "experimental": true,
   "reused_bitmap_strikes": true,
   "source_hashes": {
+    ".github/workflows/family-validation.yml": "aa4b073ce3940acb71cc41a2837c401828a8365abc3c12beb57bcbe3036ff7a8",
+    ".gitignore": "b9a37a2eac9dc0721b877f348adabd1f85a2b601faf368348f32021811136e58",
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "NOTICE.md": "83a23fc02d22ea8340413f6d24802b83ee160d1c13610c9a7c8e7813d8f83860",
+    "README.md": "3a7f97212b0110ccfa04c57db24c41a94d077362defe0a77866ec25718a0ea21",
+    "assets/fonts/CHARACTERS.md": "985490106abcf353154afa8f426fcb72ca4147d06d7340fd57c0e4a2f4db23fb",
+    "assets/fonts/README.md": "a719d4ea4b4d6e85fd3372adf420e6b1f1840fc5677c0a1120ff139e81e878a3",
+    "assets/fonts/catalog.html": "294edc7109301f39ebce007529e621a400fd13ac154a4488424f7daa01e16f6e",
+    "assets/fonts/catalog.png": "1c8a1a111c1b949607f3ed08a035948e121994d98743d5ef5fbbcd1c6d6e7f24",
+    "assets/fonts/custom-ascii-18.json": "7be62102651179829cb9904a172a0f787da6fdb9023c187263331a64649e5052",
+    "assets/fonts/custom-ascii-18.png": "534eb22c4fee4dd1f16c126736ca21d944eb8cdf42db278aff3fd8aee29105d9",
+    "assets/fonts/custom-ascii-24.json": "38a8e24e3a53012c685e8105737e334b812920317d91caab7c6fbf2346ab2016",
+    "assets/fonts/custom-ascii-24.png": "44aadc13afa59713c421c9205089499d4bfe02355450e3464fa7b49a53dc9248",
+    "assets/fonts/custom-jp-18.json": "00cca6e95141ccd59873dcaef8ff3483f25cd133a8a2e003c01b0b9beef603c0",
+    "assets/fonts/custom-jp-18.png": "36f9cbf3c973957ae5d4f85d8f56847c2f086a04545986ba2a479fcf36ff33a1",
+    "assets/fonts/custom-jp-24.json": "465a7f8096e43ad6fc3968ed6ee6d706b1f9fbfd6ea88876bb54653909ec7c23",
+    "assets/fonts/custom-jp-24.png": "c33cbb1c44b0f6541b64948de5b00fb8dc524e9e9742123a5ff733bc46dcbce2",
+    "assets/fonts/education-grade-1.png": "e39397c99690969f370589fe660ed38c201865a113ba145563834595e6fea6a6",
+    "assets/fonts/education-grade-2.png": "b4beb94f7b8bc48aba3dff13abb2cb34cbd20aa204c8a209bba9aee2fa93d606",
+    "assets/fonts/education-grade-3.png": "fd3549e918defcba233e500556685996bcf7b40a048d42e0e3f0d9df7469abc2",
+    "assets/fonts/education-grade-4.png": "a108ea44628581d535dfd108193815e9fec120ae5e2f78d69bad150d10d4039d",
+    "assets/fonts/education-grade-5.png": "d4dc410d3c156b18934952b1d664de1094e4f8c35ea942f9d68c82c13348e057",
+    "assets/fonts/education-grade-6.png": "dc591f0291a5808d8fdfbd4b83f76a53e784700bdc4825679ef0bb653b41f89a",
+    "assets/fonts/joyo-secondary-1.png": "edb885dec513cb9b781dd39f3c11f9579d6a0244a04787d596ccc5a93cd46d59",
+    "assets/fonts/joyo-secondary-2.png": "6399130518d7010172d8ef0971bb0878fecf0978e4fd1dd1e421b428fb509cc8",
+    "assets/fonts/joyo-secondary-3.png": "60c473bc86b4a154a6f048ad7ec8926dd29a8803f68311df2a24811135d7bb22",
+    "assets/fonts/joyo-secondary-4.png": "ac5b05961180b1ca66dbc19ed1659d81bd1a95f5cb3fded311089e9dbca456de",
+    "assets/fonts/joyo-secondary-5.png": "fc6c6e1a59db8b6ac3966ebf3f465b3807d12859852fdf7a44bdb8a12afa2afb",
+    "assets/fonts/joyo-secondary-6.png": "9b4f323ed996fd54dec493277c3e689a817e06ae7570d7e745636bbdcdb42f47",
+    "assets/fonts/source/CJKVI-IDS-COPYING.txt": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+    "assets/fonts/source/CJKVI-IDS-README.md": "810382e8b554a6adca612e915191cd031b9bb02121c12aa3387131af57ea46de",
+    "assets/fonts/source/education-kanji.txt": "c4b228fcc26feb628bf2d09d121fb905c348a396546e66191d18cac2f3f4e3f4",
+    "assets/fonts/source/joyo-additions-1.txt": "87983bc00db2a61ecd39d19fcc9ed98887b45d09fdf1265cc2a22dbf30479c02",
+    "assets/fonts/source/joyo-additions-2.txt": "e5116c156a349dfa6fd1fb183c68099e0745e6addb7772e23959f1991442c22a",
+    "assets/fonts/source/joyo-additions-3.txt": "a77cd2b62c647cc99610536f36c76eb0d4c003ec4858c7eecc446506f43f2fe2",
+    "assets/fonts/source/joyo-compositions-source.json": "705915cd16e0e2354f022ce03ae05787b60ce057df0e69c39185b05c8786bc42",
+    "assets/fonts/source/joyo-compositions.json": "fa70a52741154797d8aab1fe55fe094c5abac0dd3469f561e920e4238dd26550",
+    "assets/fonts/source/joyo-kanji-sources.json": "bea744f842ee8c7b8f440277e2e6c5ec2fe97c01ad1986c0b70f708d43773b3a",
+    "assets/fonts/source/joyo-kanji.txt": "a02756d5ec7ffaf8b2ddceac430e46f005dd503f5a1c740dbe51fb50e4347950",
+    "build_custom_ascii.py": "1b0ca330d90d3a9beab2f8ebb39c4702289435f4b2992d0dc5c426e07f676b97",
+    "build_custom_japanese.py": "2b26c8a423fdfeddb7e2464d006f24f55d5b2f9fe8798248c8160a4e23aa4d24",
+    "build_dot_fonts.py": "42190b8ca5d3015014a23571de78b9efc87f604242fcdccf67ddd30cf6f86ecb",
+    "build_family.py": "36a72e3d10a7738e2e67c1bc63272f883a0e138f69b025cfb7f136e826a83010",
+    "build_font_catalog.py": "861a714dc44cb3890a3ba2004b91416fe4d03f8613a6b3687b7ed70d79e2a6c2",
+    "build_ttf.py": "c95e5b119d7ee09ad02abcb982159a25aaa027dc444bcef9c04d1761fa6c87f6",
+    "custom_ascii_strokes.py": "3216ab1aa7f9ccd45b709edc2b9681c7d9caa6040644c49ea8956cde49c28cbe",
+    "custom_japanese_strokes.py": "a56877cadc9e272d9bd4346245ac987aef958eb476bb3db70898edc5f3c2ac16",
+    "custom_symbol_strokes.py": "baa8ccd6a6a133f3fa940f6f65629c83e35657f295966f897d4088a1fb7f2d22",
+    "docs/BUILD-RESULTS-ja.md": "ee641710bf3f8617a1d34bb21279548d01ed64b301df203bbdc68456ce17e64a",
+    "docs/CHANGELOG.md": "6cf7618b2a41ded506913da6bac0aeed1e0c8255c5cd963d80d6c9ee6e829ff6",
+    "docs/DISTRIBUTION.md": "ca48a55bc6907f85fc9acf7353aa661b6190ed12daddceadc60085a4f980262e",
+    "docs/FAMILY.md": "c7423e0d24d4f2b60ecf5419ec61cfe62e55b2df488411e56a14134d066cde1e",
+    "docs/INSTALL.md": "89f3350f2080d67a2fc3252e052971a714b050c599256544adb42826c6ab540f",
+    "docs/PRIORITY-GLYPH-QA.md": "5bf835092747f96759354f26eb2bbd06fa53809b4fab2fe872c09c307c63bcab",
+    "docs/REFERENCE-NOTES.md": "49061768b062db1499e15f59cd4827fb4a437e0d78443eedd5056bc55fefb431",
+    "docs/REPRODUCIBILITY.md": "247cf8b578468e1fb5870a8b0f04513e89d09464bd7764fd195a89dda218eaa7",
+    "docs/STYLE-RASTER-QA.md": "5c343e3d47a01c1308ead52a7cf31d80e73ee86392c8ba2ca33f16b1cf88a1e0",
+    "docs/UPDATE-16-32.md": "85ffc53d188cb7d01e46630bfe29a1f95ad42c9afcbe44170293a34f614635bb",
+    "docs/VISUAL-QA.md": "6ee1d8872dfecba43d8200ac8e604e1eb26eeab9bba67a818c93b50b555eac83",
+    "dot_font.py": "11358c5fae9a26472ada55b54b2078adc678af7fc5a5afc78fbbe7de4cb08104",
     "family/JIS_SYMBOLS.md": "2219f9681714bcff931ae08f98d45b8d83e2518d9d5fdf65ea4572bca588d8c5",
     "family/SYMBOLS_AND_PICTOGRAMS.md": "836efcb540aaaddf0e1902f9acfd7ab2d2b0f61d8ace29529a2f9019c1e47e7a",
     "family/__init__.py": "cc85218090cc199ccb17fc5f69d879ae1fd8a0e4206461095ff9abc97a18f7ef",
@@ -293,6 +355,7 @@
     "family/data/UNICODE-LICENSE.txt": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96",
     "family/data/generate_jis_manifest.py": "1e8a3e18c0ce7cd3e5aa609ac498bb00c3080af70ee3363fd5ac6a83454c4935",
     "family/data/ids-trees.json": "c5d7b66550e38db822cc3438e1e8e5dee502b5cfc53240ca08c71448a8229085",
+    "family/data/jis-circle-paths.json": "92a4766f49db3babee0d4af631029cfb086cfe334aff67686b036a063bd45a75",
     "family/data/jis-compatibility-svs.json": "71920f6511c5adee592021fd347d7375fd1467b986be3f9a77d506877f25d7bb",
     "family/data/jisx0213-2004.json": "ad41353c4dad9f3d447fcb22336984a05c91fff5a7d58f3c122bea6459222ab9",
     "family/data/kanji-coverage-summary.json": "3a3b950bac3a790250c6ae2ddf22270e62b66a20929df5859e0d88c82cde7a85",
@@ -306,7 +369,7 @@
     "family/data_loader.py": "2e1a73eda9c14bbb9fb02bd653d09270e23a3ea82ff90765654355c05482ef24",
     "family/font_builder.py": "dd3eda8a94f2b4a02372af7b09d451d18a6e8fd183a9920f11d2f938ac54a5fa",
     "family/geometry.py": "5ae1d3366035465c24598241e41f5b9ff14d64a8927b2dc338a10427940a4e03",
-    "family/jis_symbols.py": "d72f6d54d679c7e66fe233eeec265fc64c959374ec971c706a109679052db7df",
+    "family/jis_symbols.py": "e65aa3d9bcb5790eb7748772123326f77d43e82b6460d9428b449ca95fc9a150",
     "family/kanji.py": "a540a3f1a7a3a5d3dd815d3154a6eb0943251fdb2587b1a652ebb6c1cac13ea8",
     "family/kanji_components.py": "7050af5aa1a9781ac792e8c083ac126d893b00c8c24b36f6da99aa61dc2af2de",
     "family/kanji_dense_corrections.py": "034c50f7027f7861dd9001078bbeca0b2990ac85b2237ad1e8a98970a612d428",
@@ -315,6 +378,10 @@
     "family/kanji_variant_components.py": "9145a9e78a509d430f846dc999505fba19bfd8f61b8e7f0db6e1a0ca1d4bcd70",
     "family/model.py": "5c7538fda05271491410b8ea78817503910a03ec0997e5db2a81eec603c4b98b",
     "family/original_pictograms.py": "0dcb3469b26b2d970f44a4ce0779d67e4af5f3e60ef31e606e3265b64e2b3c28",
+    "family/package-manifest.json": "4ca4426b69169e394dff1b7270c4f00aab5d8a4169069c80c2868b78c4237e6e",
+    "family/qa_inventory.py": "aa378942ee1a8ceb8c0206b45c6e12d1e8664fe54396d36c77b01e0e33e5a327",
+    "family/release-gates.json": "9386ea6cde44ebf7cbb4be0ed07b79e16a150abc0f58f5561670a716eece9673",
+    "family/release.py": "ac27e6557db93471ed8f4ab7a62cbbd10b96a5babbc312c8ce475f4565105287",
     "family/repertoire.py": "9f7787306ba26561debd9e8f39d895acd1fde6292dd451feb090f42da294fddc",
     "family/specimen.py": "4ad7e69631c9210c73ca8dc587d0515828a59ffb495c5319a7dcc9d47f2a1cc7",
     "family/styles.py": "efb6d6df780f2a80ddda88b4426add2f41070e00ff04ff12da4be28757016894",
@@ -331,55 +398,37 @@
     "family/tools/audit_bitmap_collisions.py": "f9fdd5e43105a48feabdbce987dec75781af650028f17b1bcdd0beb2e1ead4bb",
     "family/tools/audit_kanji.py": "6906d503f691ce0cf04d60c60394895270a3eaca8cedde51ca59416080d14f80",
     "family/tools/import_kanji_sources.py": "37236196064ba0e805992f40a90f7688485c3bf4b0a325d46045dda774797757",
-    "family/tools/package_family.py": "aff0c1872fc00d796ce972bc47c798d5dd35ac1384ac643c3f49469e45daeb97",
+    "family/tools/package_family.py": "c73d4081cd5a5d6655b922bea96b4eb618d29070470674125ca2d88692b0e0aa",
+    "family/tools/priority_glyph_qa.py": "78ad5a504f32ea0328c2ee7b989919a3ceeb5b194e64a1608e6decbb4248b432",
     "family/tools/refresh_bitmap_glyphs.py": "3ecef8f7109662bc9a5c7f6200e2ce8721b7e4375d807b13c85c8255c1441e3d",
-    "build_family.py": "77067f44f32bd30f9f0aa45612d4c0b98793cb7888805d4d83c081405324459b",
-    "requirements-family.txt": "678716780dabb7f03ea38524b8f80216985d15379218e7b3bca664d19845104d"
+    "fonts/SinglelineJPASCII18-Regular.ttf": "5aa75626d397c927e3ee46edb4c72a707bb3cce168b1ffd96f0bc6fa5260888b",
+    "fonts/SinglelineJPASCII24-Regular.ttf": "6dcc2153d0e35032aae28ac6de37edaf31664dace7473a67d215798ed9a50a55",
+    "fonts/SinglelineJPFull18-Regular.ttf": "e86a921879e53ee3b3358205dacf3bff24dff91075392f2f3efd91ab80dadf06",
+    "fonts/SinglelineJPFull24-Regular.ttf": "c85799a328594a216dd7353dc40a1af15f40da4a10dc16233ba9caa0adb851c9",
+    "fonts/preview.png": "19eb2af0d0065acdca1f841ede8b2b50bf7aa3fe4043a2e6eca28cb2505ce2d4",
+    "glyphs/__init__.py": "97373cdf75894881585dd79de2f5eb5e00448a10825fa7cf8f83aaa247eb29fd",
+    "glyphs/ascii.py": "1e767f7da365b0c2b189170bdd4c67e918b2bec643978d1d01bce32aadcbdddd",
+    "glyphs/hiragana.py": "904991213fa12b1027128e010a17be43a49f8c13b035453f04adf342edae0f86",
+    "glyphs/kanji.py": "d0411bdc8ed96e5d7918b7f7dc59d7588a9180f7d032d767bd2f992c4ac4b5be",
+    "glyphs/katakana.py": "b6b8aa9e682db2f92ca45d674c8beb28ff0c2b5e2bcfc934cd0e54d9992577e5",
+    "glyphs/paths.py": "a0cbf98d2d895d797455c31270936e4d0ab0889605f25bb1193ee990d54ac288",
+    "glyphs/symbols.py": "27c6d075613f71a7f583bd52415a7803d94032d88e4870ce94bf64a18e3454b5",
+    "joyo_repertoire.py": "6114b7ebccba435ec3d3abedeeafc846a9f76bc24dbbbe4627f79e444bac9fd0",
+    "render.py": "c3bdb79bcf93405bd0b20e94faf893c182e11e1f340d04ffa25ba8ba806d4008",
+    "render_bitmap_proof.py": "91712870179cbfa14ffd22c115d7b83719b5e9d7f0212cc90cabea56c42f291a",
+    "requirements-build.txt": "03a1bbe8a07be6af622811988d6b14d10d8669d1046e0ab4e65864490b65a394",
+    "requirements-family.txt": "678716780dabb7f03ea38524b8f80216985d15379218e7b3bca664d19845104d",
+    "requirements.txt": "ece352becb3f1a251b669208ab0e5670f48298befa5e1ad551388a9db94ceeeb",
+    "tests/test_circle_reproducibility.py": "68f290e66b9df45b7c2794bfc1c13b208f0514ce6c457120352f55e20037223c",
+    "tests/test_family.py": "905fa19b4417597334fa9876bf18bd4e2e55b2c6ef69b01e82aa8d23c63c80ae",
+    "tests/test_packaging.py": "ac7f1faaec797484e8878ffb7167c34b36fbafe40cee3ace485469793a32d4ba",
+    "tests/test_priority_glyph_qa.py": "f8ac247d1163d965a345ee195f77f4c571a8956df2f1d7e58224ea11665f9aad",
+    "verify.py": "d2ef92a92243a67926ea3c8673acdfaaf7ced3730500d53716c114264e125399",
+    "verify_family.py": "6e75807e5a06c91e1a92910ceb6b1bf48dee77097afffa1de43fe72c708fa462",
+    "verify_ttf.py": "83f1097fa850e1dfc7e5ad34d50f5f66522392a129678f48d22b120c71e03588"
   },
   "legacy_after": {
     "files": 50,
     "unchanged": true
-  },
-  "metadata_revision": "0.201: name ID5 and head.fontRevision aligned; no glyph/raster geometry changed",
-  "packaging_refresh": {
-    "date_utc": "2026-10-07",
-    "scope": "Lossless SVGZ storage, clean-clone source packaging, and specimen download link only",
-    "font_rebuild": false,
-    "fonts_bitmaps_proofs_and_glyph_sources_unchanged": true,
-    "previous_source_hashes": {
-      "family/specimen.py": "20f2e837e25f6c7740f2626ce37fbb7e0f944269bfd15b9086f1efa158cdad19",
-      "family/tools/package_family.py": "d6bf9cfd5d62ac57474927cf6de6bec81716b1b76b18515e47a5520757c3df3e",
-      "build_family.py": "233a3f879a58126a254e6ed9ac69455e22915bfd07f1ea41a2491084db2f1d86"
-    },
-    "qa_report": "reports/centerlines-packaging.json",
-    "raw_svg_sha256": "f4bc182817625358ebd32068cfbebaf8bda8727997b2c908848ef9e09d4576d5",
-    "svgz_sha256": "851aa309a1a121cecfb1d10b836ab55c9b8c9728938b4db0308587846e4b6308",
-    "prior_full_verification": {
-      "path": "reports/full-tests.json",
-      "sha256": "777edd55280a37177655dd616251f73c63202d828a8b33320a9a94d58b0266a9",
-      "counts": {
-        "passed": 123,
-        "failure": 0,
-        "error": 0,
-        "skipped": 0
-      },
-      "report_preserved": true
-    },
-    "post_packaging_full_verification": {
-      "path": "reports/post-svgz-full-tests.json",
-      "log": "reports/post-svgz-full-tests.log",
-      "outcome": "passed",
-      "sha256": "0176a88e5513483c60d01fbe4438e010fd5ac40580a8a095e6ecad017185a3b9",
-      "counts": {
-        "passed": 127,
-        "failure": 0,
-        "error": 0,
-        "skipped": 0
-      },
-      "missing_artifacts": [],
-      "bitmap_collision_strikes": 32,
-      "process_exit_code": 0,
-      "prior_report_left_unchanged": true
-    }
   }
 }

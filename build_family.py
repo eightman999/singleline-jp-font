@@ -124,9 +124,11 @@ def main():
                 print('Building variable '+key,flush=True)
                 summary['fonts'].append(build_font(glyphs,STYLES[key],out/'variable'/f'SinglelineJPLab-{key}-VF.ttf',variable=True))
                 gc.collect()
-    summary['source_hashes']={str(p.relative_to(ROOT)):sha(p) for p in sorted((ROOT/'family').rglob('*')) if p.is_file() and '__pycache__' not in str(p)}
-    for name in ('build_family.py','requirements-family.txt'):
-        summary['source_hashes'][name]=sha(ROOT/name)
+    # Reuse the reviewed source inventory. Scratch filenames/hashes must not
+    # leak into distributable metadata or make a source ZIP unrebuildable.
+    from family.release import load_manifest, safe_path
+    summary['source_hashes']={name:sha(safe_path(ROOT,name))
+                              for name in load_manifest(ROOT)['source_files']}
     summary['legacy_after']=legacy_check()
     (out/'build-summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({k:{'present':v['present'],'target':v['target']} for k,v in coverage['groups'].items()},ensure_ascii=False),flush=True)

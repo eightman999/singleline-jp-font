@@ -1,5 +1,10 @@
 # Singleline JP Lab, experimental family 0.201
 
+V2 distribution candidate: `2.0.0-rc.1`, not a formal release. The package
+version is separate from this unchanged internal font version and the legacy
+TTF version 1.000. See [distribution and verification](DISTRIBUTION.md),
+[installation without Python](INSTALL.md), and [the changelog](CHANGELOG.md).
+
 Added 2026-10-06; expanded to16/18/24/32px in the same-day recheck. This is a separate, editable family generator. Existing
 `assets/fonts/custom-*` PNG/JSON, original `fonts/*.ttf`, and canonical `glyphs/`
 are unchanged. Their hashes are locked in `family/data/legacy-sha256.json`.
@@ -95,11 +100,12 @@ python3 -c "import gzip,pathlib; p=pathlib.Path('build/family/centerlines.svgz')
 
 Full artifact verification reads the tracked SVGZ directly and checks every
 symbol identity. When raw SVG is present, it also checks byte/hash equality.
-`build-summary.json` retains the prior source hashes for packaging-only source
-changes in `packaging_refresh.previous_source_hashes`; current hashes remain
-in `source_hashes`. The packaging refresh does not rebuild fonts or alter the
-scope/date of earlier test reports. Its separate checks and artifact hashes
-are recorded in `build/family/reports/centerlines-packaging.json`.
+The earlier 2026-10-07 packaging-only refresh recorded its source-hash history
+under `packaging_refresh.previous_source_hashes`. That field belongs to that
+historical summary and need not survive a full rebuild. The historical checks
+remain in `build/family/reports/centerlines-packaging.json`; they do not certify
+a later build. V2 verification binds the current source and artifact inventory
+to its report, as described in [DISTRIBUTION.md](DISTRIBUTION.md).
 
 Negative circled numerals use genuinely filled discs and unioned counter-wound
 cutouts, so crossing numeral strokes cannot cancel into black specks. Their
@@ -131,7 +137,8 @@ of hollow circles for negative characters.
 
 ## Rebuild and test
 
-Python 3.12 was used. From an unpacked source tree:
+Python 3.12 was used for building. Python is not needed to install or use the
+TTF files. From an unpacked source tree:
 
 ```sh
 python3 -m venv .venv
@@ -191,4 +198,7 @@ CJKVI-IDS supplies structure only and retains its GPL v2 notices. The upstream
 project's mixed notices are preserved; this work does not relicense them or
 assert a new unrestricted/OFL font grant. Unicode character data carries its
 own bundled Unicode license. Review these notices before redistribution or
-embedding. Publication status is recorded in docs/UPDATE-16-32.md. No merge, pull request, deployment or remote installation is implied.
+embedding. Current package status is recorded in [DISTRIBUTION.md](DISTRIBUTION.md);
+`UPDATE-16-32.md` is a dated historical branch record. No release publication,
+merge, deployment or remote installation is implied by local generation.
+The source/artifact/license mapping is in [NOTICE.md](../NOTICE.md).
