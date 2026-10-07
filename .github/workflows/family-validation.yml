@@ -2,7 +2,7 @@ name: Family validation
 on:
   pull_request:
   push:
-    branches: [main, 'fix/v2-release-validation-*']
+    branches: [main]
 permissions:
   contents: read
 jobs:
@@ -15,12 +15,15 @@ jobs:
     timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      # CPython security-only 3.12 releases have no macOS setup-python builds.
+      # Astral supplies the same pinned patch version on both architectures.
+      - uses: astral-sh/setup-uv@v7
         with:
+          version: '0.12.19'
           python-version: '3.12.14'
-          cache: pip
-          cache-dependency-path: requirements-family.txt
-      - run: python -m pip install -r requirements-family.txt
+          activate-environment: true
+          enable-cache: false
+      - run: uv pip install -r requirements-family.txt
       - name: Verify preserved legacy assets
         run: |
           python verify.py
