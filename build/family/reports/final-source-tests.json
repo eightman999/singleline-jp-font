@@ -1,0 +1,252 @@
+{
+  "scope": "source-and-sample-only",
+  "outcome": "passed",
+  "counts": {
+    "passed": 46,
+    "failure": 0,
+    "error": 0,
+    "skipped": 0
+  },
+  "missing_artifacts": [],
+  "nominal_pixel_sizes": [
+    16,
+    18,
+    24,
+    32
+  ],
+  "expected_bitmap_strikes": 32,
+  "visual_legibility_certified": false,
+  "warning": "Passing verifies structural and binary checks only. Expanded Kanji remain component/composition drafts, not individually proofread; this is not a legibility certificate. Consult coverage.json for exact identities and status counts.",
+  "tests": [
+    {
+      "test": "tests.test_family.test_legacy_original_files_byte_identical",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_jis_manifest_exact_identities_and_level_counts",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_jinmeiyo_raw_property_identity_counts",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_all_kanji_target_identities_are_present",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_all_jis_identities_including_nonkanji_and_sequences_are_present",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_missing_characters_are_not_synthetic_coverage",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[singleline]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[pc98-mincho]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[gothic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[italian]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[serif]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[italic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[subscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[superscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_master_compatibility_and_actual_two_axis_interpolation[gothic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_master_compatibility_and_actual_two_axis_interpolation[serif]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_font_shapes_all_25_jis_sequences",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_opentype_super_sub_have_smaller_raised_lowered_outlines",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_italic_authored_a_g_differ_from_shear",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_italian_is_upright_reverse_contrast",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_negative_enclosures_have_real_outline_and_bitmap_counters",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_negative_enclosure_font_renders_white_counters",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_font_build_is_byte_deterministic[gothic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_font_build_is_byte_deterministic[serif]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_bitmap_exact_png_roundtrip_and_sequences",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[singleline]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[pc98-mincho]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[gothic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[italian]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[serif]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[italic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[subscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[superscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[short_header]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[bad_magic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[version]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[header_flags]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[index_out_of_bounds]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[payload_truncated]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[record_flags]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[empty_key]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[zero_size]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[duplicate_key]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[index_overlap]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[invalid_baseline]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[negative_advance]",
+      "status": "passed",
+      "detail": ""
+    }
+  ]
+}

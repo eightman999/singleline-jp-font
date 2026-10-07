@@ -1,0 +1,47 @@
+{
+  "scope": "Character identity and topology research only. No font outlines, stroke coordinates, bitmap pixels, tracing or automated geometry extraction were used. Locally installed Noto CJK was viewed to disambiguate encoded shapes; every centerline coordinate was independently authored.",
+  "entries": [
+    {
+      "characters": "𦣞",
+      "structure": "side enclosure around vertical/mouth/vertical stack",
+      "url": "https://en.wiktionary.org/wiki/%F0%A6%A3%9E",
+      "corroboration": "https://www.cns11643.gov.tw/wordView.jsp?ID=271473"
+    },
+    {
+      "characters": "𦣝",
+      "structure": "side enclosure, inner upright and right folded/stacked strokes",
+      "url": "https://en.wiktionary.org/w/index.php?title=%F0%A6%A3%9D&oldid=89257410",
+      "corroboration": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=50414&q=1"
+    },
+    {
+      "characters": "熙煕",
+      "structure": "Japanese modern and older forms preserve different left components",
+      "url": "https://kanjibunka.com/kanji-faq/old-faq/q0472/"
+    },
+    {
+      "characters": "𣎳",
+      "structure": "hemp-fibre radical related to 朩, with distinct lower strokes rather than a 木 tree branch junction",
+      "url": "https://kanji.jitenon.jp/kanjiy/27854",
+      "corroboration": "https://www.unicode.org/irg/docs/n2733-CJKComponents4IDS.pdf"
+    },
+    {
+      "characters": "𠁁斲鬭",
+      "structure": "Opposed stepped lower walls beneath a left open corner and a right closed mouth; follows the named component and official11-stroke identity",
+      "url": "https://www.cns11643.gov.tw/wordView.jsp?ID=151656"
+    },
+    {
+      "characters": "頤賾熙煕𦣝𦣞",
+      "structure": "Japanese encoded forms distinguish the open folded chin interior from the closed-mouth interior; two component forms remain separate",
+      "url": "https://kanjibunka.com/kanji-faq/old-faq/q0472/",
+      "identity_reference": "Locally installed Noto CJK viewed only; no coordinate or outline extraction"
+    },
+    {
+      "characters": "𢈘",
+      "structure": "Shelter over two uprights, コ-shaped crosspiece and spreading lower legs; original angular centerline design",
+      "url": "https://www.unicode.org/charts/PDF/Unicode-18.0/U180-20000.pdf",
+      "codepoint": "U+22218",
+      "identity_reference": "Locally installed Noto CJK viewed only; no outline or coordinate extraction"
+    }
+  ],
+  "note": "The sources identify component facts; new sketch coordinates are authored independently. Wiktionary textual material is CC BY-SA; no prose excerpt is incorporated. All resulting rare-form glyphs remain unreviewed drafts."
+}

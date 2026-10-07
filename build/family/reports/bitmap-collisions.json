@@ -1,0 +1,1613 @@
+{
+  "schema_version": 2,
+  "scope": "All eight styles,16/18/24/32px;10,050 JIS Kanji per strike",
+  "normalization": "Common pen origin and baseline canvas; crop padding cannot hide identical visible pixels.",
+  "styles": {
+    "singleline": {
+      "16": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10046,
+        "collision_group_count": 4,
+        "characters_in_collisions": 8,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "欄",
+            "欄"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "18": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10047,
+        "collision_group_count": 3,
+        "characters_in_collisions": 6,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "24": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10045,
+        "collision_group_count": 5,
+        "characters_in_collisions": 10,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "口",
+            "囗"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "杇",
+            "𣏓"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "32": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10047,
+        "collision_group_count": 3,
+        "characters_in_collisions": 6,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      }
+    },
+    "pc98-mincho": {
+      "16": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10043,
+        "collision_group_count": 7,
+        "characters_in_collisions": 14,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "寛",
+            "寬"
+          ],
+          [
+            "惚",
+            "愡"
+          ],
+          [
+            "戊",
+            "戍"
+          ],
+          [
+            "筐",
+            "筺"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "18": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10046,
+        "collision_group_count": 4,
+        "characters_in_collisions": 8,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "茂",
+            "荗"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "24": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10047,
+        "collision_group_count": 3,
+        "characters_in_collisions": 6,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "32": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10047,
+        "collision_group_count": 3,
+        "characters_in_collisions": 6,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      }
+    },
+    "gothic": {
+      "16": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10040,
+        "collision_group_count": 10,
+        "characters_in_collisions": 20,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "寛",
+            "寬"
+          ],
+          [
+            "已",
+            "巳"
+          ],
+          [
+            "惚",
+            "愡"
+          ],
+          [
+            "戊",
+            "戍"
+          ],
+          [
+            "煮",
+            "煮"
+          ],
+          [
+            "筐",
+            "筺"
+          ],
+          [
+            "茂",
+            "荗"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "18": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10046,
+        "collision_group_count": 4,
+        "characters_in_collisions": 8,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "奥",
+            "奧"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "24": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10046,
+        "collision_group_count": 4,
+        "characters_in_collisions": 8,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "煮",
+            "煮"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "32": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10047,
+        "collision_group_count": 3,
+        "characters_in_collisions": 6,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      }
+    },
+    "italian": {
+      "16": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10038,
+        "collision_group_count": 12,
+        "characters_in_collisions": 24,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "奥",
+            "奧"
+          ],
+          [
+            "寛",
+            "寬"
+          ],
+          [
+            "已",
+            "巳"
+          ],
+          [
+            "渚",
+            "渚"
+          ],
+          [
+            "煮",
+            "煮"
+          ],
+          [
+            "猪",
+            "猪"
+          ],
+          [
+            "筐",
+            "筺"
+          ],
+          [
+            "緒",
+            "緖"
+          ],
+          [
+            "者",
+            "者"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "18": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10044,
+        "collision_group_count": 6,
+        "characters_in_collisions": 12,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "嘨",
+            "嘯"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "煮",
+            "煮"
+          ],
+          [
+            "茂",
+            "荗"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "24": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10045,
+        "collision_group_count": 5,
+        "characters_in_collisions": 10,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "寛",
+            "寬"
+          ],
+          [
+            "煮",
+            "煮"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "32": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10047,
+        "collision_group_count": 3,
+        "characters_in_collisions": 6,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      }
+    },
+    "serif": {
+      "16": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10042,
+        "collision_group_count": 8,
+        "characters_in_collisions": 16,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "寛",
+            "寬"
+          ],
+          [
+            "惚",
+            "愡"
+          ],
+          [
+            "戊",
+            "戍"
+          ],
+          [
+            "筐",
+            "筺"
+          ],
+          [
+            "苢",
+            "莒"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "18": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10045,
+        "collision_group_count": 5,
+        "characters_in_collisions": 10,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "茂",
+            "荗"
+          ],
+          [
+            "蠧",
+            "蠹"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "24": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10047,
+        "collision_group_count": 3,
+        "characters_in_collisions": 6,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "32": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10047,
+        "collision_group_count": 3,
+        "characters_in_collisions": 6,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      }
+    },
+    "italic": {
+      "16": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10043,
+        "collision_group_count": 7,
+        "characters_in_collisions": 14,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "寛",
+            "寬"
+          ],
+          [
+            "戊",
+            "戍"
+          ],
+          [
+            "筐",
+            "筺"
+          ],
+          [
+            "茂",
+            "荗"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "18": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10045,
+        "collision_group_count": 5,
+        "characters_in_collisions": 10,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "寛",
+            "寬"
+          ],
+          [
+            "茂",
+            "荗"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "24": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10047,
+        "collision_group_count": 3,
+        "characters_in_collisions": 6,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "32": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10047,
+        "collision_group_count": 3,
+        "characters_in_collisions": 6,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      }
+    },
+    "subscript": {
+      "16": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 9980,
+        "collision_group_count": 63,
+        "characters_in_collisions": 133,
+        "collision_groups": [
+          [
+            "䰗",
+            "鬩",
+            "鬪",
+            "鬭"
+          ],
+          [
+            "丼",
+            "井"
+          ],
+          [
+            "俱",
+            "倶"
+          ],
+          [
+            "倆",
+            "倻"
+          ],
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "劒",
+            "劔"
+          ],
+          [
+            "勦",
+            "勳"
+          ],
+          [
+            "勿",
+            "匆"
+          ],
+          [
+            "卣",
+            "鹵"
+          ],
+          [
+            "口",
+            "囗"
+          ],
+          [
+            "嘨",
+            "嘯"
+          ],
+          [
+            "固",
+            "𡈁"
+          ],
+          [
+            "圃",
+            "國"
+          ],
+          [
+            "堅",
+            "𡌛"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "寛",
+            "寬"
+          ],
+          [
+            "已",
+            "巳"
+          ],
+          [
+            "廒",
+            "廠"
+          ],
+          [
+            "截",
+            "載"
+          ],
+          [
+            "掴",
+            "插"
+          ],
+          [
+            "揺",
+            "搯"
+          ],
+          [
+            "槐",
+            "櫆"
+          ],
+          [
+            "樰",
+            "𣘸"
+          ],
+          [
+            "橸",
+            "檔"
+          ],
+          [
+            "歠",
+            "歡"
+          ],
+          [
+            "泅",
+            "洄"
+          ],
+          [
+            "渚",
+            "渚"
+          ],
+          [
+            "濼",
+            "灤"
+          ],
+          [
+            "煮",
+            "煮"
+          ],
+          [
+            "猪",
+            "猪"
+          ],
+          [
+            "畎",
+            "默"
+          ],
+          [
+            "疉",
+            "疊"
+          ],
+          [
+            "痓",
+            "痘"
+          ],
+          [
+            "緒",
+            "緖"
+          ],
+          [
+            "縛",
+            "縟"
+          ],
+          [
+            "縻",
+            "麼"
+          ],
+          [
+            "繍",
+            "繡"
+          ],
+          [
+            "者",
+            "者"
+          ],
+          [
+            "苜",
+            "菌",
+            "薗"
+          ],
+          [
+            "苢",
+            "莒"
+          ],
+          [
+            "荀",
+            "萄"
+          ],
+          [
+            "薀",
+            "藩"
+          ],
+          [
+            "藺",
+            "蘭"
+          ],
+          [
+            "蠃",
+            "贏"
+          ],
+          [
+            "譚",
+            "譯"
+          ],
+          [
+            "逸",
+            "逸"
+          ],
+          [
+            "錮",
+            "鏈",
+            "𨯯"
+          ],
+          [
+            "鐔",
+            "鐸"
+          ],
+          [
+            "鐡",
+            "鐵"
+          ],
+          [
+            "閶",
+            "閽"
+          ],
+          [
+            "闖",
+            "𨵱"
+          ],
+          [
+            "靭",
+            "靱"
+          ],
+          [
+            "韴",
+            "魳"
+          ],
+          [
+            "頬",
+            "頰"
+          ],
+          [
+            "飂",
+            "飋"
+          ],
+          [
+            "駃",
+            "鴃"
+          ],
+          [
+            "駔",
+            "𪗱"
+          ],
+          [
+            "駝",
+            "鴕"
+          ],
+          [
+            "鬥",
+            "鬨"
+          ],
+          [
+            "魍",
+            "魑"
+          ],
+          [
+            "鰮",
+            "鱈",
+            "鱩"
+          ],
+          [
+            "鶇",
+            "鶤"
+          ],
+          [
+            "鷭",
+            "鸍",
+            "鸛",
+            "鸜"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "18": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10018,
+        "collision_group_count": 28,
+        "characters_in_collisions": 60,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "嗜",
+            "嚕"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "奥",
+            "奧"
+          ],
+          [
+            "寛",
+            "寬"
+          ],
+          [
+            "己",
+            "已",
+            "巳"
+          ],
+          [
+            "懲",
+            "懲"
+          ],
+          [
+            "樝",
+            "櫨"
+          ],
+          [
+            "橺",
+            "欄"
+          ],
+          [
+            "檑",
+            "櫺"
+          ],
+          [
+            "欛",
+            "𣠽"
+          ],
+          [
+            "煮",
+            "煮"
+          ],
+          [
+            "筐",
+            "筺",
+            "篋",
+            "篚"
+          ],
+          [
+            "縻",
+            "麼"
+          ],
+          [
+            "跚",
+            "蹟"
+          ],
+          [
+            "逸",
+            "逸"
+          ],
+          [
+            "鏈",
+            "𨯯"
+          ],
+          [
+            "鏖",
+            "麈"
+          ],
+          [
+            "鐡",
+            "鐵"
+          ],
+          [
+            "閘",
+            "闡"
+          ],
+          [
+            "閫",
+            "闇",
+            "𨷻"
+          ],
+          [
+            "闌",
+            "闓"
+          ],
+          [
+            "頬",
+            "頰"
+          ],
+          [
+            "鬪",
+            "鬫"
+          ],
+          [
+            "鰲",
+            "鱉"
+          ],
+          [
+            "麭",
+            "麯"
+          ],
+          [
+            "鼇",
+            "鼈"
+          ],
+          [
+            "艹",
+            "艹"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "24": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10043,
+        "collision_group_count": 7,
+        "characters_in_collisions": 14,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "惚",
+            "愡"
+          ],
+          [
+            "煮",
+            "煮"
+          ],
+          [
+            "畫",
+            "畺"
+          ],
+          [
+            "筐",
+            "筺"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "32": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10046,
+        "collision_group_count": 4,
+        "characters_in_collisions": 8,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "煮",
+            "煮"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      }
+    },
+    "superscript": {
+      "16": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 9980,
+        "collision_group_count": 63,
+        "characters_in_collisions": 133,
+        "collision_groups": [
+          [
+            "䰗",
+            "鬩",
+            "鬪",
+            "鬭"
+          ],
+          [
+            "丼",
+            "井"
+          ],
+          [
+            "俱",
+            "倶"
+          ],
+          [
+            "倆",
+            "倻"
+          ],
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "劒",
+            "劔"
+          ],
+          [
+            "勦",
+            "勳"
+          ],
+          [
+            "勿",
+            "匆"
+          ],
+          [
+            "卣",
+            "鹵"
+          ],
+          [
+            "口",
+            "囗"
+          ],
+          [
+            "嘨",
+            "嘯"
+          ],
+          [
+            "固",
+            "𡈁"
+          ],
+          [
+            "圃",
+            "國"
+          ],
+          [
+            "堅",
+            "𡌛"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "寛",
+            "寬"
+          ],
+          [
+            "已",
+            "巳"
+          ],
+          [
+            "廒",
+            "廠"
+          ],
+          [
+            "截",
+            "載"
+          ],
+          [
+            "掴",
+            "插"
+          ],
+          [
+            "揺",
+            "搯"
+          ],
+          [
+            "槐",
+            "櫆"
+          ],
+          [
+            "樰",
+            "𣘸"
+          ],
+          [
+            "橸",
+            "檔"
+          ],
+          [
+            "歠",
+            "歡"
+          ],
+          [
+            "泅",
+            "洄"
+          ],
+          [
+            "渚",
+            "渚"
+          ],
+          [
+            "濼",
+            "灤"
+          ],
+          [
+            "煮",
+            "煮"
+          ],
+          [
+            "猪",
+            "猪"
+          ],
+          [
+            "畎",
+            "默"
+          ],
+          [
+            "疉",
+            "疊"
+          ],
+          [
+            "痓",
+            "痘"
+          ],
+          [
+            "緒",
+            "緖"
+          ],
+          [
+            "縛",
+            "縟"
+          ],
+          [
+            "縻",
+            "麼"
+          ],
+          [
+            "繍",
+            "繡"
+          ],
+          [
+            "者",
+            "者"
+          ],
+          [
+            "苜",
+            "菌",
+            "薗"
+          ],
+          [
+            "苢",
+            "莒"
+          ],
+          [
+            "荀",
+            "萄"
+          ],
+          [
+            "薀",
+            "藩"
+          ],
+          [
+            "藺",
+            "蘭"
+          ],
+          [
+            "蠃",
+            "贏"
+          ],
+          [
+            "譚",
+            "譯"
+          ],
+          [
+            "逸",
+            "逸"
+          ],
+          [
+            "錮",
+            "鏈",
+            "𨯯"
+          ],
+          [
+            "鐔",
+            "鐸"
+          ],
+          [
+            "鐡",
+            "鐵"
+          ],
+          [
+            "閶",
+            "閽"
+          ],
+          [
+            "闖",
+            "𨵱"
+          ],
+          [
+            "靭",
+            "靱"
+          ],
+          [
+            "韴",
+            "魳"
+          ],
+          [
+            "頬",
+            "頰"
+          ],
+          [
+            "飂",
+            "飋"
+          ],
+          [
+            "駃",
+            "鴃"
+          ],
+          [
+            "駔",
+            "𪗱"
+          ],
+          [
+            "駝",
+            "鴕"
+          ],
+          [
+            "鬥",
+            "鬨"
+          ],
+          [
+            "魍",
+            "魑"
+          ],
+          [
+            "鰮",
+            "鱈",
+            "鱩"
+          ],
+          [
+            "鶇",
+            "鶤"
+          ],
+          [
+            "鷭",
+            "鸍",
+            "鸛",
+            "鸜"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "18": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10018,
+        "collision_group_count": 28,
+        "characters_in_collisions": 60,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "嗜",
+            "嚕"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "奥",
+            "奧"
+          ],
+          [
+            "寛",
+            "寬"
+          ],
+          [
+            "己",
+            "已",
+            "巳"
+          ],
+          [
+            "懲",
+            "懲"
+          ],
+          [
+            "樝",
+            "櫨"
+          ],
+          [
+            "橺",
+            "欄"
+          ],
+          [
+            "檑",
+            "櫺"
+          ],
+          [
+            "欛",
+            "𣠽"
+          ],
+          [
+            "煮",
+            "煮"
+          ],
+          [
+            "筐",
+            "筺",
+            "篋",
+            "篚"
+          ],
+          [
+            "縻",
+            "麼"
+          ],
+          [
+            "跚",
+            "蹟"
+          ],
+          [
+            "逸",
+            "逸"
+          ],
+          [
+            "鏈",
+            "𨯯"
+          ],
+          [
+            "鏖",
+            "麈"
+          ],
+          [
+            "鐡",
+            "鐵"
+          ],
+          [
+            "閘",
+            "闡"
+          ],
+          [
+            "閫",
+            "闇",
+            "𨷻"
+          ],
+          [
+            "闌",
+            "闓"
+          ],
+          [
+            "頬",
+            "頰"
+          ],
+          [
+            "鬪",
+            "鬫"
+          ],
+          [
+            "鰲",
+            "鱉"
+          ],
+          [
+            "麭",
+            "麯"
+          ],
+          [
+            "鼇",
+            "鼈"
+          ],
+          [
+            "艹",
+            "艹"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "24": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10043,
+        "collision_group_count": 7,
+        "characters_in_collisions": 14,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "惚",
+            "愡"
+          ],
+          [
+            "煮",
+            "煮"
+          ],
+          [
+            "畫",
+            "畺"
+          ],
+          [
+            "筐",
+            "筺"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      },
+      "32": {
+        "glyph_count": 10050,
+        "unique_bitmap_count": 10046,
+        "collision_group_count": 4,
+        "characters_in_collisions": 8,
+        "collision_groups": [
+          [
+            "剝",
+            "剥"
+          ],
+          [
+            "塡",
+            "填"
+          ],
+          [
+            "煮",
+            "煮"
+          ],
+          [
+            "頬",
+            "頰"
+          ]
+        ],
+        "warning": "Actual raster collisions are unresolved small-size distinctions, not proof of unique or correct typography. Three original legacy pairs remain unchanged."
+      }
+    }
+  }
+}

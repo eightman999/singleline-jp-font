@@ -1,0 +1,84 @@
+{
+  "scope": "JIS X 0213:2004 levels 1–4 plus separately tracked surname extras",
+  "target_kanji": 10050,
+  "drawn_kanji": 10050,
+  "canonical_inherited_kanji": 2141,
+  "official_joyo_count": 2136,
+  "five_additional_legacy_forms": [
+    "剥",
+    "填",
+    "栢",
+    "頬",
+    "𠮟"
+  ],
+  "status_counts": {
+    "composed_draft": 7589,
+    "component_draft": 320,
+    "canonical": 2141
+  },
+  "quality": "All expanded geometry is an unreviewed original-centerline draft. Drawable does not mean visually approved.",
+  "levels": {
+    "1": {
+      "target": 2965,
+      "drawn": 2965,
+      "missing": []
+    },
+    "2": {
+      "target": 3390,
+      "drawn": 3390,
+      "missing": []
+    },
+    "3": {
+      "target": 1259,
+      "drawn": 1259,
+      "missing": []
+    },
+    "4": {
+      "target": 2436,
+      "drawn": 2436,
+      "missing": []
+    }
+  },
+  "jinmeiyo": {
+    "target": 864,
+    "drawn": 864,
+    "missing": []
+  },
+  "extras": {
+    "髙": "component_draft",
+    "𠮷": "component_draft"
+  },
+  "inherited_identical_geometry_groups": [
+    [
+      "剝",
+      "剥"
+    ],
+    [
+      "塡",
+      "填"
+    ],
+    [
+      "頬",
+      "頰"
+    ]
+  ],
+  "rejected_duplicate_geometry": {},
+  "missing": {},
+  "flags": {
+    "unreviewed_enclosure": 1177,
+    "non_japanese_ids_variant": 78,
+    "unreviewed_overlay": 239,
+    "deep_composition": 434
+  },
+  "source_sha256": {
+    "family/kanji.py": "a540a3f1a7a3a5d3dd815d3154a6eb0943251fdb2587b1a652ebb6c1cac13ea8",
+    "family/kanji_components.py": "7050af5aa1a9781ac792e8c083ac126d893b00c8c24b36f6da99aa61dc2af2de",
+    "family/kanji_rare_components.py": "4bf8b4d14a31100a52c60e3284074421298834b6f390ab42d69e58d7751d0567",
+    "family/kanji_variant_components.py": "9145a9e78a509d430f846dc999505fba19bfd8f61b8e7f0db6e1a0ca1d4bcd70",
+    "family/kanji_review_corrections.py": "0a4a84b0825ada45d6ea5300b865c1ce697853680706840528be69fb285cd7af",
+    "family/kanji_dense_corrections.py": "034c50f7027f7861dd9001078bbeca0b2990ac85b2237ad1e8a98970a612d428",
+    "family/data/legacy-components.json": "37ee3278e5a5bc869ae5f263da355d6ff431d5295d05fde61e36375f982ca21c",
+    "family/data/ids-trees.json": "c5d7b66550e38db822cc3438e1e8e5dee502b5cfc53240ca08c71448a8229085",
+    "family/data/kanji-structure-notes.json": "438373477d707c29b8c3cc34ee24c743a3959f5bca1798fa095bd9bcb3ac0e6a"
+  }
+}

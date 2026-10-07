@@ -2,3 +2,18 @@
 __pycache__/
 *.pyc
 output.png
+.pytest_cache/
+# Reproducible final artifacts are tracked selectively; scratch probes/logs are not.
+/build/*
+!/build/family/
+/build/family/*
+!/build/family/static/
+!/build/family/variable/
+!/build/family/bitmaps/
+!/build/family/specimen/
+!/build/family/reports/
+!/build/family/proofs/
+!/build/family/centerlines.svgz
+!/build/family/coverage.json
+!/build/family/glyph-provenance.json.gz
+!/build/family/build-summary.json

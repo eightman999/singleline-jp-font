@@ -1,0 +1,68 @@
+{
+  "outcome": "passed",
+  "fonts_checked": 10,
+  "target_version": "0.201",
+  "precision_tolerance": "1/65536 (TrueType Fixed16.16)",
+  "checks": [
+    {
+      "font": "static/SinglelineJPLab-gothic.ttf",
+      "name_version": "Version 0.201; EXPERIMENTAL composition drafts",
+      "head_fontRevision": 0.2010040283203125,
+      "sfnt_checksum_valid": true
+    },
+    {
+      "font": "static/SinglelineJPLab-italian.ttf",
+      "name_version": "Version 0.201; EXPERIMENTAL composition drafts",
+      "head_fontRevision": 0.2010040283203125,
+      "sfnt_checksum_valid": true
+    },
+    {
+      "font": "static/SinglelineJPLab-italic.ttf",
+      "name_version": "Version 0.201; EXPERIMENTAL composition drafts",
+      "head_fontRevision": 0.2010040283203125,
+      "sfnt_checksum_valid": true
+    },
+    {
+      "font": "static/SinglelineJPLab-pc98-mincho.ttf",
+      "name_version": "Version 0.201; EXPERIMENTAL composition drafts",
+      "head_fontRevision": 0.2010040283203125,
+      "sfnt_checksum_valid": true
+    },
+    {
+      "font": "static/SinglelineJPLab-serif.ttf",
+      "name_version": "Version 0.201; EXPERIMENTAL composition drafts",
+      "head_fontRevision": 0.2010040283203125,
+      "sfnt_checksum_valid": true
+    },
+    {
+      "font": "static/SinglelineJPLab-singleline.ttf",
+      "name_version": "Version 0.201; EXPERIMENTAL composition drafts",
+      "head_fontRevision": 0.2010040283203125,
+      "sfnt_checksum_valid": true
+    },
+    {
+      "font": "static/SinglelineJPLab-subscript.ttf",
+      "name_version": "Version 0.201; EXPERIMENTAL composition drafts",
+      "head_fontRevision": 0.2010040283203125,
+      "sfnt_checksum_valid": true
+    },
+    {
+      "font": "static/SinglelineJPLab-superscript.ttf",
+      "name_version": "Version 0.201; EXPERIMENTAL composition drafts",
+      "head_fontRevision": 0.2010040283203125,
+      "sfnt_checksum_valid": true
+    },
+    {
+      "font": "variable/SinglelineJPLab-gothic-VF.ttf",
+      "name_version": "Version 0.201; EXPERIMENTAL composition drafts",
+      "head_fontRevision": 0.2010040283203125,
+      "sfnt_checksum_valid": true
+    },
+    {
+      "font": "variable/SinglelineJPLab-serif-VF.ttf",
+      "name_version": "Version 0.201; EXPERIMENTAL composition drafts",
+      "head_fontRevision": 0.2010040283203125,
+      "sfnt_checksum_valid": true
+    }
+  ]
+}

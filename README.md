@@ -1,5 +1,15 @@
 # Singleline JP Font
 
+**16/32px追加・全書体再検査:** [追加更新の説明](docs/UPDATE-16-32.md)。16/18/24/32px × 8書体を1bitデータで生成します。
+
+**新しい実験版ファミリー:** [設計・生成・検証の説明](docs/FAMILY.md)。従来の18/24px PNG/JSONとTTFを変更せず、独自中心線から8書体のスケーラブルTTF、2書体の可変TTF、1bitバイナリ書体を生成します。拡張漢字は機械合成を含む未校正の試作字形です。正確な収録数と欠字は生成される `build/family/coverage.json` を参照してください。
+
+[新8書体TTF](build/family/static/) · [可変TTF](build/family/variable/) · [16/18/24/32pxの1bit資産](build/family/bitmaps/) · [全書体の再検査](docs/STYLE-RASTER-QA.md)
+
+[編集用の完全な中心線SVGZ](build/family/centerlines.svgz)はgzip圧縮です。[展開手順](docs/FAMILY.md#editable-centerline-svg)で元のSVGを復元できます。生成時とソースZIPには生SVGも含みます。
+
+## 従来版（既存資産）
+
 小さな画面向けの独自単線ビットマップ文字セット。18px / 24px、計2,584文字。常用漢字2,136字、ひらがな・カタカナ、ASCII、全角英数字、記号を収録します。★●▲▼■は塗りつぶしです。
 
 [全収録文字](assets/fonts/CHARACTERS.md) · [検索可能なカタログ](assets/fonts/catalog.html) · [出典とライセンス](NOTICE.md)
