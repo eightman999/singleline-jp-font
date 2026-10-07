@@ -1,0 +1,24 @@
+........................................................................ [ 58%]
+...................................................                      [100%]
+----------- generated xml file: /tmp/family-qa-aylwjs47/results.xml ------------
+123 passed in 489.46s (0:08:09)
+{
+  "scope": "full-family-structural-verification",
+  "outcome": "passed",
+  "counts": {
+    "passed": 123,
+    "failure": 0,
+    "error": 0,
+    "skipped": 0
+  },
+  "missing_artifacts": [],
+  "nominal_pixel_sizes": [
+    16,
+    18,
+    24,
+    32
+  ],
+  "expected_bitmap_strikes": 32,
+  "visual_legibility_certified": false,
+  "warning": "Passing verifies structural and binary checks only. Expanded Kanji remain component/composition drafts, not individually proofread; this is not a legibility certificate. Consult coverage.json for exact identities and status counts."
+}

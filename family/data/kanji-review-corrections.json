@@ -1,0 +1,170 @@
+{
+  "scope": "Bounded corrections of concrete topology errors found in sampled independent review; all remain draft",
+  "direct_override_keys": [
+    "戾",
+    "魃",
+    "兩",
+    "歷",
+    "癧",
+    "藶",
+    "魎",
+    "㒼",
+    "鬮",
+    "籤",
+    "爨"
+  ],
+  "affected_target_count": 28,
+  "changes": {
+    "㒼": {
+      "before_geometry_sha256": "3ecca20773c551313307e892dfbaf966ec89ad11af8838e91c7d5c7bfcc4c710",
+      "after_geometry_sha256": "a178a8add6de48aa845f48fa38fef2dd6301c9558d3c7a63e901db5099552888",
+      "source": "new_project_authored_structure_correction"
+    },
+    "倆": {
+      "before_geometry_sha256": "f150c0177ab1b4f57489349b7d663f4b54ec213538fddcff4bf4951a42e2a6bb",
+      "after_geometry_sha256": "ad9d49dd2bac6dea35d0aa2073b804f93198e1edea0889805e033053cf32662e",
+      "source": "project_components_with_ids_layout"
+    },
+    "兩": {
+      "before_geometry_sha256": "1164a84f06e8990093f6b24e04d1a5fc4ebdb4ab73bdf442230eb8e3b28592df",
+      "after_geometry_sha256": "71f20897b6e7ce8cc94a5e87e2fdbd1d187d4f67bfebe34afb23c699af42ba75",
+      "source": "new_project_authored_structure_correction"
+    },
+    "壢": {
+      "before_geometry_sha256": "7a3c249649f19daf485450f2d36dcaefc95992e0da661420369c5f5b9215fc61",
+      "after_geometry_sha256": "dafc6ad193a8965f62b5eeace51ff04766c5536dac9991a20caaded3552e15b6",
+      "source": "project_components_with_ids_layout"
+    },
+    "懣": {
+      "before_geometry_sha256": "ec41fccc242b42d380c75fb15e4a0a48d68391d5b5b5c4bfd7cdaf228f0a21dc",
+      "after_geometry_sha256": "75dec6fab08045bc2e87f79ebbc6079ee13b5d778b84ac3bd8147abd2ac742e4",
+      "source": "project_components_with_ids_layout"
+    },
+    "戾": {
+      "before_geometry_sha256": "f427d784c8c3dfbe7ff56556329ef0e8647a87551dd015bc4b1ddd0acdb68ec0",
+      "after_geometry_sha256": "3d058df5ea49078a53ad0d4ee52c0f472626bc3419edaa75e8c0c1e83f7f433e",
+      "source": "new_project_authored_structure_correction"
+    },
+    "棙": {
+      "before_geometry_sha256": "f6ea807bf9956ebf8c3df705b63dc1d5f0f2d91256ea6f9e9f2bec0967e7204e",
+      "after_geometry_sha256": "a0cea4fd29ecb254bc1d16d137b691bacae3bc2b5a76ea52a3b744a5b9d6c443",
+      "source": "project_components_with_ids_layout"
+    },
+    "櫪": {
+      "before_geometry_sha256": "76a45835bc694d6f5f73996e0c8d84bb7ecf5495ba367f795d4b82c15e33cbec",
+      "after_geometry_sha256": "6ee15d0eb05eb45c5e80e50eb148f642068c52c4ceb5e18305123e48f45c12c1",
+      "source": "project_components_with_ids_layout"
+    },
+    "歷": {
+      "before_geometry_sha256": "bea5cb14cb3e128cd9248d2c16930c49d21906d610a7ee05b2375f82d42c734b",
+      "after_geometry_sha256": "978f61ec591a6fe4e71a9b8acd126b4dd10261fbbd4e31d648ea33bea1ae2097",
+      "source": "new_project_authored_structure_correction"
+    },
+    "淚": {
+      "before_geometry_sha256": "fee34d742138e87b1205596918bf8cbd7f7deec6a9a13c2699da236131963b3a",
+      "after_geometry_sha256": "bbda57ce2cd039f543bc664e695d45cf25c0537c843a00af82e9c137e17fe42f",
+      "source": "project_components_with_ids_layout"
+    },
+    "滿": {
+      "before_geometry_sha256": "d2e4b97538032cf6beefc87b33cbdd52e28e76cf7ee84c1dcd975eab243c3c75",
+      "after_geometry_sha256": "8815e1ab689245e8f8709a22c4068bead3ce5ef53b167a037098c14a4226b4f3",
+      "source": "project_components_with_ids_layout"
+    },
+    "瀝": {
+      "before_geometry_sha256": "33ce02876d719f0afdf3563ca711e619996606d3e73e55bb4da66525afad6774",
+      "after_geometry_sha256": "953ebd9e59ce903e51f735b7b816fabd2dadef6b511c9522d31c433c541cc3f6",
+      "source": "project_components_with_ids_layout"
+    },
+    "爨": {
+      "before_geometry_sha256": "f33859b291a7bc8bd5e3179bf9796b1cd0a1c7a09b4bfd80c5397ae871213d24",
+      "after_geometry_sha256": "1ba5f31f93f1f44885eb4ffd80bbed98924cbd8ffb42625f14cbb8d0eabe1c8d",
+      "source": "new_project_authored_structure_correction"
+    },
+    "癧": {
+      "before_geometry_sha256": "30e4eb7539ff969289741098d9daa3f66f6e92c892aeb0cf9f9e54e1700079f0",
+      "after_geometry_sha256": "ab775152ced14809525b94f375f977e3a97e4bb72cea066edc6f7d1e107eabc0",
+      "source": "new_project_authored_structure_correction"
+    },
+    "瞞": {
+      "before_geometry_sha256": "0de1f3f918d1add7f1179cbfc92737677effb2521a664d29ade624b8145c024c",
+      "after_geometry_sha256": "39e2ccb62357d8e4a82abb95eb43d81ca7ba45a63022e98aeb7a9ade89884087",
+      "source": "project_components_with_ids_layout"
+    },
+    "礰": {
+      "before_geometry_sha256": "4069424ba8e6db12dc68f3fa874232669fc980c401f4133422fbe41a60f00a4a",
+      "after_geometry_sha256": "a243410975bb5035985c77ba8ee9a982049c093a4bed940783f89b2b83cef14d",
+      "source": "project_components_with_ids_layout"
+    },
+    "籤": {
+      "before_geometry_sha256": "02993e511a8eadfb398d4925f66853ba4f0ce2daa68ae113eae6259c817a4b3c",
+      "after_geometry_sha256": "5a87e26fbb99dfc039da90581c60ceb04ae859ef0073bd790eaf00d91e130300",
+      "source": "new_project_authored_structure_correction"
+    },
+    "藶": {
+      "before_geometry_sha256": "8a040e6e523c153bb82806b0d814da694904577edad16ff37bc7a0f080b5e549",
+      "after_geometry_sha256": "7050023bd04540d7e978f03f80fe6e8cac3e3ab7f64d25a10729d6695a66010e",
+      "source": "new_project_authored_structure_correction"
+    },
+    "蟎": {
+      "before_geometry_sha256": "fef36d34303d217525d1f9c2bffd33086697f71471081739313f044312f60eb5",
+      "after_geometry_sha256": "3e83fcfef0a9c97d43d3d45b77d5477f76f782544f858bf9bf288dc390a326de",
+      "source": "project_components_with_ids_layout"
+    },
+    "裲": {
+      "before_geometry_sha256": "2fabb4a1fc4272948a53f3da05b5a638c36ec7d1eeeb8632bb9182fc551c6a60",
+      "after_geometry_sha256": "48b97e58e2625cc8cd4dbc0b1133de646f3eb9bc2c9f0447554fcf3d6a6b2072",
+      "source": "project_components_with_ids_layout"
+    },
+    "蹣": {
+      "before_geometry_sha256": "ff98243ce838e708131ed13db2c5201f3b8a4382fb44c547276ddd2514a6b026",
+      "after_geometry_sha256": "236e2bccd4cd5e122a7025bdf7911138efb2d77b21afabe0c956911750508818",
+      "source": "project_components_with_ids_layout"
+    },
+    "輛": {
+      "before_geometry_sha256": "bd3bc5ed83eb2dcf22a17f679b802d2e516aaaec08155c9fec60b07f582edcb7",
+      "after_geometry_sha256": "54c43f41c51fc747a23c722d0f426d7e266afda65bc991f2ffa17751fa628d46",
+      "source": "project_components_with_ids_layout"
+    },
+    "轣": {
+      "before_geometry_sha256": "7749957745c7d10266888de52de4aa0f46f537966e8002f99cae0fa13eefdcc4",
+      "after_geometry_sha256": "60c31a6e806e8f82fad0ea28cd05c4f7df22f6541c2898ce39798800359a3823",
+      "source": "project_components_with_ids_layout"
+    },
+    "錑": {
+      "before_geometry_sha256": "f9e8c21ab5b2dfa1bba701b22be2297ae8c59d6a44e93656ba82070351b65706",
+      "after_geometry_sha256": "8804b1db32a0051996c65fba8b82cc7e5297f7a12db1f846413012fe907c78c0",
+      "source": "project_components_with_ids_layout"
+    },
+    "靂": {
+      "before_geometry_sha256": "f206f0479361fedeff6b510f4a95b0a8ebd8cca92ef56591112d5151adc3006f",
+      "after_geometry_sha256": "03bef15d3beb8d4fd9c051baffb02a964b768ef30b005737f649183db1b365a4",
+      "source": "project_components_with_ids_layout"
+    },
+    "鬮": {
+      "before_geometry_sha256": "2dc80683211277b1b342eb9ede460a5f8c7ba2c16ec9309fccbeae317ebf6d89",
+      "after_geometry_sha256": "441085111f0738126a4cedd18fbb67db92aac8ad5f09c4da03b05ea16ffc398f",
+      "source": "new_project_authored_structure_correction"
+    },
+    "魃": {
+      "before_geometry_sha256": "12365fa1f97b820b6f38b56c8f97b8e9c8c9a6e2eb5c7cd0c449cae15ce292c4",
+      "after_geometry_sha256": "764eb3090674a5ae10ef66664aa64bcdefa68e68c9c0e35666d7d4e9e7e85b82",
+      "source": "new_project_authored_structure_correction"
+    },
+    "魎": {
+      "before_geometry_sha256": "0a135765d35f9ba2b77eb92d82fc229b4b84a672c6bee2bfca93739d68530346",
+      "after_geometry_sha256": "2b713715885eba46fcbf340bcd6e002d1b61b51e76602859869c4ebb17be8700",
+      "source": "new_project_authored_structure_correction"
+    }
+  },
+  "canonical_count_preserved": 2141,
+  "independent_recheck": "All identified major collision/placement defects were confirmed resolved by an independent fresh-font recheck at 72px Singleline, 18/24px Gothic and 24px PC98. Dense details still merge in some small-size designs; this does not constitute overall typography approval.",
+  "proofs": [
+    "build/family/proofs/visual-qa/recheck-01-01.png",
+    "build/family/proofs/visual-qa/recheck-02-01.png",
+    "build/family/proofs/visual-qa/recheck-03-01.png"
+  ],
+  "independent_correction_rechecked_forms": 19,
+  "changed_descendants_without_individual_correction_recheck": 9,
+  "current_independent_sample_total": 190,
+  "current_sample_fingerprints_match_frozen_source": true
+}

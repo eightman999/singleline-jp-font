@@ -1,0 +1,605 @@
+{
+  "source": "https://www.unicode.org/Public/18.0.0/ucd/StandardizedVariants.txt",
+  "entries": [
+    {
+      "sequence": [
+        "U+4FAE",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA30",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+50E7",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA31",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+514D",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA32",
+      "jinmeiyo": false
+    },
+    {
+      "sequence": [
+        "U+51DE",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA15",
+      "jinmeiyo": false
+    },
+    {
+      "sequence": [
+        "U+52C9",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA33",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+52E4",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA34",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+5351",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA35",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+559D",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA36",
+      "jinmeiyo": false
+    },
+    {
+      "sequence": [
+        "U+5606",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA37",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+5668",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA38",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+5840",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA39",
+      "jinmeiyo": false
+    },
+    {
+      "sequence": [
+        "U+585A",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA10",
+      "jinmeiyo": false
+    },
+    {
+      "sequence": [
+        "U+58A8",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA3A",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+5C64",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA3B",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+5C6E",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA3C",
+      "jinmeiyo": false
+    },
+    {
+      "sequence": [
+        "U+5ECA",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+F928",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+6094",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA3D",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+6168",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA3E",
+      "jinmeiyo": false
+    },
+    {
+      "sequence": [
+        "U+618E",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA3F",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+61F2",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA40",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+654F",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA41",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+65E2",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA42",
+      "jinmeiyo": false
+    },
+    {
+      "sequence": [
+        "U+6691",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA43",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+6717",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+F929",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+6885",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA44",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+6B04",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+F91D",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+6BBA",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+F970",
+      "jinmeiyo": false
+    },
+    {
+      "sequence": [
+        "U+6D77",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA45",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+6E1A",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA46",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+6F22",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA47",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+716E",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA48",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+722B",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA49",
+      "jinmeiyo": false
+    },
+    {
+      "sequence": [
+        "U+732A",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA16",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+7422",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA4A",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+7891",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA4B",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+793E",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA4C",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+7948",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA4E",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+7949",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA4D",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+7950",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA4F",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+7956",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA50",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+795D",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA51",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+795E",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA19",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+7965",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA1A",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+798D",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA52",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+798E",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA53",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+798F",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA1B",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+7A40",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA54",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+7A81",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA55",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+7BC0",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA56",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+7DF4",
+        "U+FE01"
+      ],
+      "compatibility_target": "U+FA57",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+7E09",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA58",
+      "jinmeiyo": false
+    },
+    {
+      "sequence": [
+        "U+7E41",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA59",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+7F72",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA5A",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+8005",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA5B",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+81ED",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA5C",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+8279",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA5D",
+      "jinmeiyo": false
+    },
+    {
+      "sequence": [
+        "U+8279",
+        "U+FE01"
+      ],
+      "compatibility_target": "U+FA5E",
+      "jinmeiyo": false
+    },
+    {
+      "sequence": [
+        "U+8457",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA5F",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+8612",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA20",
+      "jinmeiyo": false
+    },
+    {
+      "sequence": [
+        "U+865C",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+F936",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+8910",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA60",
+      "jinmeiyo": false
+    },
+    {
+      "sequence": [
+        "U+8996",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA61",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+8AF8",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA22",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+8B01",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA62",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+8B39",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA63",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+8CD3",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA64",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+8D08",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA65",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+8FB6",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA66",
+      "jinmeiyo": false
+    },
+    {
+      "sequence": [
+        "U+9038",
+        "U+FE01"
+      ],
+      "compatibility_target": "U+FA67",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+90FD",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA26",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+9686",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+F9DC",
+      "jinmeiyo": false
+    },
+    {
+      "sequence": [
+        "U+96E3",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA68",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+97FF",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA69",
+      "jinmeiyo": true
+    },
+    {
+      "sequence": [
+        "U+983B",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+FA6A",
+      "jinmeiyo": false
+    },
+    {
+      "sequence": [
+        "U+985E",
+        "U+FE00"
+      ],
+      "compatibility_target": "U+F9D0",
+      "jinmeiyo": true
+    }
+  ]
+}

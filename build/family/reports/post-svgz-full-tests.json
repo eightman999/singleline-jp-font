@@ -1,0 +1,5225 @@
+{
+  "scope": "full-family-structural-verification",
+  "outcome": "passed",
+  "counts": {
+    "passed": 127,
+    "failure": 0,
+    "error": 0,
+    "skipped": 0
+  },
+  "missing_artifacts": [],
+  "nominal_pixel_sizes": [
+    16,
+    18,
+    24,
+    32
+  ],
+  "expected_bitmap_strikes": 32,
+  "visual_legibility_certified": false,
+  "warning": "Passing verifies structural and binary checks only. Expanded Kanji remain component/composition drafts, not individually proofread; this is not a legibility certificate. Consult coverage.json for exact identities and status counts.",
+  "tests": [
+    {
+      "test": "tests.test_family.test_legacy_original_files_byte_identical",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_centerlines_exports_deterministic_lossless_svgz",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_package_includes_editable_svg_from_compressed_source[False]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_package_includes_editable_svg_from_compressed_source[True]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_package_rejects_stale_raw_centerlines",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_jis_manifest_exact_identities_and_level_counts",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_jinmeiyo_raw_property_identity_counts",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_all_kanji_target_identities_are_present",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_all_jis_identities_including_nonkanji_and_sequences_are_present",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_missing_characters_are_not_synthetic_coverage",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[singleline]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[pc98-mincho]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[gothic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[italian]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[serif]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[italic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[subscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[superscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_master_compatibility_and_actual_two_axis_interpolation[gothic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_master_compatibility_and_actual_two_axis_interpolation[serif]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_font_shapes_all_25_jis_sequences",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_opentype_super_sub_have_smaller_raised_lowered_outlines",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_italic_authored_a_g_differ_from_shear",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_italian_is_upright_reverse_contrast",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_negative_enclosures_have_real_outline_and_bitmap_counters",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_negative_enclosure_font_renders_white_counters",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_font_build_is_byte_deterministic[gothic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_font_build_is_byte_deterministic[serif]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_bitmap_exact_png_roundtrip_and_sequences",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[singleline]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[pc98-mincho]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[gothic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[italian]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[serif]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[italic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[subscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[superscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[short_header]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[bad_magic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[version]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[header_flags]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[index_out_of_bounds]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[payload_truncated]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[record_flags]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[empty_key]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[zero_size]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[duplicate_key]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[index_overlap]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[invalid_baseline]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[negative_advance]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_inventory_complete",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_coverage_exactly_matches_encoded_font_and_provenance",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_static_cmap_outlines_names_and_notdef[singleline]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_static_cmap_outlines_names_and_notdef[pc98-mincho]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_static_cmap_outlines_names_and_notdef[gothic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_static_cmap_outlines_names_and_notdef[italian]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_static_cmap_outlines_names_and_notdef[serif]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_static_cmap_outlines_names_and_notdef[italic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_static_cmap_outlines_names_and_notdef[subscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_static_cmap_outlines_names_and_notdef[superscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_svs_format14_keeps_compatibility_identity[singleline]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_svs_format14_keeps_compatibility_identity[pc98-mincho]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_svs_format14_keeps_compatibility_identity[gothic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_svs_format14_keeps_compatibility_identity[italian]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_svs_format14_keeps_compatibility_identity[serif]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_svs_format14_keeps_compatibility_identity[italic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_svs_format14_keeps_compatibility_identity[subscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_svs_format14_keeps_compatibility_identity[superscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_gsub_and_harfbuzz_latin_math_japanese[singleline]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_gsub_and_harfbuzz_latin_math_japanese[pc98-mincho]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_gsub_and_harfbuzz_latin_math_japanese[gothic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_gsub_and_harfbuzz_latin_math_japanese[italian]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_gsub_and_harfbuzz_latin_math_japanese[serif]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_gsub_and_harfbuzz_latin_math_japanese[italic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_gsub_and_harfbuzz_latin_math_japanese[subscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_gsub_and_harfbuzz_latin_math_japanese[superscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_each_encoded_jis_multiscalar_identity_shapes_exactly[singleline]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_each_encoded_jis_multiscalar_identity_shapes_exactly[pc98-mincho]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_each_encoded_jis_multiscalar_identity_shapes_exactly[gothic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_each_encoded_jis_multiscalar_identity_shapes_exactly[italian]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_each_encoded_jis_multiscalar_identity_shapes_exactly[serif]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_each_encoded_jis_multiscalar_identity_shapes_exactly[italic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_each_encoded_jis_multiscalar_identity_shapes_exactly[subscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_each_encoded_jis_multiscalar_identity_shapes_exactly[superscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_every_encoded_identity_shapes_without_missing_glyphs[singleline]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_every_encoded_identity_shapes_without_missing_glyphs[pc98-mincho]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_every_encoded_identity_shapes_without_missing_glyphs[gothic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_every_encoded_identity_shapes_without_missing_glyphs[italian]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_every_encoded_identity_shapes_without_missing_glyphs[serif]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_every_encoded_identity_shapes_without_missing_glyphs[italic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_every_encoded_identity_shapes_without_missing_glyphs[subscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_every_encoded_identity_shapes_without_missing_glyphs[superscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_variable_tables_and_real_endpoint_instances[gothic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_variable_tables_and_real_endpoint_instances[serif]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[16-singleline]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[16-pc98-mincho]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[16-gothic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[16-italian]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[16-serif]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[16-italic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[16-subscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[16-superscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[18-singleline]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[18-pc98-mincho]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[18-gothic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[18-italian]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[18-serif]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[18-italic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[18-subscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[18-superscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[24-singleline]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[24-pc98-mincho]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[24-gothic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[24-italian]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[24-serif]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[24-italic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[24-subscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[24-superscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[32-singleline]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[32-pc98-mincho]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[32-gothic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[32-italian]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[32-serif]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[32-italic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[32-subscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[32-superscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests.test_family.TestFullArtifacts.test_centerlines_svg_and_build_provenance",
+      "status": "passed",
+      "detail": ""
+    }
+  ],
+  "bitmap_collision_audit": {
+    "comparison": "Exact baseline-aligned black-pixel masks and advance; blank margins ignored",
+    "scalar_cjk_identities": 10053,
+    "expected_strikes": 32,
+    "strikes": [
+      {
+        "style": "singleline",
+        "nominal_pixels": 16,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 4,
+        "raster_only_group_count": 1,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "欄",
+              "欄"
+            ],
+            "codepoints": [
+              "U+6B04",
+              "U+F91D"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "singleline",
+        "nominal_pixels": 18,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 3,
+        "raster_only_group_count": 0,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "singleline",
+        "nominal_pixels": 24,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 5,
+        "raster_only_group_count": 2,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "口",
+              "囗"
+            ],
+            "codepoints": [
+              "U+53E3",
+              "U+56D7"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "杇",
+              "𣏓"
+            ],
+            "codepoints": [
+              "U+6747",
+              "U+233D3"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "singleline",
+        "nominal_pixels": 32,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 3,
+        "raster_only_group_count": 0,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "pc98-mincho",
+        "nominal_pixels": 16,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 7,
+        "raster_only_group_count": 4,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "寛",
+              "寬"
+            ],
+            "codepoints": [
+              "U+5BDB",
+              "U+5BEC"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "惚",
+              "愡"
+            ],
+            "codepoints": [
+              "U+60DA",
+              "U+6121"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "戊",
+              "戍"
+            ],
+            "codepoints": [
+              "U+620A",
+              "U+620D"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "筐",
+              "筺"
+            ],
+            "codepoints": [
+              "U+7B50",
+              "U+7B7A"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "pc98-mincho",
+        "nominal_pixels": 18,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 4,
+        "raster_only_group_count": 1,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "茂",
+              "荗"
+            ],
+            "codepoints": [
+              "U+8302",
+              "U+8357"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "pc98-mincho",
+        "nominal_pixels": 24,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 3,
+        "raster_only_group_count": 0,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "pc98-mincho",
+        "nominal_pixels": 32,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 3,
+        "raster_only_group_count": 0,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "gothic",
+        "nominal_pixels": 16,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 10,
+        "raster_only_group_count": 7,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "寛",
+              "寬"
+            ],
+            "codepoints": [
+              "U+5BDB",
+              "U+5BEC"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "已",
+              "巳"
+            ],
+            "codepoints": [
+              "U+5DF2",
+              "U+5DF3"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "惚",
+              "愡"
+            ],
+            "codepoints": [
+              "U+60DA",
+              "U+6121"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "戊",
+              "戍"
+            ],
+            "codepoints": [
+              "U+620A",
+              "U+620D"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "煮",
+              "煮"
+            ],
+            "codepoints": [
+              "U+716E",
+              "U+FA48"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "筐",
+              "筺"
+            ],
+            "codepoints": [
+              "U+7B50",
+              "U+7B7A"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "茂",
+              "荗"
+            ],
+            "codepoints": [
+              "U+8302",
+              "U+8357"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "gothic",
+        "nominal_pixels": 18,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 4,
+        "raster_only_group_count": 1,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "奥",
+              "奧"
+            ],
+            "codepoints": [
+              "U+5965",
+              "U+5967"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "gothic",
+        "nominal_pixels": 24,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 4,
+        "raster_only_group_count": 1,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "煮",
+              "煮"
+            ],
+            "codepoints": [
+              "U+716E",
+              "U+FA48"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "gothic",
+        "nominal_pixels": 32,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 3,
+        "raster_only_group_count": 0,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "italian",
+        "nominal_pixels": 16,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 12,
+        "raster_only_group_count": 9,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "奥",
+              "奧"
+            ],
+            "codepoints": [
+              "U+5965",
+              "U+5967"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "寛",
+              "寬"
+            ],
+            "codepoints": [
+              "U+5BDB",
+              "U+5BEC"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "已",
+              "巳"
+            ],
+            "codepoints": [
+              "U+5DF2",
+              "U+5DF3"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "渚",
+              "渚"
+            ],
+            "codepoints": [
+              "U+6E1A",
+              "U+FA46"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "煮",
+              "煮"
+            ],
+            "codepoints": [
+              "U+716E",
+              "U+FA48"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "猪",
+              "猪"
+            ],
+            "codepoints": [
+              "U+732A",
+              "U+FA16"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "筐",
+              "筺"
+            ],
+            "codepoints": [
+              "U+7B50",
+              "U+7B7A"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "緒",
+              "緖"
+            ],
+            "codepoints": [
+              "U+7DD2",
+              "U+7DD6"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "者",
+              "者"
+            ],
+            "codepoints": [
+              "U+8005",
+              "U+FA5B"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "italian",
+        "nominal_pixels": 18,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 6,
+        "raster_only_group_count": 3,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "嘨",
+              "嘯"
+            ],
+            "codepoints": [
+              "U+5628",
+              "U+562F"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "煮",
+              "煮"
+            ],
+            "codepoints": [
+              "U+716E",
+              "U+FA48"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "茂",
+              "荗"
+            ],
+            "codepoints": [
+              "U+8302",
+              "U+8357"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "italian",
+        "nominal_pixels": 24,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 5,
+        "raster_only_group_count": 2,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "寛",
+              "寬"
+            ],
+            "codepoints": [
+              "U+5BDB",
+              "U+5BEC"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "煮",
+              "煮"
+            ],
+            "codepoints": [
+              "U+716E",
+              "U+FA48"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "italian",
+        "nominal_pixels": 32,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 3,
+        "raster_only_group_count": 0,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "serif",
+        "nominal_pixels": 16,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 8,
+        "raster_only_group_count": 5,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "寛",
+              "寬"
+            ],
+            "codepoints": [
+              "U+5BDB",
+              "U+5BEC"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "惚",
+              "愡"
+            ],
+            "codepoints": [
+              "U+60DA",
+              "U+6121"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "戊",
+              "戍"
+            ],
+            "codepoints": [
+              "U+620A",
+              "U+620D"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "筐",
+              "筺"
+            ],
+            "codepoints": [
+              "U+7B50",
+              "U+7B7A"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "苢",
+              "莒"
+            ],
+            "codepoints": [
+              "U+82E2",
+              "U+8392"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "serif",
+        "nominal_pixels": 18,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 5,
+        "raster_only_group_count": 2,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "茂",
+              "荗"
+            ],
+            "codepoints": [
+              "U+8302",
+              "U+8357"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "蠧",
+              "蠹"
+            ],
+            "codepoints": [
+              "U+8827",
+              "U+8839"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "serif",
+        "nominal_pixels": 24,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 3,
+        "raster_only_group_count": 0,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "serif",
+        "nominal_pixels": 32,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 3,
+        "raster_only_group_count": 0,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "italic",
+        "nominal_pixels": 16,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 7,
+        "raster_only_group_count": 4,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "寛",
+              "寬"
+            ],
+            "codepoints": [
+              "U+5BDB",
+              "U+5BEC"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "戊",
+              "戍"
+            ],
+            "codepoints": [
+              "U+620A",
+              "U+620D"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "筐",
+              "筺"
+            ],
+            "codepoints": [
+              "U+7B50",
+              "U+7B7A"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "茂",
+              "荗"
+            ],
+            "codepoints": [
+              "U+8302",
+              "U+8357"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "italic",
+        "nominal_pixels": 18,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 5,
+        "raster_only_group_count": 2,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "寛",
+              "寬"
+            ],
+            "codepoints": [
+              "U+5BDB",
+              "U+5BEC"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "茂",
+              "荗"
+            ],
+            "codepoints": [
+              "U+8302",
+              "U+8357"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "italic",
+        "nominal_pixels": 24,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 3,
+        "raster_only_group_count": 0,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "italic",
+        "nominal_pixels": 32,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 3,
+        "raster_only_group_count": 0,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "subscript",
+        "nominal_pixels": 16,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 63,
+        "raster_only_group_count": 60,
+        "collision_groups": [
+          {
+            "characters": [
+              "䰗",
+              "鬩",
+              "鬪",
+              "鬭"
+            ],
+            "codepoints": [
+              "U+4C17",
+              "U+9B29",
+              "U+9B2A",
+              "U+9B2D"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 4,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "丼",
+              "井"
+            ],
+            "codepoints": [
+              "U+4E3C",
+              "U+4E95"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "俱",
+              "倶"
+            ],
+            "codepoints": [
+              "U+4FF1",
+              "U+5036"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "倆",
+              "倻"
+            ],
+            "codepoints": [
+              "U+5006",
+              "U+503B"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "劒",
+              "劔"
+            ],
+            "codepoints": [
+              "U+5292",
+              "U+5294"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "勦",
+              "勳"
+            ],
+            "codepoints": [
+              "U+52E6",
+              "U+52F3"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "勿",
+              "匆"
+            ],
+            "codepoints": [
+              "U+52FF",
+              "U+5306"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "卣",
+              "鹵"
+            ],
+            "codepoints": [
+              "U+5363",
+              "U+9E75"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "口",
+              "囗"
+            ],
+            "codepoints": [
+              "U+53E3",
+              "U+56D7"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "嘨",
+              "嘯"
+            ],
+            "codepoints": [
+              "U+5628",
+              "U+562F"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "固",
+              "𡈁"
+            ],
+            "codepoints": [
+              "U+56FA",
+              "U+21201"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "圃",
+              "國"
+            ],
+            "codepoints": [
+              "U+5703",
+              "U+570B"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "堅",
+              "𡌛"
+            ],
+            "codepoints": [
+              "U+5805",
+              "U+2131B"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "寛",
+              "寬"
+            ],
+            "codepoints": [
+              "U+5BDB",
+              "U+5BEC"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "已",
+              "巳"
+            ],
+            "codepoints": [
+              "U+5DF2",
+              "U+5DF3"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "廒",
+              "廠"
+            ],
+            "codepoints": [
+              "U+5ED2",
+              "U+5EE0"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "截",
+              "載"
+            ],
+            "codepoints": [
+              "U+622A",
+              "U+8F09"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "掴",
+              "插"
+            ],
+            "codepoints": [
+              "U+63B4",
+              "U+63D2"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "揺",
+              "搯"
+            ],
+            "codepoints": [
+              "U+63FA",
+              "U+642F"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "槐",
+              "櫆"
+            ],
+            "codepoints": [
+              "U+69D0",
+              "U+6AC6"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "樰",
+              "𣘸"
+            ],
+            "codepoints": [
+              "U+6A30",
+              "U+23638"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "橸",
+              "檔"
+            ],
+            "codepoints": [
+              "U+6A78",
+              "U+6A94"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "歠",
+              "歡"
+            ],
+            "codepoints": [
+              "U+6B60",
+              "U+6B61"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "泅",
+              "洄"
+            ],
+            "codepoints": [
+              "U+6CC5",
+              "U+6D04"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "渚",
+              "渚"
+            ],
+            "codepoints": [
+              "U+6E1A",
+              "U+FA46"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "濼",
+              "灤"
+            ],
+            "codepoints": [
+              "U+6FFC",
+              "U+7064"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "煮",
+              "煮"
+            ],
+            "codepoints": [
+              "U+716E",
+              "U+FA48"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "猪",
+              "猪"
+            ],
+            "codepoints": [
+              "U+732A",
+              "U+FA16"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "畎",
+              "默"
+            ],
+            "codepoints": [
+              "U+754E",
+              "U+9ED8"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "疉",
+              "疊"
+            ],
+            "codepoints": [
+              "U+7589",
+              "U+758A"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "痓",
+              "痘"
+            ],
+            "codepoints": [
+              "U+75D3",
+              "U+75D8"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "緒",
+              "緖"
+            ],
+            "codepoints": [
+              "U+7DD2",
+              "U+7DD6"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "縛",
+              "縟"
+            ],
+            "codepoints": [
+              "U+7E1B",
+              "U+7E1F"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "縻",
+              "麼"
+            ],
+            "codepoints": [
+              "U+7E3B",
+              "U+9EBC"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "繍",
+              "繡"
+            ],
+            "codepoints": [
+              "U+7E4D",
+              "U+7E61"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "者",
+              "者"
+            ],
+            "codepoints": [
+              "U+8005",
+              "U+FA5B"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "苜",
+              "菌",
+              "薗"
+            ],
+            "codepoints": [
+              "U+82DC",
+              "U+83CC",
+              "U+8597"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 3,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "苢",
+              "莒"
+            ],
+            "codepoints": [
+              "U+82E2",
+              "U+8392"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "荀",
+              "萄"
+            ],
+            "codepoints": [
+              "U+8340",
+              "U+8404"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "薀",
+              "藩"
+            ],
+            "codepoints": [
+              "U+8580",
+              "U+85E9"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "藺",
+              "蘭"
+            ],
+            "codepoints": [
+              "U+85FA",
+              "U+862D"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "蠃",
+              "贏"
+            ],
+            "codepoints": [
+              "U+8803",
+              "U+8D0F"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "譚",
+              "譯"
+            ],
+            "codepoints": [
+              "U+8B5A",
+              "U+8B6F"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "逸",
+              "逸"
+            ],
+            "codepoints": [
+              "U+9038",
+              "U+FA67"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "錮",
+              "鏈",
+              "𨯯"
+            ],
+            "codepoints": [
+              "U+932E",
+              "U+93C8",
+              "U+28BEF"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 3,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鐔",
+              "鐸"
+            ],
+            "codepoints": [
+              "U+9414",
+              "U+9438"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鐡",
+              "鐵"
+            ],
+            "codepoints": [
+              "U+9421",
+              "U+9435"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "閶",
+              "閽"
+            ],
+            "codepoints": [
+              "U+95B6",
+              "U+95BD"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "闖",
+              "𨵱"
+            ],
+            "codepoints": [
+              "U+95D6",
+              "U+28D71"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "靭",
+              "靱"
+            ],
+            "codepoints": [
+              "U+976D",
+              "U+9771"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "韴",
+              "魳"
+            ],
+            "codepoints": [
+              "U+97F4",
+              "U+9B73"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "飂",
+              "飋"
+            ],
+            "codepoints": [
+              "U+98C2",
+              "U+98CB"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "駃",
+              "鴃"
+            ],
+            "codepoints": [
+              "U+99C3",
+              "U+9D03"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "駔",
+              "𪗱"
+            ],
+            "codepoints": [
+              "U+99D4",
+              "U+2A5F1"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "駝",
+              "鴕"
+            ],
+            "codepoints": [
+              "U+99DD",
+              "U+9D15"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鬥",
+              "鬨"
+            ],
+            "codepoints": [
+              "U+9B25",
+              "U+9B28"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "魍",
+              "魑"
+            ],
+            "codepoints": [
+              "U+9B4D",
+              "U+9B51"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鰮",
+              "鱈",
+              "鱩"
+            ],
+            "codepoints": [
+              "U+9C2E",
+              "U+9C48",
+              "U+9C69"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 3,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鶇",
+              "鶤"
+            ],
+            "codepoints": [
+              "U+9D87",
+              "U+9DA4"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鷭",
+              "鸍",
+              "鸛",
+              "鸜"
+            ],
+            "codepoints": [
+              "U+9DED",
+              "U+9E0D",
+              "U+9E1B",
+              "U+9E1C"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 4,
+            "all_legacy": false
+          }
+        ]
+      },
+      {
+        "style": "subscript",
+        "nominal_pixels": 18,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 28,
+        "raster_only_group_count": 25,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "嗜",
+              "嚕"
+            ],
+            "codepoints": [
+              "U+55DC",
+              "U+5695"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "奥",
+              "奧"
+            ],
+            "codepoints": [
+              "U+5965",
+              "U+5967"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "寛",
+              "寬"
+            ],
+            "codepoints": [
+              "U+5BDB",
+              "U+5BEC"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "己",
+              "已",
+              "巳"
+            ],
+            "codepoints": [
+              "U+5DF1",
+              "U+5DF2",
+              "U+5DF3"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 3,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "懲",
+              "懲"
+            ],
+            "codepoints": [
+              "U+61F2",
+              "U+FA40"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "樝",
+              "櫨"
+            ],
+            "codepoints": [
+              "U+6A1D",
+              "U+6AE8"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "橺",
+              "欄"
+            ],
+            "codepoints": [
+              "U+6A7A",
+              "U+6B04"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "檑",
+              "櫺"
+            ],
+            "codepoints": [
+              "U+6A91",
+              "U+6AFA"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "欛",
+              "𣠽"
+            ],
+            "codepoints": [
+              "U+6B1B",
+              "U+2383D"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "煮",
+              "煮"
+            ],
+            "codepoints": [
+              "U+716E",
+              "U+FA48"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "筐",
+              "筺",
+              "篋",
+              "篚"
+            ],
+            "codepoints": [
+              "U+7B50",
+              "U+7B7A",
+              "U+7BCB",
+              "U+7BDA"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 4,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "縻",
+              "麼"
+            ],
+            "codepoints": [
+              "U+7E3B",
+              "U+9EBC"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "跚",
+              "蹟"
+            ],
+            "codepoints": [
+              "U+8DDA",
+              "U+8E5F"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "逸",
+              "逸"
+            ],
+            "codepoints": [
+              "U+9038",
+              "U+FA67"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鏈",
+              "𨯯"
+            ],
+            "codepoints": [
+              "U+93C8",
+              "U+28BEF"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鏖",
+              "麈"
+            ],
+            "codepoints": [
+              "U+93D6",
+              "U+9E88"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鐡",
+              "鐵"
+            ],
+            "codepoints": [
+              "U+9421",
+              "U+9435"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "閘",
+              "闡"
+            ],
+            "codepoints": [
+              "U+9598",
+              "U+95E1"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "閫",
+              "闇",
+              "𨷻"
+            ],
+            "codepoints": [
+              "U+95AB",
+              "U+95C7",
+              "U+28DFB"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 3,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "闌",
+              "闓"
+            ],
+            "codepoints": [
+              "U+95CC",
+              "U+95D3"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "鬪",
+              "鬫"
+            ],
+            "codepoints": [
+              "U+9B2A",
+              "U+9B2B"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鰲",
+              "鱉"
+            ],
+            "codepoints": [
+              "U+9C32",
+              "U+9C49"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "麭",
+              "麯"
+            ],
+            "codepoints": [
+              "U+9EAD",
+              "U+9EAF"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鼇",
+              "鼈"
+            ],
+            "codepoints": [
+              "U+9F07",
+              "U+9F08"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "艹",
+              "艹"
+            ],
+            "codepoints": [
+              "U+FA5D",
+              "U+FA5E"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          }
+        ]
+      },
+      {
+        "style": "subscript",
+        "nominal_pixels": 24,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 7,
+        "raster_only_group_count": 4,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "惚",
+              "愡"
+            ],
+            "codepoints": [
+              "U+60DA",
+              "U+6121"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "煮",
+              "煮"
+            ],
+            "codepoints": [
+              "U+716E",
+              "U+FA48"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "畫",
+              "畺"
+            ],
+            "codepoints": [
+              "U+756B",
+              "U+757A"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "筐",
+              "筺"
+            ],
+            "codepoints": [
+              "U+7B50",
+              "U+7B7A"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "subscript",
+        "nominal_pixels": 32,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 4,
+        "raster_only_group_count": 1,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "煮",
+              "煮"
+            ],
+            "codepoints": [
+              "U+716E",
+              "U+FA48"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "superscript",
+        "nominal_pixels": 16,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 63,
+        "raster_only_group_count": 60,
+        "collision_groups": [
+          {
+            "characters": [
+              "䰗",
+              "鬩",
+              "鬪",
+              "鬭"
+            ],
+            "codepoints": [
+              "U+4C17",
+              "U+9B29",
+              "U+9B2A",
+              "U+9B2D"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 4,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "丼",
+              "井"
+            ],
+            "codepoints": [
+              "U+4E3C",
+              "U+4E95"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "俱",
+              "倶"
+            ],
+            "codepoints": [
+              "U+4FF1",
+              "U+5036"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "倆",
+              "倻"
+            ],
+            "codepoints": [
+              "U+5006",
+              "U+503B"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "劒",
+              "劔"
+            ],
+            "codepoints": [
+              "U+5292",
+              "U+5294"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "勦",
+              "勳"
+            ],
+            "codepoints": [
+              "U+52E6",
+              "U+52F3"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "勿",
+              "匆"
+            ],
+            "codepoints": [
+              "U+52FF",
+              "U+5306"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "卣",
+              "鹵"
+            ],
+            "codepoints": [
+              "U+5363",
+              "U+9E75"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "口",
+              "囗"
+            ],
+            "codepoints": [
+              "U+53E3",
+              "U+56D7"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "嘨",
+              "嘯"
+            ],
+            "codepoints": [
+              "U+5628",
+              "U+562F"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "固",
+              "𡈁"
+            ],
+            "codepoints": [
+              "U+56FA",
+              "U+21201"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "圃",
+              "國"
+            ],
+            "codepoints": [
+              "U+5703",
+              "U+570B"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "堅",
+              "𡌛"
+            ],
+            "codepoints": [
+              "U+5805",
+              "U+2131B"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "寛",
+              "寬"
+            ],
+            "codepoints": [
+              "U+5BDB",
+              "U+5BEC"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "已",
+              "巳"
+            ],
+            "codepoints": [
+              "U+5DF2",
+              "U+5DF3"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "廒",
+              "廠"
+            ],
+            "codepoints": [
+              "U+5ED2",
+              "U+5EE0"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "截",
+              "載"
+            ],
+            "codepoints": [
+              "U+622A",
+              "U+8F09"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "掴",
+              "插"
+            ],
+            "codepoints": [
+              "U+63B4",
+              "U+63D2"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "揺",
+              "搯"
+            ],
+            "codepoints": [
+              "U+63FA",
+              "U+642F"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "槐",
+              "櫆"
+            ],
+            "codepoints": [
+              "U+69D0",
+              "U+6AC6"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "樰",
+              "𣘸"
+            ],
+            "codepoints": [
+              "U+6A30",
+              "U+23638"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "橸",
+              "檔"
+            ],
+            "codepoints": [
+              "U+6A78",
+              "U+6A94"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "歠",
+              "歡"
+            ],
+            "codepoints": [
+              "U+6B60",
+              "U+6B61"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "泅",
+              "洄"
+            ],
+            "codepoints": [
+              "U+6CC5",
+              "U+6D04"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "渚",
+              "渚"
+            ],
+            "codepoints": [
+              "U+6E1A",
+              "U+FA46"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "濼",
+              "灤"
+            ],
+            "codepoints": [
+              "U+6FFC",
+              "U+7064"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "煮",
+              "煮"
+            ],
+            "codepoints": [
+              "U+716E",
+              "U+FA48"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "猪",
+              "猪"
+            ],
+            "codepoints": [
+              "U+732A",
+              "U+FA16"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "畎",
+              "默"
+            ],
+            "codepoints": [
+              "U+754E",
+              "U+9ED8"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "疉",
+              "疊"
+            ],
+            "codepoints": [
+              "U+7589",
+              "U+758A"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "痓",
+              "痘"
+            ],
+            "codepoints": [
+              "U+75D3",
+              "U+75D8"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "緒",
+              "緖"
+            ],
+            "codepoints": [
+              "U+7DD2",
+              "U+7DD6"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "縛",
+              "縟"
+            ],
+            "codepoints": [
+              "U+7E1B",
+              "U+7E1F"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "縻",
+              "麼"
+            ],
+            "codepoints": [
+              "U+7E3B",
+              "U+9EBC"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "繍",
+              "繡"
+            ],
+            "codepoints": [
+              "U+7E4D",
+              "U+7E61"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "者",
+              "者"
+            ],
+            "codepoints": [
+              "U+8005",
+              "U+FA5B"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "苜",
+              "菌",
+              "薗"
+            ],
+            "codepoints": [
+              "U+82DC",
+              "U+83CC",
+              "U+8597"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 3,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "苢",
+              "莒"
+            ],
+            "codepoints": [
+              "U+82E2",
+              "U+8392"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "荀",
+              "萄"
+            ],
+            "codepoints": [
+              "U+8340",
+              "U+8404"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "薀",
+              "藩"
+            ],
+            "codepoints": [
+              "U+8580",
+              "U+85E9"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "藺",
+              "蘭"
+            ],
+            "codepoints": [
+              "U+85FA",
+              "U+862D"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "蠃",
+              "贏"
+            ],
+            "codepoints": [
+              "U+8803",
+              "U+8D0F"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "譚",
+              "譯"
+            ],
+            "codepoints": [
+              "U+8B5A",
+              "U+8B6F"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "逸",
+              "逸"
+            ],
+            "codepoints": [
+              "U+9038",
+              "U+FA67"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "錮",
+              "鏈",
+              "𨯯"
+            ],
+            "codepoints": [
+              "U+932E",
+              "U+93C8",
+              "U+28BEF"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 3,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鐔",
+              "鐸"
+            ],
+            "codepoints": [
+              "U+9414",
+              "U+9438"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鐡",
+              "鐵"
+            ],
+            "codepoints": [
+              "U+9421",
+              "U+9435"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "閶",
+              "閽"
+            ],
+            "codepoints": [
+              "U+95B6",
+              "U+95BD"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "闖",
+              "𨵱"
+            ],
+            "codepoints": [
+              "U+95D6",
+              "U+28D71"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "靭",
+              "靱"
+            ],
+            "codepoints": [
+              "U+976D",
+              "U+9771"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "韴",
+              "魳"
+            ],
+            "codepoints": [
+              "U+97F4",
+              "U+9B73"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "飂",
+              "飋"
+            ],
+            "codepoints": [
+              "U+98C2",
+              "U+98CB"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "駃",
+              "鴃"
+            ],
+            "codepoints": [
+              "U+99C3",
+              "U+9D03"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "駔",
+              "𪗱"
+            ],
+            "codepoints": [
+              "U+99D4",
+              "U+2A5F1"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "駝",
+              "鴕"
+            ],
+            "codepoints": [
+              "U+99DD",
+              "U+9D15"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鬥",
+              "鬨"
+            ],
+            "codepoints": [
+              "U+9B25",
+              "U+9B28"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "魍",
+              "魑"
+            ],
+            "codepoints": [
+              "U+9B4D",
+              "U+9B51"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鰮",
+              "鱈",
+              "鱩"
+            ],
+            "codepoints": [
+              "U+9C2E",
+              "U+9C48",
+              "U+9C69"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 3,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鶇",
+              "鶤"
+            ],
+            "codepoints": [
+              "U+9D87",
+              "U+9DA4"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鷭",
+              "鸍",
+              "鸛",
+              "鸜"
+            ],
+            "codepoints": [
+              "U+9DED",
+              "U+9E0D",
+              "U+9E1B",
+              "U+9E1C"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 4,
+            "all_legacy": false
+          }
+        ]
+      },
+      {
+        "style": "superscript",
+        "nominal_pixels": 18,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 28,
+        "raster_only_group_count": 25,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "嗜",
+              "嚕"
+            ],
+            "codepoints": [
+              "U+55DC",
+              "U+5695"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "奥",
+              "奧"
+            ],
+            "codepoints": [
+              "U+5965",
+              "U+5967"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "寛",
+              "寬"
+            ],
+            "codepoints": [
+              "U+5BDB",
+              "U+5BEC"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "己",
+              "已",
+              "巳"
+            ],
+            "codepoints": [
+              "U+5DF1",
+              "U+5DF2",
+              "U+5DF3"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 3,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "懲",
+              "懲"
+            ],
+            "codepoints": [
+              "U+61F2",
+              "U+FA40"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "樝",
+              "櫨"
+            ],
+            "codepoints": [
+              "U+6A1D",
+              "U+6AE8"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "橺",
+              "欄"
+            ],
+            "codepoints": [
+              "U+6A7A",
+              "U+6B04"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "檑",
+              "櫺"
+            ],
+            "codepoints": [
+              "U+6A91",
+              "U+6AFA"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "欛",
+              "𣠽"
+            ],
+            "codepoints": [
+              "U+6B1B",
+              "U+2383D"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "煮",
+              "煮"
+            ],
+            "codepoints": [
+              "U+716E",
+              "U+FA48"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "筐",
+              "筺",
+              "篋",
+              "篚"
+            ],
+            "codepoints": [
+              "U+7B50",
+              "U+7B7A",
+              "U+7BCB",
+              "U+7BDA"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 4,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "縻",
+              "麼"
+            ],
+            "codepoints": [
+              "U+7E3B",
+              "U+9EBC"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "跚",
+              "蹟"
+            ],
+            "codepoints": [
+              "U+8DDA",
+              "U+8E5F"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "逸",
+              "逸"
+            ],
+            "codepoints": [
+              "U+9038",
+              "U+FA67"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鏈",
+              "𨯯"
+            ],
+            "codepoints": [
+              "U+93C8",
+              "U+28BEF"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鏖",
+              "麈"
+            ],
+            "codepoints": [
+              "U+93D6",
+              "U+9E88"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鐡",
+              "鐵"
+            ],
+            "codepoints": [
+              "U+9421",
+              "U+9435"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "閘",
+              "闡"
+            ],
+            "codepoints": [
+              "U+9598",
+              "U+95E1"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "閫",
+              "闇",
+              "𨷻"
+            ],
+            "codepoints": [
+              "U+95AB",
+              "U+95C7",
+              "U+28DFB"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 3,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "闌",
+              "闓"
+            ],
+            "codepoints": [
+              "U+95CC",
+              "U+95D3"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "鬪",
+              "鬫"
+            ],
+            "codepoints": [
+              "U+9B2A",
+              "U+9B2B"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鰲",
+              "鱉"
+            ],
+            "codepoints": [
+              "U+9C32",
+              "U+9C49"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "麭",
+              "麯"
+            ],
+            "codepoints": [
+              "U+9EAD",
+              "U+9EAF"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "鼇",
+              "鼈"
+            ],
+            "codepoints": [
+              "U+9F07",
+              "U+9F08"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "艹",
+              "艹"
+            ],
+            "codepoints": [
+              "U+FA5D",
+              "U+FA5E"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          }
+        ]
+      },
+      {
+        "style": "superscript",
+        "nominal_pixels": 24,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 7,
+        "raster_only_group_count": 4,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "惚",
+              "愡"
+            ],
+            "codepoints": [
+              "U+60DA",
+              "U+6121"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "煮",
+              "煮"
+            ],
+            "codepoints": [
+              "U+716E",
+              "U+FA48"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "畫",
+              "畺"
+            ],
+            "codepoints": [
+              "U+756B",
+              "U+757A"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "筐",
+              "筺"
+            ],
+            "codepoints": [
+              "U+7B50",
+              "U+7B7A"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      },
+      {
+        "style": "superscript",
+        "nominal_pixels": 32,
+        "checked": 10053,
+        "missing": [],
+        "blank": [],
+        "collision_group_count": 4,
+        "raster_only_group_count": 1,
+        "collision_groups": [
+          {
+            "characters": [
+              "剝",
+              "剥"
+            ],
+            "codepoints": [
+              "U+525D",
+              "U+5265"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "塡",
+              "填"
+            ],
+            "codepoints": [
+              "U+5861",
+              "U+586B"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          },
+          {
+            "characters": [
+              "煮",
+              "煮"
+            ],
+            "codepoints": [
+              "U+716E",
+              "U+FA48"
+            ],
+            "classification": "raster-only-collapse",
+            "source_geometry_count": 2,
+            "all_legacy": false
+          },
+          {
+            "characters": [
+              "頬",
+              "頰"
+            ],
+            "codepoints": [
+              "U+982C",
+              "U+9830"
+            ],
+            "classification": "source-equivalent",
+            "source_geometry_count": 1,
+            "all_legacy": true
+          }
+        ]
+      }
+    ],
+    "visual_legibility_certified": false,
+    "strikes_checked": 32,
+    "complete_inventory": true,
+    "strikes_with_raster_only_collapses": 22,
+    "warning": "Exact collisions are disclosed separately from structural test success. Different characters can be indistinguishable at low resolution; all glyphs still require visual proofreading."
+  }
+}

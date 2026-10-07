@@ -1,0 +1,4327 @@
+{
+  "source": "https://www.unicode.org/Public/18.0.0/ucd/Unihan.zip",
+  "source_sha256": "4c93ea9c1f636451729a840978f1667a53886af37ba854fdcce109721c63d43e",
+  "unicode_version": "18.0.0",
+  "entries": [
+    {
+      "unicode": "U+4E11",
+      "text": "丑",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4E1E",
+      "text": "丞",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4E43",
+      "text": "乃",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4E4B",
+      "text": "之",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4E4E",
+      "text": "乎",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4E58",
+      "text": "乘",
+      "property": "2010:U+4E57"
+    },
+    {
+      "unicode": "U+4E5F",
+      "text": "也",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4E91",
+      "text": "云",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4E98",
+      "text": "亘",
+      "property": "2010:U+4E99"
+    },
+    {
+      "unicode": "U+4E99",
+      "text": "亙",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4E9B",
+      "text": "些",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4E9E",
+      "text": "亞",
+      "property": "2010:U+4E9C"
+    },
+    {
+      "unicode": "U+4EA5",
+      "text": "亥",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4EA6",
+      "text": "亦",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4EA8",
+      "text": "亨",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4EAE",
+      "text": "亮",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4ED4",
+      "text": "仔",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4F0A",
+      "text": "伊",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4F0D",
+      "text": "伍",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4F36",
+      "text": "伶",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4F3D",
+      "text": "伽",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4F43",
+      "text": "佃",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4F51",
+      "text": "佑",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4F5B",
+      "text": "佛",
+      "property": "2010:U+4ECF"
+    },
+    {
+      "unicode": "U+4F83",
+      "text": "侃",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4F86",
+      "text": "來",
+      "property": "2010:U+6765"
+    },
+    {
+      "unicode": "U+4F91",
+      "text": "侑",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4FC4",
+      "text": "俄",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4FD0",
+      "text": "俐",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4FE0",
+      "text": "俠",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4FE3",
+      "text": "俣",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+4FF1",
+      "text": "俱",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5016",
+      "text": "倖",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5026",
+      "text": "倦",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+502D",
+      "text": "倭",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5072",
+      "text": "偲",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+50AD",
+      "text": "傭",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+50B3",
+      "text": "傳",
+      "property": "2010:U+4F1D"
+    },
+    {
+      "unicode": "U+50DE",
+      "text": "僞",
+      "property": "2010:U+507D"
+    },
+    {
+      "unicode": "U+50F9",
+      "text": "價",
+      "property": "2010:U+4FA1"
+    },
+    {
+      "unicode": "U+5109",
+      "text": "儉",
+      "property": "2010:U+5039"
+    },
+    {
+      "unicode": "U+5132",
+      "text": "儲",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5141",
+      "text": "允",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+514E",
+      "text": "兎",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5152",
+      "text": "兒",
+      "property": "2010:U+5150"
+    },
+    {
+      "unicode": "U+515C",
+      "text": "兜",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5176",
+      "text": "其",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+51A8",
+      "text": "冨",
+      "property": "2010:U+5BCC"
+    },
+    {
+      "unicode": "U+51B4",
+      "text": "冴",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+51C9",
+      "text": "凉",
+      "property": "2010:U+6DBC"
+    },
+    {
+      "unicode": "U+51CC",
+      "text": "凌",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+51DB",
+      "text": "凛",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+51DC",
+      "text": "凜",
+      "property": "2010:U+51DB"
+    },
+    {
+      "unicode": "U+51E7",
+      "text": "凧",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+51EA",
+      "text": "凪",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+51F0",
+      "text": "凰",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+51F1",
+      "text": "凱",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+51FD",
+      "text": "函",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5269",
+      "text": "剩",
+      "property": "2010:U+5270"
+    },
+    {
+      "unicode": "U+5289",
+      "text": "劉",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+528D",
+      "text": "劍",
+      "property": "2010:U+5263"
+    },
+    {
+      "unicode": "U+52AB",
+      "text": "劫",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+52C1",
+      "text": "勁",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+52D2",
+      "text": "勒",
+      "property": "2026"
+    },
+    {
+      "unicode": "U+52F3",
+      "text": "勳",
+      "property": "2010:U+52F2"
+    },
+    {
+      "unicode": "U+52FA",
+      "text": "勺",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+52FF",
+      "text": "勿",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5301",
+      "text": "匁",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5321",
+      "text": "匡",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+535C",
+      "text": "卜",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+536F",
+      "text": "卯",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5377",
+      "text": "卷",
+      "property": "2010:U+5DFB"
+    },
+    {
+      "unicode": "U+537D",
+      "text": "卽",
+      "property": "2010:U+5373"
+    },
+    {
+      "unicode": "U+537F",
+      "text": "卿",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+53A8",
+      "text": "厨",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+53A9",
+      "text": "厩",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+53C9",
+      "text": "叉",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+53E1",
+      "text": "叡",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+53E2",
+      "text": "叢",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+53EA",
+      "text": "只",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+53F6",
+      "text": "叶",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+541E",
+      "text": "吞",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+543B",
+      "text": "吻",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+543E",
+      "text": "吾",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+54C9",
+      "text": "哉",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+54E8",
+      "text": "哨",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+54E9",
+      "text": "哩",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5544",
+      "text": "啄",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+558B",
+      "text": "喋",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+55A7",
+      "text": "喧",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+55AC",
+      "text": "喬",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+55AE",
+      "text": "單",
+      "property": "2010:U+5358"
+    },
+    {
+      "unicode": "U+55B0",
+      "text": "喰",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5609",
+      "text": "嘉",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5617",
+      "text": "嘗",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5629",
+      "text": "嘩",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5642",
+      "text": "噂",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+564C",
+      "text": "噌",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+56B4",
+      "text": "嚴",
+      "property": "2010:U+53B3"
+    },
+    {
+      "unicode": "U+5703",
+      "text": "圃",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5708",
+      "text": "圈",
+      "property": "2010:U+570F"
+    },
+    {
+      "unicode": "U+570B",
+      "text": "國",
+      "property": "2010:U+56FD"
+    },
+    {
+      "unicode": "U+5713",
+      "text": "圓",
+      "property": "2010:U+5186"
+    },
+    {
+      "unicode": "U+5718",
+      "text": "團",
+      "property": "2010:U+56E3"
+    },
+    {
+      "unicode": "U+572D",
+      "text": "圭",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5750",
+      "text": "坐",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5766",
+      "text": "坦",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+57DC",
+      "text": "埜",
+      "property": "2010:U+91CE"
+    },
+    {
+      "unicode": "U+57F4",
+      "text": "埴",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+582F",
+      "text": "堯",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5830",
+      "text": "堰",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5835",
+      "text": "堵",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+583A",
+      "text": "堺",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5859",
+      "text": "塙",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+589E",
+      "text": "增",
+      "property": "2010:U+5897"
+    },
+    {
+      "unicode": "U+58D5",
+      "text": "壕",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+58D8",
+      "text": "壘",
+      "property": "2010:U+5841"
+    },
+    {
+      "unicode": "U+58DE",
+      "text": "壞",
+      "property": "2010:U+58CA"
+    },
+    {
+      "unicode": "U+58EC",
+      "text": "壬",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+58EF",
+      "text": "壯",
+      "property": "2010:U+58EE"
+    },
+    {
+      "unicode": "U+58FD",
+      "text": "壽",
+      "property": "2010:U+5BFF"
+    },
+    {
+      "unicode": "U+5937",
+      "text": "夷",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5944",
+      "text": "奄",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+594E",
+      "text": "奎",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5957",
+      "text": "套",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5967",
+      "text": "奧",
+      "property": "2010:U+5965"
+    },
+    {
+      "unicode": "U+596C",
+      "text": "奬",
+      "property": "2010:U+5968"
+    },
+    {
+      "unicode": "U+59E5",
+      "text": "姥",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+59EA",
+      "text": "姪",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5A03",
+      "text": "娃",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5A29",
+      "text": "娩",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5B09",
+      "text": "嬉",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5B43",
+      "text": "孃",
+      "property": "2010:U+5B22"
+    },
+    {
+      "unicode": "U+5B5C",
+      "text": "孜",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5B5F",
+      "text": "孟",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5B8B",
+      "text": "宋",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5B8F",
+      "text": "宏",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5B95",
+      "text": "宕",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5BA5",
+      "text": "宥",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5BC5",
+      "text": "寅",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5BD3",
+      "text": "寓",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5BE2",
+      "text": "寢",
+      "property": "2010:U+5BDD"
+    },
+    {
+      "unicode": "U+5BE6",
+      "text": "實",
+      "property": "2010:U+5B9F"
+    },
+    {
+      "unicode": "U+5BEC",
+      "text": "寬",
+      "property": "2010:U+5BDB"
+    },
+    {
+      "unicode": "U+5BF5",
+      "text": "寵",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5C07",
+      "text": "將",
+      "property": "2010:U+5C06"
+    },
+    {
+      "unicode": "U+5C08",
+      "text": "專",
+      "property": "2010:U+5C02"
+    },
+    {
+      "unicode": "U+5C16",
+      "text": "尖",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5C24",
+      "text": "尤",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5C2D",
+      "text": "尭",
+      "property": "2010:U+582F"
+    },
+    {
+      "unicode": "U+5C51",
+      "text": "屑",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5CE8",
+      "text": "峨",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5CEF",
+      "text": "峯",
+      "property": "2010:U+5CF0"
+    },
+    {
+      "unicode": "U+5CFB",
+      "text": "峻",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5CFD",
+      "text": "峽",
+      "property": "2010:U+5CE1"
+    },
+    {
+      "unicode": "U+5D1A",
+      "text": "崚",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5D69",
+      "text": "嵩",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5D6F",
+      "text": "嵯",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5D8B",
+      "text": "嶋",
+      "property": "2010:U+5CF6"
+    },
+    {
+      "unicode": "U+5DBA",
+      "text": "嶺",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5DCC",
+      "text": "巌",
+      "property": "2010:U+5DD6"
+    },
+    {
+      "unicode": "U+5DD6",
+      "text": "巖",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5DE2",
+      "text": "巢",
+      "property": "2010:U+5DE3"
+    },
+    {
+      "unicode": "U+5DEB",
+      "text": "巫",
+      "property": "2015"
+    },
+    {
+      "unicode": "U+5DF2",
+      "text": "已",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5DF3",
+      "text": "巳",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5DF4",
+      "text": "巴",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5DF7",
+      "text": "巷",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5DFD",
+      "text": "巽",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5E16",
+      "text": "帖",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5E36",
+      "text": "帶",
+      "property": "2010:U+5E2F"
+    },
+    {
+      "unicode": "U+5E4C",
+      "text": "幌",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5E61",
+      "text": "幡",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5E84",
+      "text": "庄",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5E87",
+      "text": "庇",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5E9A",
+      "text": "庚",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5EB5",
+      "text": "庵",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5EDF",
+      "text": "廟",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5EE3",
+      "text": "廣",
+      "property": "2010:U+5E83"
+    },
+    {
+      "unicode": "U+5EF3",
+      "text": "廳",
+      "property": "2010:U+5E81"
+    },
+    {
+      "unicode": "U+5EFB",
+      "text": "廻",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5EFF",
+      "text": "廿",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5F18",
+      "text": "弘",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5F1B",
+      "text": "弛",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5F48",
+      "text": "彈",
+      "property": "2010:U+5F3E"
+    },
+    {
+      "unicode": "U+5F4C",
+      "text": "彌",
+      "property": "2010:U+5F25"
+    },
+    {
+      "unicode": "U+5F57",
+      "text": "彗",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5F66",
+      "text": "彦",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5F6A",
+      "text": "彪",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5F6C",
+      "text": "彬",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5F9E",
+      "text": "從",
+      "property": "2010:U+5F93"
+    },
+    {
+      "unicode": "U+5FA0",
+      "text": "徠",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5FB5",
+      "text": "徵",
+      "property": "2010:U+5FB4"
+    },
+    {
+      "unicode": "U+5FB7",
+      "text": "德",
+      "property": "2010:U+5FB3"
+    },
+    {
+      "unicode": "U+5FBD",
+      "text": "徽",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+5FFD",
+      "text": "忽",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+601C",
+      "text": "怜",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6046",
+      "text": "恆",
+      "property": "2010:U+6052"
+    },
+    {
+      "unicode": "U+6055",
+      "text": "恕",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6062",
+      "text": "恢",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6070",
+      "text": "恰",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6089",
+      "text": "悉",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+608C",
+      "text": "悌",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+60C7",
+      "text": "惇",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+60DA",
+      "text": "惚",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+60DF",
+      "text": "惟",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+60E0",
+      "text": "惠",
+      "property": "2010:U+6075"
+    },
+    {
+      "unicode": "U+60E1",
+      "text": "惡",
+      "property": "2010:U+60AA"
+    },
+    {
+      "unicode": "U+60E3",
+      "text": "惣",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+60F9",
+      "text": "惹",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+60FA",
+      "text": "惺",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+613C",
+      "text": "愼",
+      "property": "2010:U+614E"
+    },
+    {
+      "unicode": "U+6167",
+      "text": "慧",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6190",
+      "text": "憐",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+61C9",
+      "text": "應",
+      "property": "2010:U+5FDC"
+    },
+    {
+      "unicode": "U+61F7",
+      "text": "懷",
+      "property": "2010:U+61D0"
+    },
+    {
+      "unicode": "U+620A",
+      "text": "戊",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6216",
+      "text": "或",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+621F",
+      "text": "戟",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6230",
+      "text": "戰",
+      "property": "2010:U+6226"
+    },
+    {
+      "unicode": "U+6232",
+      "text": "戲",
+      "property": "2010:U+622F"
+    },
+    {
+      "unicode": "U+6258",
+      "text": "托",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+62C2",
+      "text": "拂",
+      "property": "2010:U+6255"
+    },
+    {
+      "unicode": "U+62D4",
+      "text": "拔",
+      "property": "2010:U+629C"
+    },
+    {
+      "unicode": "U+62DC",
+      "text": "拜",
+      "property": "2010:U+62DD"
+    },
+    {
+      "unicode": "U+6309",
+      "text": "按",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+633A",
+      "text": "挺",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+633D",
+      "text": "挽",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6367",
+      "text": "捧",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6372",
+      "text": "捲",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6377",
+      "text": "捷",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+637A",
+      "text": "捺",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+63A0",
+      "text": "掠",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+63AC",
+      "text": "掬",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+63C3",
+      "text": "揃",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+63ED",
+      "text": "揭",
+      "property": "2010:U+63B2"
+    },
+    {
+      "unicode": "U+6416",
+      "text": "搖",
+      "property": "2010:U+63FA"
+    },
+    {
+      "unicode": "U+641C",
+      "text": "搜",
+      "property": "2010:U+635C"
+    },
+    {
+      "unicode": "U+6451",
+      "text": "摑",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+647A",
+      "text": "摺",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6492",
+      "text": "撒",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+649E",
+      "text": "撞",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+64AB",
+      "text": "撫",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+64AD",
+      "text": "播",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+64B0",
+      "text": "撰",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+64CA",
+      "text": "擊",
+      "property": "2010:U+6483"
+    },
+    {
+      "unicode": "U+64E2",
+      "text": "擢",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+651D",
+      "text": "攝",
+      "property": "2010:U+6442"
+    },
+    {
+      "unicode": "U+6536",
+      "text": "收",
+      "property": "2010:U+53CE"
+    },
+    {
+      "unicode": "U+654D",
+      "text": "敍",
+      "property": "2010:U+53D9"
+    },
+    {
+      "unicode": "U+6566",
+      "text": "敦",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6590",
+      "text": "斐",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+65A1",
+      "text": "斡",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+65A7",
+      "text": "斧",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+65AF",
+      "text": "斯",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+65BC",
+      "text": "於",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+65ED",
+      "text": "旭",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6602",
+      "text": "昂",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+660A",
+      "text": "昊",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+660C",
+      "text": "昌",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+660F",
+      "text": "昏",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6634",
+      "text": "昴",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6643",
+      "text": "晃",
+      "property": "2010:U+6644"
+    },
+    {
+      "unicode": "U+6644",
+      "text": "晄",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+664B",
+      "text": "晋",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+664F",
+      "text": "晏",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6652",
+      "text": "晒",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+665A",
+      "text": "晚",
+      "property": "2010:U+6669"
+    },
+    {
+      "unicode": "U+665D",
+      "text": "晝",
+      "property": "2010:U+663C"
+    },
+    {
+      "unicode": "U+665F",
+      "text": "晟",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6666",
+      "text": "晦",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6668",
+      "text": "晨",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+667A",
+      "text": "智",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6689",
+      "text": "暉",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+66A2",
+      "text": "暢",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+66C6",
+      "text": "曆",
+      "property": "2010:U+66A6"
+    },
+    {
+      "unicode": "U+66C9",
+      "text": "曉",
+      "property": "2010:U+6681"
+    },
+    {
+      "unicode": "U+66D9",
+      "text": "曙",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+66DD",
+      "text": "曝",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+66F3",
+      "text": "曳",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+66FE",
+      "text": "曾",
+      "property": "2010:U+66FD"
+    },
+    {
+      "unicode": "U+670B",
+      "text": "朋",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6714",
+      "text": "朔",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+674E",
+      "text": "李",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+674F",
+      "text": "杏",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6756",
+      "text": "杖",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+675C",
+      "text": "杜",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+676D",
+      "text": "杭",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6775",
+      "text": "杵",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6777",
+      "text": "杷",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6787",
+      "text": "枇",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+67CA",
+      "text": "柊",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+67CF",
+      "text": "柏",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+67D1",
+      "text": "柑",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+67D8",
+      "text": "柘",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+67DA",
+      "text": "柚",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+67F4",
+      "text": "柴",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+67FE",
+      "text": "柾",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6816",
+      "text": "栖",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6817",
+      "text": "栗",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+681E",
+      "text": "栞",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6842",
+      "text": "桂",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6850",
+      "text": "桐",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6854",
+      "text": "桔",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6867",
+      "text": "桧",
+      "property": "2010:U+6A9C"
+    },
+    {
+      "unicode": "U+6876",
+      "text": "桶",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6881",
+      "text": "梁",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6893",
+      "text": "梓",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+689B",
+      "text": "梛",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+689D",
+      "text": "條",
+      "property": "2010:U+6761"
+    },
+    {
+      "unicode": "U+68A2",
+      "text": "梢",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+68A7",
+      "text": "梧",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+68AF",
+      "text": "梯",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+68B6",
+      "text": "梶",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+68F2",
+      "text": "棲",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6900",
+      "text": "椀",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+690B",
+      "text": "椋",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+691B",
+      "text": "椛",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6930",
+      "text": "椰",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+693F",
+      "text": "椿",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+694A",
+      "text": "楊",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6953",
+      "text": "楓",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6955",
+      "text": "楕",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+695A",
+      "text": "楚",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6960",
+      "text": "楠",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6962",
+      "text": "楢",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+696F",
+      "text": "楯",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+698A",
+      "text": "榊",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+698E",
+      "text": "榎",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+699B",
+      "text": "榛",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+69AE",
+      "text": "榮",
+      "property": "2010:U+6804"
+    },
+    {
+      "unicode": "U+69C7",
+      "text": "槇",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+69CC",
+      "text": "槌",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+69CD",
+      "text": "槍",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+69D9",
+      "text": "槙",
+      "property": "2010:U+69C7"
+    },
+    {
+      "unicode": "U+69FB",
+      "text": "槻",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6A02",
+      "text": "樂",
+      "property": "2010:U+697D"
+    },
+    {
+      "unicode": "U+6A0B",
+      "text": "樋",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6A1F",
+      "text": "樟",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6A23",
+      "text": "樣",
+      "property": "2010:U+69D8"
+    },
+    {
+      "unicode": "U+6A2B",
+      "text": "樫",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6A3A",
+      "text": "樺",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6A3D",
+      "text": "樽",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6A58",
+      "text": "橘",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6A59",
+      "text": "橙",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6A6B",
+      "text": "橫",
+      "property": "2010:U+6A2A"
+    },
+    {
+      "unicode": "U+6A80",
+      "text": "檀",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6A8E",
+      "text": "檎",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6A9C",
+      "text": "檜",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6AA2",
+      "text": "檢",
+      "property": "2010:U+691C"
+    },
+    {
+      "unicode": "U+6AC2",
+      "text": "櫂",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6AD3",
+      "text": "櫓",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6ADB",
+      "text": "櫛",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6AFB",
+      "text": "櫻",
+      "property": "2010:U+685C"
+    },
+    {
+      "unicode": "U+6B23",
+      "text": "欣",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6B3D",
+      "text": "欽",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6B4E",
+      "text": "歎",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6B64",
+      "text": "此",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6B65",
+      "text": "步",
+      "property": "2010:U+6B69"
+    },
+    {
+      "unicode": "U+6B77",
+      "text": "歷",
+      "property": "2010:U+6B74"
+    },
+    {
+      "unicode": "U+6B86",
+      "text": "殆",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6BC5",
+      "text": "毅",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6BCF",
+      "text": "每",
+      "property": "2010:U+6BCE"
+    },
+    {
+      "unicode": "U+6BD8",
+      "text": "毘",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6BEC",
+      "text": "毬",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6C23",
+      "text": "氣",
+      "property": "2010:U+6C17"
+    },
+    {
+      "unicode": "U+6C40",
+      "text": "汀",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6C50",
+      "text": "汐",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6C5D",
+      "text": "汝",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6C72",
+      "text": "汲",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6C8C",
+      "text": "沌",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6C93",
+      "text": "沓",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6CAB",
+      "text": "沫",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6D1B",
+      "text": "洛",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6D32",
+      "text": "洲",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6D35",
+      "text": "洵",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6D38",
+      "text": "洸",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6D69",
+      "text": "浩",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6D6C",
+      "text": "浬",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6D89",
+      "text": "涉",
+      "property": "2010:U+6E09"
+    },
+    {
+      "unicode": "U+6DC0",
+      "text": "淀",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6DCB",
+      "text": "淋",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6DDA",
+      "text": "淚",
+      "property": "2010:U+6D99"
+    },
+    {
+      "unicode": "U+6DE8",
+      "text": "淨",
+      "property": "2010:U+6D44"
+    },
+    {
+      "unicode": "U+6DF3",
+      "text": "淳",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6DF5",
+      "text": "淵",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6E1A",
+      "text": "渚",
+      "property": "2010:U+FA46"
+    },
+    {
+      "unicode": "U+6E25",
+      "text": "渥",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6E34",
+      "text": "渴",
+      "property": "2010:U+6E07"
+    },
+    {
+      "unicode": "U+6E3E",
+      "text": "渾",
+      "property": "2017"
+    },
+    {
+      "unicode": "U+6E4A",
+      "text": "湊",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6E58",
+      "text": "湘",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6E5B",
+      "text": "湛",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6E9C",
+      "text": "溜",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6EA2",
+      "text": "溢",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6EAB",
+      "text": "溫",
+      "property": "2010:U+6E29"
+    },
+    {
+      "unicode": "U+6EC9",
+      "text": "滉",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6EEF",
+      "text": "滯",
+      "property": "2010:U+6EDE"
+    },
+    {
+      "unicode": "U+6F15",
+      "text": "漕",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6F23",
+      "text": "漣",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6F31",
+      "text": "漱",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6F81",
+      "text": "澁",
+      "property": "2010:U+6E0B"
+    },
+    {
+      "unicode": "U+6FAA",
+      "text": "澪",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+6FD5",
+      "text": "濕",
+      "property": "2010:U+6E7F"
+    },
+    {
+      "unicode": "U+6FE1",
+      "text": "濡",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7015",
+      "text": "瀕",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7027",
+      "text": "瀧",
+      "property": "2010:U+6EDD"
+    },
+    {
+      "unicode": "U+7028",
+      "text": "瀨",
+      "property": "2010:U+702C"
+    },
+    {
+      "unicode": "U+7058",
+      "text": "灘",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7078",
+      "text": "灸",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+707C",
+      "text": "灼",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+70CF",
+      "text": "烏",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+711A",
+      "text": "焚",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7130",
+      "text": "焰",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7149",
+      "text": "煉",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+714C",
+      "text": "煌",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7164",
+      "text": "煤",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7199",
+      "text": "熙",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+71C8",
+      "text": "燈",
+      "property": "2010:U+706F"
+    },
+    {
+      "unicode": "U+71CE",
+      "text": "燎",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+71D2",
+      "text": "燒",
+      "property": "2010:U+713C"
+    },
+    {
+      "unicode": "U+71D5",
+      "text": "燕",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+71E6",
+      "text": "燦",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+71ED",
+      "text": "燭",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+71FF",
+      "text": "燿",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+722D",
+      "text": "爭",
+      "property": "2010:U+4E89"
+    },
+    {
+      "unicode": "U+7232",
+      "text": "爲",
+      "property": "2010:U+70BA"
+    },
+    {
+      "unicode": "U+723E",
+      "text": "爾",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7252",
+      "text": "牒",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+725F",
+      "text": "牟",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7261",
+      "text": "牡",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+727D",
+      "text": "牽",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7280",
+      "text": "犀",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+72C0",
+      "text": "狀",
+      "property": "2010:U+72B6"
+    },
+    {
+      "unicode": "U+72F9",
+      "text": "狹",
+      "property": "2010:U+72ED"
+    },
+    {
+      "unicode": "U+72FC",
+      "text": "狼",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+732A",
+      "text": "猪",
+      "property": "2010:U+FA16"
+    },
+    {
+      "unicode": "U+7345",
+      "text": "獅",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7378",
+      "text": "獸",
+      "property": "2010:U+7363"
+    },
+    {
+      "unicode": "U+7396",
+      "text": "玖",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+73B2",
+      "text": "玲",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+73C0",
+      "text": "珀",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+73C2",
+      "text": "珂",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+73C8",
+      "text": "珈",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+73CA",
+      "text": "珊",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7409",
+      "text": "琉",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7422",
+      "text": "琢",
+      "property": "2010:U+FA4A"
+    },
+    {
+      "unicode": "U+7425",
+      "text": "琥",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7433",
+      "text": "琳",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7435",
+      "text": "琵",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7436",
+      "text": "琶",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+745A",
+      "text": "瑚",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+745B",
+      "text": "瑛",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+745E",
+      "text": "瑞",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7473",
+      "text": "瑳",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7476",
+      "text": "瑶",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+74DC",
+      "text": "瓜",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+74E2",
+      "text": "瓢",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7525",
+      "text": "甥",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+752B",
+      "text": "甫",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7560",
+      "text": "畠",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7562",
+      "text": "畢",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+758A",
+      "text": "疊",
+      "property": "2010:U+7573"
+    },
+    {
+      "unicode": "U+758B",
+      "text": "疋",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+758F",
+      "text": "疏",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7626",
+      "text": "瘦",
+      "property": "2010:U+75E9"
+    },
+    {
+      "unicode": "U+7690",
+      "text": "皐",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7693",
+      "text": "皓",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+76C3",
+      "text": "盃",
+      "property": "2010:U+676F"
+    },
+    {
+      "unicode": "U+76DC",
+      "text": "盜",
+      "property": "2010:U+76D7"
+    },
+    {
+      "unicode": "U+76E1",
+      "text": "盡",
+      "property": "2010:U+5C3D"
+    },
+    {
+      "unicode": "U+771E",
+      "text": "眞",
+      "property": "2010:U+771F"
+    },
+    {
+      "unicode": "U+7738",
+      "text": "眸",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+77A5",
+      "text": "瞥",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+77E9",
+      "text": "矩",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7825",
+      "text": "砥",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7826",
+      "text": "砦",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7827",
+      "text": "砧",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+786F",
+      "text": "硯",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+788E",
+      "text": "碎",
+      "property": "2010:U+7815"
+    },
+    {
+      "unicode": "U+7893",
+      "text": "碓",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7897",
+      "text": "碗",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+78A7",
+      "text": "碧",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+78A9",
+      "text": "碩",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+78D0",
+      "text": "磐",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+78EF",
+      "text": "磯",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7941",
+      "text": "祁",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7947",
+      "text": "祇",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7950",
+      "text": "祐",
+      "property": "2010:U+FA4F"
+    },
+    {
+      "unicode": "U+7955",
+      "text": "祕",
+      "property": "2010:U+79D8"
+    },
+    {
+      "unicode": "U+7962",
+      "text": "祢",
+      "property": "2010:U+79B0"
+    },
+    {
+      "unicode": "U+7977",
+      "text": "祷",
+      "property": "2010:U+79B1"
+    },
+    {
+      "unicode": "U+797F",
+      "text": "祿",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7984",
+      "text": "禄",
+      "property": "2010:U+797F"
+    },
+    {
+      "unicode": "U+798E",
+      "text": "禎",
+      "property": "2010:U+FA53"
+    },
+    {
+      "unicode": "U+79AA",
+      "text": "禪",
+      "property": "2010:U+7985"
+    },
+    {
+      "unicode": "U+79AE",
+      "text": "禮",
+      "property": "2010:U+793C"
+    },
+    {
+      "unicode": "U+79B0",
+      "text": "禰",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+79B1",
+      "text": "禱",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+79BD",
+      "text": "禽",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+79BE",
+      "text": "禾",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+79E4",
+      "text": "秤",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+79E6",
+      "text": "秦",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7A00",
+      "text": "稀",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7A14",
+      "text": "稔",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7A1C",
+      "text": "稜",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7A1F",
+      "text": "稟",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7A3B",
+      "text": "稻",
+      "property": "2010:U+7A32"
+    },
+    {
+      "unicode": "U+7A57",
+      "text": "穗",
+      "property": "2010:U+7A42"
+    },
+    {
+      "unicode": "U+7A63",
+      "text": "穣",
+      "property": "2010:U+7A70"
+    },
+    {
+      "unicode": "U+7A70",
+      "text": "穰",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7A79",
+      "text": "穹",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7A7F",
+      "text": "穿",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7A84",
+      "text": "窄",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7AAA",
+      "text": "窪",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7ABA",
+      "text": "窺",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7AE3",
+      "text": "竣",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7AEA",
+      "text": "竪",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7AFA",
+      "text": "竺",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7AFF",
+      "text": "竿",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7B08",
+      "text": "笈",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7B19",
+      "text": "笙",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7B20",
+      "text": "笠",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7B39",
+      "text": "笹",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7B48",
+      "text": "筈",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7B51",
+      "text": "筑",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7B94",
+      "text": "箔",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7B95",
+      "text": "箕",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7BC7",
+      "text": "篇",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7BE0",
+      "text": "篠",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7C1E",
+      "text": "簞",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7C3E",
+      "text": "簾",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7C7E",
+      "text": "籾",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7C9F",
+      "text": "粟",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7CA5",
+      "text": "粥",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7CB9",
+      "text": "粹",
+      "property": "2010:U+7C8B"
+    },
+    {
+      "unicode": "U+7CCA",
+      "text": "糊",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7D10",
+      "text": "紐",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7D17",
+      "text": "紗",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7D18",
+      "text": "紘",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7D2C",
+      "text": "紬",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7D43",
+      "text": "絃",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7D46",
+      "text": "絆",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7D62",
+      "text": "絢",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7D9C",
+      "text": "綜",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7DA0",
+      "text": "綠",
+      "property": "2010:U+7DD1"
+    },
+    {
+      "unicode": "U+7DB4",
+      "text": "綴",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7DB8",
+      "text": "綸",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7DBA",
+      "text": "綺",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7DBE",
+      "text": "綾",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7DCB",
+      "text": "緋",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7DD6",
+      "text": "緖",
+      "property": "2010:U+7DD2"
+    },
+    {
+      "unicode": "U+7DE3",
+      "text": "緣",
+      "property": "2010:U+7E01"
+    },
+    {
+      "unicode": "U+7E1E",
+      "text": "縞",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7E23",
+      "text": "縣",
+      "property": "2010:U+770C"
+    },
+    {
+      "unicode": "U+7E31",
+      "text": "縱",
+      "property": "2010:U+7E26"
+    },
+    {
+      "unicode": "U+7E61",
+      "text": "繡",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7E6B",
+      "text": "繫",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7E82",
+      "text": "纂",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7E8F",
+      "text": "纏",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7E96",
+      "text": "纖",
+      "property": "2010:U+7E4A"
+    },
+    {
+      "unicode": "U+7F9A",
+      "text": "羚",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7FD4",
+      "text": "翔",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+7FE0",
+      "text": "翠",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8000",
+      "text": "耀",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+800C",
+      "text": "而",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8036",
+      "text": "耶",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+803D",
+      "text": "耽",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8061",
+      "text": "聡",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+807D",
+      "text": "聽",
+      "property": "2010:U+8074"
+    },
+    {
+      "unicode": "U+8087",
+      "text": "肇",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+808B",
+      "text": "肋",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+80B4",
+      "text": "肴",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+80E1",
+      "text": "胡",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+80E4",
+      "text": "胤",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8129",
+      "text": "脩",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8139",
+      "text": "脹",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8154",
+      "text": "腔",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+818F",
+      "text": "膏",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+81DF",
+      "text": "臟",
+      "property": "2010:U+81D3"
+    },
+    {
+      "unicode": "U+81E5",
+      "text": "臥",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8207",
+      "text": "與",
+      "property": "2010:U+4E0E"
+    },
+    {
+      "unicode": "U+821C",
+      "text": "舜",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8235",
+      "text": "舵",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8299",
+      "text": "芙",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+82A5",
+      "text": "芥",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+82A6",
+      "text": "芦",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+82AD",
+      "text": "芭",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+82B9",
+      "text": "芹",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+82D1",
+      "text": "苑",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+82D4",
+      "text": "苔",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+82FA",
+      "text": "苺",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8304",
+      "text": "茄",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8305",
+      "text": "茅",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8309",
+      "text": "茉",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+831C",
+      "text": "茜",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8338",
+      "text": "茸",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+837B",
+      "text": "荻",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8389",
+      "text": "莉",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+838A",
+      "text": "莊",
+      "property": "2010:U+8358"
+    },
+    {
+      "unicode": "U+839E",
+      "text": "莞",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+83AB",
+      "text": "莫",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+83C5",
+      "text": "菅",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+83D6",
+      "text": "菖",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+83E9",
+      "text": "菩",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+83EB",
+      "text": "菫",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+83F1",
+      "text": "菱",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8404",
+      "text": "萄",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+840A",
+      "text": "萊",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+840C",
+      "text": "萌",
+      "property": "2010:U+8420"
+    },
+    {
+      "unicode": "U+8420",
+      "text": "萠",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8429",
+      "text": "萩",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+842C",
+      "text": "萬",
+      "property": "2010:U+4E07"
+    },
+    {
+      "unicode": "U+8431",
+      "text": "萱",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8461",
+      "text": "葡",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8463",
+      "text": "董",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8466",
+      "text": "葦",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8475",
+      "text": "葵",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+847A",
+      "text": "葺",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8490",
+      "text": "蒐",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8494",
+      "text": "蒔",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8499",
+      "text": "蒙",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+84B2",
+      "text": "蒲",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+84BC",
+      "text": "蒼",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+84C9",
+      "text": "蓉",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+84D1",
+      "text": "蓑",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+84EC",
+      "text": "蓬",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+84EE",
+      "text": "蓮",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8513",
+      "text": "蔓",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8523",
+      "text": "蔣",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8526",
+      "text": "蔦",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+852D",
+      "text": "蔭",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8543",
+      "text": "蕃",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8549",
+      "text": "蕉",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+854E",
+      "text": "蕎",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8557",
+      "text": "蕗",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8568",
+      "text": "蕨",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+856A",
+      "text": "蕪",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+857E",
+      "text": "蕾",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8597",
+      "text": "薗",
+      "property": "2010:U+5712"
+    },
+    {
+      "unicode": "U+8599",
+      "text": "薙",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+85A9",
+      "text": "薩",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+85B0",
+      "text": "薰",
+      "property": "2010:U+85AB"
+    },
+    {
+      "unicode": "U+85C1",
+      "text": "藁",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+85CF",
+      "text": "藏",
+      "property": "2010:U+8535"
+    },
+    {
+      "unicode": "U+85DD",
+      "text": "藝",
+      "property": "2010:U+82B8"
+    },
+    {
+      "unicode": "U+85E5",
+      "text": "藥",
+      "property": "2010:U+85AC"
+    },
+    {
+      "unicode": "U+8607",
+      "text": "蘇",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+862D",
+      "text": "蘭",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+865B",
+      "text": "虛",
+      "property": "2010:U+865A"
+    },
+    {
+      "unicode": "U+8766",
+      "text": "蝦",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8776",
+      "text": "蝶",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+87BA",
+      "text": "螺",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+87EC",
+      "text": "蟬",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+87F9",
+      "text": "蟹",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+881F",
+      "text": "蠟",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+885E",
+      "text": "衞",
+      "property": "2010:U+885B"
+    },
+    {
+      "unicode": "U+887F",
+      "text": "衿",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8888",
+      "text": "袈",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+88B4",
+      "text": "袴",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+88DD",
+      "text": "裝",
+      "property": "2010:U+88C5"
+    },
+    {
+      "unicode": "U+88DF",
+      "text": "裟",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+88E1",
+      "text": "裡",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+88F3",
+      "text": "裳",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8956",
+      "text": "襖",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+89BD",
+      "text": "覽",
+      "property": "2010:U+89A7"
+    },
+    {
+      "unicode": "U+8A0A",
+      "text": "訊",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8A23",
+      "text": "訣",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8A3B",
+      "text": "註",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8A62",
+      "text": "詢",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8A6B",
+      "text": "詫",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8ABC",
+      "text": "誼",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8AC4",
+      "text": "諄",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8ACF",
+      "text": "諏",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8AD2",
+      "text": "諒",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8AFA",
+      "text": "諺",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8B02",
+      "text": "謂",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8B20",
+      "text": "謠",
+      "property": "2010:U+8B21"
+    },
+    {
+      "unicode": "U+8B83",
+      "text": "讃",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8B93",
+      "text": "讓",
+      "property": "2010:U+8B72"
+    },
+    {
+      "unicode": "U+8C79",
+      "text": "豹",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8CB0",
+      "text": "貰",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8CD1",
+      "text": "賑",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8CE3",
+      "text": "賣",
+      "property": "2010:U+58F2"
+    },
+    {
+      "unicode": "U+8CF4",
+      "text": "賴",
+      "property": "2010:U+983C"
+    },
+    {
+      "unicode": "U+8D73",
+      "text": "赳",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8DE8",
+      "text": "跨",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8E44",
+      "text": "蹄",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8E5F",
+      "text": "蹟",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8F14",
+      "text": "輔",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8F2F",
+      "text": "輯",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8F3F",
+      "text": "輿",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8F49",
+      "text": "轉",
+      "property": "2010:U+8EE2"
+    },
+    {
+      "unicode": "U+8F5F",
+      "text": "轟",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8FB0",
+      "text": "辰",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8FBB",
+      "text": "辻",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8FBF",
+      "text": "辿",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8FC2",
+      "text": "迂",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8FC4",
+      "text": "迄",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8FE6",
+      "text": "迦",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+8FEA",
+      "text": "迪",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9017",
+      "text": "逗",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9019",
+      "text": "這",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+901E",
+      "text": "逞",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9022",
+      "text": "逢",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9041",
+      "text": "遁",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9059",
+      "text": "遙",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9065",
+      "text": "遥",
+      "property": "2010:U+9059"
+    },
+    {
+      "unicode": "U+907C",
+      "text": "遼",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9091",
+      "text": "邑",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+90C1",
+      "text": "郁",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+90DE",
+      "text": "郞",
+      "property": "2010:U+90CE"
+    },
+    {
+      "unicode": "U+912D",
+      "text": "鄭",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9149",
+      "text": "酉",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9187",
+      "text": "醇",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9189",
+      "text": "醉",
+      "property": "2010:U+9154"
+    },
+    {
+      "unicode": "U+918D",
+      "text": "醍",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9190",
+      "text": "醐",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+91AC",
+      "text": "醬",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+91C0",
+      "text": "釀",
+      "property": "2010:U+91B8"
+    },
+    {
+      "unicode": "U+91C9",
+      "text": "釉",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+91D8",
+      "text": "釘",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+91E7",
+      "text": "釧",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9291",
+      "text": "銑",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+92D2",
+      "text": "鋒",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+92F8",
+      "text": "鋸",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9304",
+      "text": "錄",
+      "property": "2010:U+9332"
+    },
+    {
+      "unicode": "U+9306",
+      "text": "錆",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9310",
+      "text": "錐",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9318",
+      "text": "錘",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+932B",
+      "text": "錫",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+934A",
+      "text": "鍊",
+      "property": "2010:U+932C"
+    },
+    {
+      "unicode": "U+936C",
+      "text": "鍬",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+93A7",
+      "text": "鎧",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+93AD",
+      "text": "鎭",
+      "property": "2010:U+93AE"
+    },
+    {
+      "unicode": "U+9444",
+      "text": "鑄",
+      "property": "2010:U+92F3"
+    },
+    {
+      "unicode": "U+9583",
+      "text": "閃",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+958F",
+      "text": "閏",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+95A4",
+      "text": "閤",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+963F",
+      "text": "阿",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9640",
+      "text": "陀",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9677",
+      "text": "陷",
+      "property": "2010:U+9665"
+    },
+    {
+      "unicode": "U+9688",
+      "text": "隈",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+96AA",
+      "text": "險",
+      "property": "2010:U+967A"
+    },
+    {
+      "unicode": "U+96BC",
+      "text": "隼",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+96C0",
+      "text": "雀",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+96C1",
+      "text": "雁",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+96DB",
+      "text": "雛",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+96DC",
+      "text": "雜",
+      "property": "2010:U+96D1"
+    },
+    {
+      "unicode": "U+96EB",
+      "text": "雫",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+971E",
+      "text": "霞",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9756",
+      "text": "靖",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+975C",
+      "text": "靜",
+      "property": "2010:U+9759"
+    },
+    {
+      "unicode": "U+9784",
+      "text": "鞄",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+978D",
+      "text": "鞍",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9798",
+      "text": "鞘",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+97A0",
+      "text": "鞠",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+97AD",
+      "text": "鞭",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9801",
+      "text": "頁",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+980C",
+      "text": "頌",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9817",
+      "text": "頗",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+985A",
+      "text": "顚",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+986F",
+      "text": "顯",
+      "property": "2010:U+9855"
+    },
+    {
+      "unicode": "U+98AF",
+      "text": "颯",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+98DC",
+      "text": "飜",
+      "property": "2010:U+7FFB"
+    },
+    {
+      "unicode": "U+9957",
+      "text": "饗",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+99A8",
+      "text": "馨",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+99B3",
+      "text": "馳",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+99B4",
+      "text": "馴",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+99C8",
+      "text": "駈",
+      "property": "2010:U+99C6"
+    },
+    {
+      "unicode": "U+99D5",
+      "text": "駕",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+99FF",
+      "text": "駿",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9A37",
+      "text": "騷",
+      "property": "2010:U+9A12"
+    },
+    {
+      "unicode": "U+9A4D",
+      "text": "驍",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9A57",
+      "text": "驗",
+      "property": "2010:U+9A13"
+    },
+    {
+      "unicode": "U+9AEE",
+      "text": "髮",
+      "property": "2010:U+9AEA"
+    },
+    {
+      "unicode": "U+9B41",
+      "text": "魁",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9B6F",
+      "text": "魯",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9B8E",
+      "text": "鮎",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9BC9",
+      "text": "鯉",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9BDB",
+      "text": "鯛",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9C2F",
+      "text": "鰯",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9C52",
+      "text": "鱒",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9C57",
+      "text": "鱗",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9CE9",
+      "text": "鳩",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9CF3",
+      "text": "鳳",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9CF6",
+      "text": "鳶",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9D28",
+      "text": "鴨",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9D3B",
+      "text": "鴻",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9D5C",
+      "text": "鵜",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9D6C",
+      "text": "鵬",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9DC4",
+      "text": "鷄",
+      "property": "2010:U+9D8F"
+    },
+    {
+      "unicode": "U+9DD7",
+      "text": "鷗",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9DF2",
+      "text": "鷲",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9DF9",
+      "text": "鷹",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9DFA",
+      "text": "鷺",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9E92",
+      "text": "麒",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9E9F",
+      "text": "麟",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9EBF",
+      "text": "麿",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9EC3",
+      "text": "黃",
+      "property": "2010:U+9EC4"
+    },
+    {
+      "unicode": "U+9ECE",
+      "text": "黎",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9ED1",
+      "text": "黑",
+      "property": "2010:U+9ED2"
+    },
+    {
+      "unicode": "U+9ED8",
+      "text": "默",
+      "property": "2010:U+9ED9"
+    },
+    {
+      "unicode": "U+9EDB",
+      "text": "黛",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9F0E",
+      "text": "鼎",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+9F4A",
+      "text": "齊",
+      "property": "2010:U+6589"
+    },
+    {
+      "unicode": "U+9F8D",
+      "text": "龍",
+      "property": "2010:U+7ADC"
+    },
+    {
+      "unicode": "U+F91D",
+      "text": "欄",
+      "property": "2010:U+6B04"
+    },
+    {
+      "unicode": "U+F928",
+      "text": "廊",
+      "property": "2010:U+5ECA"
+    },
+    {
+      "unicode": "U+F929",
+      "text": "朗",
+      "property": "2010:U+6717"
+    },
+    {
+      "unicode": "U+F936",
+      "text": "虜",
+      "property": "2010:U+865C"
+    },
+    {
+      "unicode": "U+F9D0",
+      "text": "類",
+      "property": "2010:U+985E"
+    },
+    {
+      "unicode": "U+FA16",
+      "text": "猪",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+FA19",
+      "text": "神",
+      "property": "2010:U+795E"
+    },
+    {
+      "unicode": "U+FA1A",
+      "text": "祥",
+      "property": "2010:U+7965"
+    },
+    {
+      "unicode": "U+FA1B",
+      "text": "福",
+      "property": "2010:U+798F"
+    },
+    {
+      "unicode": "U+FA22",
+      "text": "諸",
+      "property": "2010:U+8AF8"
+    },
+    {
+      "unicode": "U+FA26",
+      "text": "都",
+      "property": "2010:U+90FD"
+    },
+    {
+      "unicode": "U+FA30",
+      "text": "侮",
+      "property": "2010:U+4FAE"
+    },
+    {
+      "unicode": "U+FA31",
+      "text": "僧",
+      "property": "2010:U+50E7"
+    },
+    {
+      "unicode": "U+FA33",
+      "text": "勉",
+      "property": "2010:U+52C9"
+    },
+    {
+      "unicode": "U+FA34",
+      "text": "勤",
+      "property": "2010:U+52E4"
+    },
+    {
+      "unicode": "U+FA35",
+      "text": "卑",
+      "property": "2010:U+5351"
+    },
+    {
+      "unicode": "U+FA37",
+      "text": "嘆",
+      "property": "2010:U+5606"
+    },
+    {
+      "unicode": "U+FA38",
+      "text": "器",
+      "property": "2010:U+5668"
+    },
+    {
+      "unicode": "U+FA3A",
+      "text": "墨",
+      "property": "2010:U+58A8"
+    },
+    {
+      "unicode": "U+FA3B",
+      "text": "層",
+      "property": "2010:U+5C64"
+    },
+    {
+      "unicode": "U+FA3D",
+      "text": "悔",
+      "property": "2010:U+6094"
+    },
+    {
+      "unicode": "U+FA3F",
+      "text": "憎",
+      "property": "2010:U+618E"
+    },
+    {
+      "unicode": "U+FA40",
+      "text": "懲",
+      "property": "2010:U+61F2"
+    },
+    {
+      "unicode": "U+FA41",
+      "text": "敏",
+      "property": "2010:U+654F"
+    },
+    {
+      "unicode": "U+FA43",
+      "text": "暑",
+      "property": "2010:U+6691"
+    },
+    {
+      "unicode": "U+FA44",
+      "text": "梅",
+      "property": "2010:U+6885"
+    },
+    {
+      "unicode": "U+FA45",
+      "text": "海",
+      "property": "2010:U+6D77"
+    },
+    {
+      "unicode": "U+FA46",
+      "text": "渚",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+FA47",
+      "text": "漢",
+      "property": "2010:U+6F22"
+    },
+    {
+      "unicode": "U+FA48",
+      "text": "煮",
+      "property": "2010:U+716E"
+    },
+    {
+      "unicode": "U+FA4A",
+      "text": "琢",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+FA4B",
+      "text": "碑",
+      "property": "2010:U+7891"
+    },
+    {
+      "unicode": "U+FA4C",
+      "text": "社",
+      "property": "2010:U+793E"
+    },
+    {
+      "unicode": "U+FA4D",
+      "text": "祉",
+      "property": "2010:U+7949"
+    },
+    {
+      "unicode": "U+FA4E",
+      "text": "祈",
+      "property": "2010:U+7948"
+    },
+    {
+      "unicode": "U+FA4F",
+      "text": "祐",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+FA50",
+      "text": "祖",
+      "property": "2010:U+7956"
+    },
+    {
+      "unicode": "U+FA51",
+      "text": "祝",
+      "property": "2010:U+795D"
+    },
+    {
+      "unicode": "U+FA52",
+      "text": "禍",
+      "property": "2010:U+798D"
+    },
+    {
+      "unicode": "U+FA53",
+      "text": "禎",
+      "property": "2010"
+    },
+    {
+      "unicode": "U+FA54",
+      "text": "穀",
+      "property": "2010:U+7A40"
+    },
+    {
+      "unicode": "U+FA55",
+      "text": "突",
+      "property": "2010:U+7A81"
+    },
+    {
+      "unicode": "U+FA56",
+      "text": "節",
+      "property": "2010:U+7BC0"
+    },
+    {
+      "unicode": "U+FA57",
+      "text": "練",
+      "property": "2010:U+7DF4"
+    },
+    {
+      "unicode": "U+FA59",
+      "text": "繁",
+      "property": "2010:U+7E41"
+    },
+    {
+      "unicode": "U+FA5A",
+      "text": "署",
+      "property": "2010:U+7F72"
+    },
+    {
+      "unicode": "U+FA5B",
+      "text": "者",
+      "property": "2010:U+8005"
+    },
+    {
+      "unicode": "U+FA5C",
+      "text": "臭",
+      "property": "2010:U+81ED"
+    },
+    {
+      "unicode": "U+FA5F",
+      "text": "著",
+      "property": "2010:U+8457"
+    },
+    {
+      "unicode": "U+FA61",
+      "text": "視",
+      "property": "2010:U+8996"
+    },
+    {
+      "unicode": "U+FA62",
+      "text": "謁",
+      "property": "2010:U+8B01"
+    },
+    {
+      "unicode": "U+FA63",
+      "text": "謹",
+      "property": "2010:U+8B39"
+    },
+    {
+      "unicode": "U+FA64",
+      "text": "賓",
+      "property": "2010:U+8CD3"
+    },
+    {
+      "unicode": "U+FA65",
+      "text": "贈",
+      "property": "2010:U+8D08"
+    },
+    {
+      "unicode": "U+FA67",
+      "text": "逸",
+      "property": "2010:U+9038"
+    },
+    {
+      "unicode": "U+FA68",
+      "text": "難",
+      "property": "2010:U+96E3"
+    },
+    {
+      "unicode": "U+FA69",
+      "text": "響",
+      "property": "2010:U+97FF"
+    }
+  ]
+}

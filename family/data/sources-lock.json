@@ -1,0 +1,40 @@
+{
+  "retrieved_date": "2026-10-06",
+  "files": [
+    {
+      "file": "Unihan.zip",
+      "source": "https://www.unicode.org/Public/18.0.0/ucd/Unihan.zip",
+      "sha256": "4c93ea9c1f636451729a840978f1667a53886af37ba854fdcce109721c63d43e"
+    },
+    {
+      "file": "EmojiSources.txt",
+      "source": "https://www.unicode.org/Public/18.0.0/ucd/EmojiSources.txt",
+      "sha256": "4b46d42e9016d26a6d0548818413cd001a095c6ac904e693f4e6061d36516268"
+    },
+    {
+      "file": "StandardizedVariants.txt",
+      "source": "https://www.unicode.org/Public/18.0.0/ucd/StandardizedVariants.txt",
+      "sha256": "c7ae634a7e2bb0932258548a1e81df984fbb38e30cecf4269391d6a4f94581ac"
+    },
+    {
+      "file": "DerivedCoreProperties.txt",
+      "source": "https://www.unicode.org/Public/18.0.0/ucd/DerivedCoreProperties.txt",
+      "sha256": "09c928886a178fcafd93c29e4bd59073a058e5a100b716d425cb563ab50f68c9"
+    },
+    {
+      "file": "UnicodeData.txt",
+      "source": "https://www.unicode.org/Public/18.0.0/ucd/UnicodeData.txt",
+      "sha256": "0736451de439ae7baf1425136617da495e09ee5afbe6e394374db7009ea08950"
+    },
+    {
+      "file": "Blocks.txt",
+      "source": "https://www.unicode.org/Public/18.0.0/ucd/Blocks.txt",
+      "sha256": "a58f8d322f3c5e254f9f97b1cbf76a454a7e02de6ac35619a5e4f27aaabfd553"
+    },
+    {
+      "file": "UNICODE-LICENSE.txt",
+      "source": "https://www.unicode.org/license.txt",
+      "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96"
+    }
+  ]
+}
