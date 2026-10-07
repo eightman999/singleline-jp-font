@@ -1,5 +1,5 @@
 """Build the experimental family without modifying any legacy font artifact."""
-import argparse,gzip,hashlib,io,json,platform,gc
+import argparse,gzip,hashlib,io,json,platform,gc,subprocess
 from pathlib import Path
 from xml.sax.saxutils import escape
 from family.data_loader import load_glyphs
@@ -82,7 +82,14 @@ def main():
     details['_kanji_expansion']=provenance
     (out/'glyph-provenance.json.gz').write_bytes(gzip.compress(json.dumps(details,ensure_ascii=False,sort_keys=True).encode(),mtime=0))
     write_centerlines(glyphs,out/'centerlines.svg')
-    summary={'legacy':legacy,'fonts':[],'bitmaps':[],'source_commit':'c1f5774',
+    try:
+        source_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True,stderr=subprocess.DEVNULL).strip()
+        source_dirty=bool(subprocess.check_output(['git','status','--porcelain','--untracked-files=normal'],cwd=ROOT,text=True))
+    except (OSError,subprocess.CalledProcessError):
+        source_commit=None;source_dirty=None
+    summary={'legacy':legacy,'fonts':[],'bitmaps':[],'source_commit':source_commit,
+             'source_tree_dirty':source_dirty,
+             'source_identity_note':'source_commit is the checkout base; source_hashes bind actual working bytes, including uncommitted changes.',
         'python':platform.python_version(),'experimental':True,'reused_bitmap_strikes':args.reuse_bitmaps}
     for key in args.styles:
         style=STYLES[key]
