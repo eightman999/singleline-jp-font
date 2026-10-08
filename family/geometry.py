@@ -43,29 +43,49 @@ def _clockwise(points):
     return points if area <= 0 else list(reversed(points))
 
 
-def _stroke(path, vx, hy):
+def _bevel_stroke_unit(path):
+    """Fixed-topology unit-pen bevel joins, retaining each segment's width.
+
+    Safe miter joins are retained as duplicate points; only long acute
+    joins keep the two incident normal offsets as a true bevel. Unlike
+    clamping one averaged miter, this does not thin an entire segment.
+    Duplicate points keep every variation master at the same point count.
+    """
     points = [p for i,p in enumerate(path) if i == 0 or p != path[i-1]]
     if not points:
         return []
     if len(points) == 1:
         x,y = points[0]
-        return [(x-vx/2,y-hy/2),(x-vx/2,y+hy/2),(x+vx/2,y+hy/2),(x+vx/2,y-hy/2)]
+        return [(x-.5,y-.5),(x-.5,y+.5),(x+.5,y+.5),(x+.5,y-.5)]
     closed = points[0] == points[-1]
     normals = [_normal(a,b) for a,b in zip(points,points[1:])]
-    offsets = []
-    for i in range(len(points)):
-        if i == 0:
-            left,right = (normals[-1],normals[0]) if closed else (normals[0],normals[0])
-        elif i == len(points)-1:
-            left,right = (normals[-1],normals[0]) if closed else (normals[-1],normals[-1])
+    left, right = [], []
+    for i,(x,y) in enumerate(points):
+        previous = normals[i-1] if i else (normals[-1] if closed else normals[0])
+        following = normals[i] if i < len(normals) else (normals[0] if closed else normals[-1])
+        denominator = 1 + previous[0]*following[0] + previous[1]*following[1]
+        if denominator >= 0.5 - 1e-12:
+            # Preserve ordinary miter appearance; the duplicate is deliberate.
+            offset = ((previous[0]+following[0])/(2*denominator),
+                      (previous[1]+following[1])/(2*denominator))
+            offsets = (offset, offset)
         else:
-            left,right = normals[i-1], normals[i]
-        nx,ny = left[0]+right[0],left[1]+right[1]
-        denominator = max(0.5, 1+left[0]*right[0]+left[1]*right[1])
-        offsets.append((nx/denominator*vx/2, ny/denominator*hy/2))
-    polygon = [(x+dx,y+dy) for (x,y),(dx,dy) in zip(points,offsets)]
-    polygon += [(x-dx,y-dy) for (x,y),(dx,dy) in reversed(list(zip(points,offsets)))]
-    return _clockwise(polygon)
+            offsets = ((previous[0]/2,previous[1]/2),
+                       (following[0]/2,following[1]/2))
+        for ox,oy in offsets:
+            left.append((x+ox,y+oy))
+            right.append((x-ox,y-oy))
+    return _clockwise(left + list(reversed(right)))
+
+
+def _stroke(path, vx, hy):
+    # Offset in pen space for both isotropic and anisotropic styles. The old
+    # averaged-normal clamp thinned complete acute segments even for round
+    # pens, and could almost erase diagonals with anisotropic pens.
+    if vx <= 0 or hy <= 0:
+        raise ValueError('Stroke pen dimensions must be positive')
+    normalized = [(x / vx, y / hy) for x, y in path]
+    return [(x * vx, y * hy) for x, y in _bevel_stroke_unit(normalized)]
 
 
 @lru_cache(maxsize=128)

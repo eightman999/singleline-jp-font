@@ -375,3 +375,26 @@ def test_gate_evidence_binds_specimen_assets_without_metadata_cycles(checkout):
     subject['sources'][GATES] = 'd' * 64
     subject['sources'][MANIFEST] = 'e' * 64
     assert gate_artifact_digest(subject) == stable
+
+
+def test_review_stage_omits_historical_reports(checkout,tmp_path):
+    from family.tools.stage_review_artifacts import stage
+    root,output=checkout
+    doc=root/'docs/FULL-GLYPH-PROOFREAD.md';doc.parent.mkdir();doc.write_text('Review limits')
+    stale=output/'reports/stale-success.json';stale.parent.mkdir(exist_ok=True);stale.write_text('old')
+    target=tmp_path/'review'
+    stage(root,output,output/'reports/full-tests.json',target)
+    assert (target/'static/SinglelineJPLab-gothic.ttf').read_bytes()==b'static fixture'
+    assert (target/'reports/current-full-tests.json').is_file()
+    assert not (target/'reports/stale-success.json').exists()
+    assert (target/'LICENSE').exists()
+    with pytest.raises(ValueError,match='existing directory'):
+        stage(root,output,output/'reports/full-tests.json',target)
+
+
+def test_review_stage_rejects_stale_verification(checkout,tmp_path):
+    from family.tools.stage_review_artifacts import stage
+    root,output=checkout
+    (output/'static/SinglelineJPLab-gothic.ttf').write_bytes(b'changed')
+    with pytest.raises(VerificationError,match='Stale verification'):
+        stage(root,output,output/'reports/full-tests.json',tmp_path/'review')

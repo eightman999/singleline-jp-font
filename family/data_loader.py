@@ -8,7 +8,7 @@ from .repertoire import targets,standards
 
 
 MARKS={
- '\u0300':[[(14,0),(9,3)]], '\u0301':[[(9,3),(14,0)]],
+ '\u0300':[[(9,0),(14,3)]], '\u0301':[[(9,3),(14,0)]],
  '\u0302':[[(7,3),(12,0),(17,3)]], '\u0303':[[(6,2),(9,0),(14,3),(18,1)]],
  '\u0304':[[(7,1),(17,1)]], '\u0306':[[(7,0),(9,3),(15,3),(17,0)]],
  '\u0307':[[(12,0),(12,1)]], '\u0308':[[(8,0),(8,1)],[(16,0),(16,1)]],
@@ -32,9 +32,24 @@ def composed(base,marks):
     if any(m not in MARKS for m in marks):return None
     # Kana voicing marks reserve their own upper-right corner, while Latin
     # accents shrink the base cap area. Below marks do not shift the base.
-    above=any(ud.combining(m) in (230,232,233,234) for m in marks)
-    paths=transform(base.paths,sy=.84,dy=3.4) if above else list(base.paths)
-    for m in marks:paths+=MARKS[m]
+    above_marks=[m for m in marks if ud.combining(m) in (230,232,233,234)]
+    base_paths=base.paths
+    # The audited legacy i/j first path is the dot. Above accents replace it;
+    # below-only marks retain it. Never mutate the compatibility geometry.
+    if above_marks and base.text in ('i','j'):
+        base_paths=[p for p in base_paths if not (len(p)==2 and max(y for x,y in p)<=3)]
+    extra=4*max(0,len(above_marks)-1)
+    paths=transform(base_paths,sy=.84-extra/24,dy=3.4+extra) if above_marks else list(base_paths)
+    above_index=0
+    for m in marks:
+        if ud.combining(m) in (230,232,233,234):
+            # Canonical order places the first above mark nearest the base.
+            # Separate levels preserve every mark instead of overprinting it.
+            dy=4*(len(above_marks)-1-above_index)
+            paths+=transform(MARKS[m],dy=dy)
+            above_index+=1
+        else:
+            paths+=MARKS[m]
     return paths
 
 
@@ -135,4 +150,34 @@ def load_glyphs(*,expand_kanji=True):
             base=glyphs[seq[0]]
             glyphs[seq]=Glyph(seq,paths,advance=base.advance,width_factor=base.width_factor,
                 source=f'sequence-composition:{seq}',category=base.category)
+    from .proofread_corrections import apply_corrections
+    apply_corrections(glyphs)
+    from .proofread_kanji_corrections import apply as apply_japanese_corrections
+    from .proofread_upper_corrections import apply_corrections as apply_upper_corrections
+    apply_japanese_corrections(glyphs)
+    apply_upper_corrections(glyphs)
+    from .proofread_lower_corrections import apply as apply_lower_corrections
+    from .proofread_middle_corrections import apply as apply_middle_corrections
+    apply_lower_corrections(glyphs)
+    apply_middle_corrections(glyphs)
+    from .proofread_recheck_corrections import apply_corrections as apply_upper_recheck
+    from .proofread_middle_recheck_corrections import apply as apply_middle_recheck
+    from .proofread_additional_kanji_corrections import apply as apply_additional_corrections
+    apply_upper_recheck(glyphs)
+    apply_middle_recheck(glyphs)
+    apply_additional_corrections(glyphs)
+    from .proofread_deep1_corrections import apply as apply_deep1
+    from .proofread_deep2_corrections import apply_corrections as apply_deep2
+    from .proofread_deep3_corrections import apply as apply_deep3
+    from .proofread_elephant_corrections import apply as apply_elephant
+    from .proofread_longevity_corrections import apply as apply_longevity
+    apply_deep1(glyphs)
+    apply_deep2(glyphs)
+    apply_deep3(glyphs)
+    apply_elephant(glyphs)
+    apply_longevity(glyphs)
+    from .proofread_known_component_corrections import apply as apply_known_component
+    from .proofread_variant_pair_corrections import apply_corrections as apply_variant_pairs
+    apply_known_component(glyphs)
+    apply_variant_pairs(glyphs)
     return dict(sorted(glyphs.items())),provenance

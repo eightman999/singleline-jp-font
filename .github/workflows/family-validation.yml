@@ -28,8 +28,20 @@ jobs:
         run: |
           python verify.py
           python verify_ttf.py
+      - name: Rebuild experimental Lab artifacts for this draft
+        # The review branch deliberately ships source/evidence first. Existing
+        # tracked Lab binaries are historical until separately replaced; users
+        # must use the exact-commit CI artifact rather than assume they changed.
+        run: |
+          python family/tools/materialize_proofread_report.py
+          python build_family.py
+          python family/tools/priority_glyph_qa.py
+          python -m family.specimen
+          python family/tools/fontconfig_discovery.py
       - name: Full current-source and artifact validation
         run: python verify_family.py --report build/v2-ci/full-tests.json
+      - name: Record exact regenerated artifact hashes
+        run: python family/tools/artifact_hashes.py --output build/v2-ci/binary-sha256.json
       - name: Upload verification evidence
         if: always()
         uses: actions/upload-artifact@v4
@@ -37,3 +49,12 @@ jobs:
           name: family-validation-${{ matrix.os }}
           path: build/v2-ci/
           if-no-files-found: warn
+      - name: Stage only verified current review files
+        run: python family/tools/stage_review_artifacts.py --report build/v2-ci/full-tests.json --destination build/v2-ci/review-artifact
+      - name: Upload regenerated Lab review artifacts
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: regenerated-lab-review-${{ matrix.os }}
+          path: build/v2-ci/review-artifact/
+          if-no-files-found: error

@@ -157,7 +157,7 @@ def main():
                             'selection_environment_sanitized': True, 'inventory': inventory},
               'nominal_pixel_sizes': list(tests.STRIKE_SIZES), 'expected_bitmap_strikes': len(tests.STYLE_KEYS) * len(tests.STRIKE_SIZES),
               'visual_legibility_certified': False,
-              'warning': 'Passing verifies structural and binary checks only. Expanded Kanji remain component/composition drafts, not individually proofread; this is not a legibility certificate. Consult coverage.json for exact identities and status counts.',
+              'warning': 'Passing verifies structural and binary checks only. Scoped per-glyph proofreading is recorded separately; unresolved forms, style/size readability and native-OS review are not certified by this test run. Consult coverage.json and the full-glyph proofreading report for exact identities, review scope and remaining issues.',
               'tests': cases}
     if not args.unit:
         try:
