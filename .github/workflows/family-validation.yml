@@ -1,0 +1,39 @@
+name: Family validation
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      # CPython security-only 3.12 releases have no macOS setup-python builds.
+      # Astral supplies the same pinned patch version on both architectures.
+      - uses: astral-sh/setup-uv@v7
+        with:
+          version: '0.12.19'
+          python-version: '3.12.14'
+          activate-environment: true
+          enable-cache: false
+      - run: uv pip install -r requirements-family.txt
+      - name: Verify preserved legacy assets
+        run: |
+          python verify.py
+          python verify_ttf.py
+      - name: Full current-source and artifact validation
+        run: python verify_family.py --report build/v2-ci/full-tests.json
+      - name: Upload verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: family-validation-${{ matrix.os }}
+          path: build/v2-ci/
+          if-no-files-found: warn

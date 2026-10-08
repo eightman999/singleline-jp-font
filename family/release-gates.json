@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "description": "Every passed gate needs human-readable evidence and artifact_set_sha256 for font/bitmap/centerline/provenance/coverage bytes (excluding cyclic build-summary and QA reports/proofs). Full QA separately binds every allowlisted byte. Not-run is permitted only for explicitly experimental RC packaging; failed blocks all packaging.",
+  "checks": {
+    "windows-install": {
+      "status": "not-run",
+      "evidence": null,
+      "artifact_set_sha256": null
+    },
+    "macos-install": {
+      "status": "not-run",
+      "evidence": null,
+      "artifact_set_sha256": null
+    },
+    "linux-fontconfig": {
+      "status": "not-run",
+      "evidence": null,
+      "artifact_set_sha256": null,
+      "partial_evidence": "build/family/reports/fontconfig-discovery.json: 10 fonts discovered;44 exact file matches in isolated cloud Fontconfig2.15.0. Does not establish desktop installation/rendering."
+    },
+    "browser-specimen": {
+      "status": "not-run",
+      "evidence": null,
+      "artifact_set_sha256": null
+    },
+    "visual-review": {
+      "status": "not-run",
+      "evidence": null,
+      "artifact_set_sha256": null,
+      "scope": "Priority-glyph review and acknowledgement of known limitations; not all-character proofreading."
+    },
+    "macos-structural": {
+      "status": "not-run",
+      "evidence": null,
+      "artifact_set_sha256": null,
+      "previous_failure": "Cross-platform centerline/provenance differences in trigonometric symbol coordinates.",
+      "resolution_pending": "Seven circle-derived source geometries were frozen to validated full-precision coordinates. Linux success does not certify macOS; rerun full QA on macOS."
+    }
+  },
+  "known_limitations_acknowledged": false
+}

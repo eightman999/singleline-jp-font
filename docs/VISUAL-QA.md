@@ -1,5 +1,7 @@
 # Independent Japanese glyph visual QA
 
+> Historical record of the 2026-10-06 sample review. Counts and inspection statements below apply to those recorded artifacts, not automatic approval of a subsequent build. See [the V2 changelog](CHANGELOG.md) and [the new priority near-form audit](PRIORITY-GLYPH-QA.md).
+
 Date: 2026-10-06 UTC
 
 ## Assessment

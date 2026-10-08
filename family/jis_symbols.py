@@ -12,7 +12,8 @@ WIDTH_FACTORS, respect FILLED, and preserve multi-scalar GLYPHS keys. MARKS
 are actual zero-width marks. A source grid alone does not provide GPOS.
 """
 from copy import deepcopy
-import math
+import json
+from pathlib import Path
 import unicodedata as ud
 
 from glyphs.ascii import GLYPHS as ASCII
@@ -402,26 +403,22 @@ add('〠',ring(cx=12,cy=14,rx=9,ry=8)+stroke((3,7),(21,7))+stroke((6,7),(6,2),(1
 add('☞',stroke((1,12),(5,12),(8,8),(20,8),(23,10),(22,12),(13,12),(18,14),(18,17),(15,17),(17,19),(15,22),(8,22),(4,20),(1,20),(1,12))+stroke((6,12),(6,20))+stroke((12,15),(15,17))+stroke((11,19),(15,20)))
 
 
-def circle_points(cx,cy,r,steps=32):
-    return [(cx+r*math.cos(2*math.pi*i/steps),cy+r*math.sin(2*math.pi*i/steps)) for i in range(steps)]
+# Fixed project-authored paths preserve the full binary64 coordinates from the
+# original build. libm sin/cos can differ by an ULP across macOS/Linux; applying
+# rounding only to provenance would conceal source changes. Both rendering and
+# provenance now consume the same exact data. See docs/REPRODUCIBILITY.md.
+_CIRCLES = json.loads((Path(__file__).with_name('data') / 'jis-circle-paths.json').read_text(encoding='utf-8'))['glyphs']
 
 
-def annulus(cx,cy,outer,inner,steps=32):
-    """Hole-free solid quadrilaterals around a genuinely empty centre.
-
-    This represents an outlined ring in the all-filled path API without
-    reversing contour winding or falsely filling its counter.
-    """
-    a=circle_points(cx,cy,outer,steps);b=circle_points(cx,cy,inner,steps)
-    return [a[i:i+1]+[a[(i+1)%steps],b[(i+1)%steps],b[i],a[i]] for i in range(steps)]
+def fixed_circle_paths(char):
+    return [[tuple(point) for point in path] for path in _CIRCLES[char]]
 
 
-for c,r in [('⦿',3),('◉',6)]:
-    add(c,annulus(12,12,10,8.5)+[circle_points(12,12,r)],filled=True,
+for c in ('⦿','◉'):
+    add(c,fixed_circle_paths(c),filled=True,
         derivation='solid annulus segments plus filled central disk')
-for c,start in [('◐',math.pi/2),('◑',-math.pi/2),('◒',0),('◓',math.pi)]:
-    half=[(12,12)]+[(12+9*math.cos(start+i*math.pi/16),12+9*math.sin(start+i*math.pi/16)) for i in range(17)]+[(12,12)]
-    add(c,annulus(12,12,10,9)+[half],filled=True,
+for c in ('◐','◑','◒','◓'):
+    add(c,fixed_circle_paths(c),filled=True,
         derivation='solid annulus and designated filled semicircle')
 quarter=polygon((12,2),(16.1,6.1),(12,10.2),(7.9,6.1))
 parts=[]
@@ -433,9 +430,7 @@ for angle in range(4):
             rotated.append((x,y))
         parts.append(rotated)
 add('❖',parts,filled=True,derivation='four original solid diamond sectors leaving an actual white X')
-phone=polygon((1,7),(3,3),(8,1),(16,1),(21,3),(23,7),(19,10),(16,6),(8,6),(5,10))
-phone+=polygon((5,10),(9,10),(9,19),(2,19))+polygon((15,10),(19,10),(22,19),(15,19))
-phone+=rect(3,19,21,22)+rect(8,10,16,11)+annulus(12,15,4.8,3.3)
+phone=fixed_circle_paths('☎')
 add('☎',phone,filled=True,derivation='filled handset and telephone body with open dial counter')
 
 # Negative-number protocol: one CLOSED SOLID OUTER CONTOUR followed by

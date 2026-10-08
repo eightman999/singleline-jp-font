@@ -1,0 +1,281 @@
+{
+  "scope": "Isolated cloud Linux Fontconfig discovery and family/character matching only; not installation, desktop application rendering, or visual certification",
+  "fontconfig_version": "fontconfig version 2.15.0",
+  "font_file_count": 10,
+  "match_requests": [
+    {
+      "request": "Singleline JP Lab Gothic",
+      "selected_file": "build/family/static/SinglelineJPLab-gothic.ttf",
+      "family": "Singleline JP Lab Gothic",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Gothic:charset=20bb7",
+      "selected_file": "build/family/static/SinglelineJPLab-gothic.ttf",
+      "family": "Singleline JP Lab Gothic",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Gothic:charset=9ad9",
+      "selected_file": "build/family/static/SinglelineJPLab-gothic.ttf",
+      "family": "Singleline JP Lab Gothic",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Gothic:charset=65e5",
+      "selected_file": "build/family/static/SinglelineJPLab-gothic.ttf",
+      "family": "Singleline JP Lab Gothic",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Italian Reverse Contrast",
+      "selected_file": "build/family/static/SinglelineJPLab-italian.ttf",
+      "family": "Singleline JP Lab Italian Reverse Contrast",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Italian Reverse Contrast:charset=20bb7",
+      "selected_file": "build/family/static/SinglelineJPLab-italian.ttf",
+      "family": "Singleline JP Lab Italian Reverse Contrast",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Italian Reverse Contrast:charset=9ad9",
+      "selected_file": "build/family/static/SinglelineJPLab-italian.ttf",
+      "family": "Singleline JP Lab Italian Reverse Contrast",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Italian Reverse Contrast:charset=65e5",
+      "selected_file": "build/family/static/SinglelineJPLab-italian.ttf",
+      "family": "Singleline JP Lab Italian Reverse Contrast",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Italic",
+      "selected_file": "build/family/static/SinglelineJPLab-italic.ttf",
+      "family": "Singleline JP Lab Italic",
+      "style": "Italic"
+    },
+    {
+      "request": "Singleline JP Lab Italic:charset=20bb7",
+      "selected_file": "build/family/static/SinglelineJPLab-italic.ttf",
+      "family": "Singleline JP Lab Italic",
+      "style": "Italic"
+    },
+    {
+      "request": "Singleline JP Lab Italic:charset=9ad9",
+      "selected_file": "build/family/static/SinglelineJPLab-italic.ttf",
+      "family": "Singleline JP Lab Italic",
+      "style": "Italic"
+    },
+    {
+      "request": "Singleline JP Lab Italic:charset=65e5",
+      "selected_file": "build/family/static/SinglelineJPLab-italic.ttf",
+      "family": "Singleline JP Lab Italic",
+      "style": "Italic"
+    },
+    {
+      "request": "Singleline JP Lab PC98 Mincho Inspired",
+      "selected_file": "build/family/static/SinglelineJPLab-pc98-mincho.ttf",
+      "family": "Singleline JP Lab PC98 Mincho Inspired",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab PC98 Mincho Inspired:charset=20bb7",
+      "selected_file": "build/family/static/SinglelineJPLab-pc98-mincho.ttf",
+      "family": "Singleline JP Lab PC98 Mincho Inspired",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab PC98 Mincho Inspired:charset=9ad9",
+      "selected_file": "build/family/static/SinglelineJPLab-pc98-mincho.ttf",
+      "family": "Singleline JP Lab PC98 Mincho Inspired",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab PC98 Mincho Inspired:charset=65e5",
+      "selected_file": "build/family/static/SinglelineJPLab-pc98-mincho.ttf",
+      "family": "Singleline JP Lab PC98 Mincho Inspired",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Serif",
+      "selected_file": "build/family/static/SinglelineJPLab-serif.ttf",
+      "family": "Singleline JP Lab Serif",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Serif:charset=20bb7",
+      "selected_file": "build/family/static/SinglelineJPLab-serif.ttf",
+      "family": "Singleline JP Lab Serif",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Serif:charset=9ad9",
+      "selected_file": "build/family/static/SinglelineJPLab-serif.ttf",
+      "family": "Singleline JP Lab Serif",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Serif:charset=65e5",
+      "selected_file": "build/family/static/SinglelineJPLab-serif.ttf",
+      "family": "Singleline JP Lab Serif",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Singleline",
+      "selected_file": "build/family/static/SinglelineJPLab-singleline.ttf",
+      "family": "Singleline JP Lab Singleline",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Singleline:charset=20bb7",
+      "selected_file": "build/family/static/SinglelineJPLab-singleline.ttf",
+      "family": "Singleline JP Lab Singleline",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Singleline:charset=9ad9",
+      "selected_file": "build/family/static/SinglelineJPLab-singleline.ttf",
+      "family": "Singleline JP Lab Singleline",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Singleline:charset=65e5",
+      "selected_file": "build/family/static/SinglelineJPLab-singleline.ttf",
+      "family": "Singleline JP Lab Singleline",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Subscript",
+      "selected_file": "build/family/static/SinglelineJPLab-subscript.ttf",
+      "family": "Singleline JP Lab Subscript",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Subscript:charset=20bb7",
+      "selected_file": "build/family/static/SinglelineJPLab-subscript.ttf",
+      "family": "Singleline JP Lab Subscript",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Subscript:charset=9ad9",
+      "selected_file": "build/family/static/SinglelineJPLab-subscript.ttf",
+      "family": "Singleline JP Lab Subscript",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Subscript:charset=65e5",
+      "selected_file": "build/family/static/SinglelineJPLab-subscript.ttf",
+      "family": "Singleline JP Lab Subscript",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Superscript",
+      "selected_file": "build/family/static/SinglelineJPLab-superscript.ttf",
+      "family": "Singleline JP Lab Superscript",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Superscript:charset=20bb7",
+      "selected_file": "build/family/static/SinglelineJPLab-superscript.ttf",
+      "family": "Singleline JP Lab Superscript",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Superscript:charset=9ad9",
+      "selected_file": "build/family/static/SinglelineJPLab-superscript.ttf",
+      "family": "Singleline JP Lab Superscript",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Superscript:charset=65e5",
+      "selected_file": "build/family/static/SinglelineJPLab-superscript.ttf",
+      "family": "Singleline JP Lab Superscript",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Gothic Variable",
+      "selected_file": "build/family/variable/SinglelineJPLab-gothic-VF.ttf",
+      "family": "Singleline JP Lab Gothic Variable",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Gothic Variable:charset=20bb7",
+      "selected_file": "build/family/variable/SinglelineJPLab-gothic-VF.ttf",
+      "family": "Singleline JP Lab Gothic Variable",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Gothic Variable:charset=9ad9",
+      "selected_file": "build/family/variable/SinglelineJPLab-gothic-VF.ttf",
+      "family": "Singleline JP Lab Gothic Variable",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Gothic Variable:charset=65e5",
+      "selected_file": "build/family/variable/SinglelineJPLab-gothic-VF.ttf",
+      "family": "Singleline JP Lab Gothic Variable",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Gothic Variable:fontvariations=wght=700,slnt=-12",
+      "selected_file": "build/family/variable/SinglelineJPLab-gothic-VF.ttf",
+      "fontvariations": "wght=700,slnt=-12"
+    },
+    {
+      "request": "Singleline JP Lab Gothic Variable:fontvariations=wght=200,slnt=0",
+      "selected_file": "build/family/variable/SinglelineJPLab-gothic-VF.ttf",
+      "fontvariations": "wght=200,slnt=0"
+    },
+    {
+      "request": "Singleline JP Lab Serif Variable",
+      "selected_file": "build/family/variable/SinglelineJPLab-serif-VF.ttf",
+      "family": "Singleline JP Lab Serif Variable",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Serif Variable:charset=20bb7",
+      "selected_file": "build/family/variable/SinglelineJPLab-serif-VF.ttf",
+      "family": "Singleline JP Lab Serif Variable",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Serif Variable:charset=9ad9",
+      "selected_file": "build/family/variable/SinglelineJPLab-serif-VF.ttf",
+      "family": "Singleline JP Lab Serif Variable",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Serif Variable:charset=65e5",
+      "selected_file": "build/family/variable/SinglelineJPLab-serif-VF.ttf",
+      "family": "Singleline JP Lab Serif Variable",
+      "style": "Regular"
+    },
+    {
+      "request": "Singleline JP Lab Serif Variable:fontvariations=wght=700,slnt=-12",
+      "selected_file": "build/family/variable/SinglelineJPLab-serif-VF.ttf",
+      "fontvariations": "wght=700,slnt=-12"
+    },
+    {
+      "request": "Singleline JP Lab Serif Variable:fontvariations=wght=200,slnt=0",
+      "selected_file": "build/family/variable/SinglelineJPLab-serif-VF.ttf",
+      "fontvariations": "wght=200,slnt=0"
+    }
+  ],
+  "fonts_sha256": {
+    "build/family/static/SinglelineJPLab-gothic.ttf": "e0c24f700d2a5b3927e329b9670b6bdf8874ef586b6afb0feb1d1f439b80dc2e",
+    "build/family/static/SinglelineJPLab-italian.ttf": "402a85539652fe5d611c905f210ca526ad3fed8d76431d2f01192548990aa976",
+    "build/family/static/SinglelineJPLab-italic.ttf": "7e6055aad4fd4fd6ccaa26bb9058d8e693e1eaa7627c097f272cc4ec1b1724b4",
+    "build/family/static/SinglelineJPLab-pc98-mincho.ttf": "13dcaf5cc99d8bca55a3283b650ce672d1bd84decf2bf4ce4a311fa48cbccddc",
+    "build/family/static/SinglelineJPLab-serif.ttf": "393149da327a6904a62dff20be3e156346a33c5c3b3927aac71fa163862c1e3f",
+    "build/family/static/SinglelineJPLab-singleline.ttf": "3334b16aab005e1506e9f9dc0cafdacde4bf8dd625c193f402d6fb053deaa369",
+    "build/family/static/SinglelineJPLab-subscript.ttf": "b8993c081a787d8be9996609b982279f5cfaee3b74c376d4e4a2fa570aeb672c",
+    "build/family/static/SinglelineJPLab-superscript.ttf": "5f66863c42bff3c2b9e71adef02458375476c295deb146b766131ced3fb4f515",
+    "build/family/variable/SinglelineJPLab-gothic-VF.ttf": "888daad7893f6f03eeded45fdb7c07182cb8fa606db3372f2200ba7914b3d345",
+    "build/family/variable/SinglelineJPLab-serif-VF.ttf": "c6606e04a566b3da86be55cb6d281c820c3d18f0f0deeecfde8883d94c04fd43"
+  },
+  "system_or_user_font_directories_modified": false,
+  "isolation": "Temporary private Fontconfig configuration and cache; no system/user font directories changed."
+}

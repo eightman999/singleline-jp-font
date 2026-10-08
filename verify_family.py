@@ -15,9 +15,10 @@ from pathlib import Path
 import subprocess
 import sys
 import tempfile
-import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent
+
+from family.release import seal_report, snapshot
 
 
 def is_cjk_scalar(text):
@@ -89,6 +90,52 @@ def audit_bitmap_collisions(tests, output):
     return result
 
 
+def sanitized_pytest_environment(output):
+    """User/global pytest selectors and plugins cannot weaken release QA."""
+    env = dict(os.environ)
+    for key in ('PYTEST_ADDOPTS', 'PYTEST_PLUGINS'):
+        env.pop(key, None)
+    env.update(FAMILY_OUTPUT=str(Path(output).resolve()), FAMILY_REQUIRE_OUTPUTS='1',
+               PYTEST_DISABLE_PLUGIN_AUTOLOAD='1')
+    return env
+
+
+def run_pytest_inventory(output, *, unit=False, test_paths=None):
+    """Collect independently, then compare every selected node with execution."""
+    env = sanitized_pytest_environment(output)
+    test_paths = test_paths or ['tests', 'family/tests']
+    with tempfile.TemporaryDirectory(prefix='family-qa-') as temporary:
+        temporary = Path(temporary)
+        config = temporary / 'pytest.ini'
+        config.write_text('[pytest]\n', encoding='utf-8')
+        audit = temporary / 'inventory.json'
+        env['FAMILY_QA_INVENTORY'] = str(audit)
+        command = [sys.executable, '-m', 'pytest', '-c', str(config), '--rootdir', str(ROOT),
+                   '--noconftest', '-o', 'addopts=', '-p', 'family.qa_inventory', *test_paths, '-q']
+        if unit:
+            command += ['-k', 'not TestFullArtifacts']
+        collected = subprocess.run(command + ['--collect-only'], cwd=ROOT, env=env,
+                                   capture_output=True, text=True)
+        expected = json.loads(audit.read_text()) if audit.is_file() else {}
+        audit.unlink(missing_ok=True)
+        if collected.returncode != 0:
+            print(collected.stdout, end='')
+            print(collected.stderr, end='', file=sys.stderr)
+        run = subprocess.run(command, cwd=ROOT, env=env)
+        executed = json.loads(audit.read_text()) if audit.is_file() else {}
+    cases = executed.get('tests', [])
+    inventory = {'collection_exit_code': collected.returncode,
+                 'collected': expected.get('collected', []),
+                 'execution_collected': executed.get('collected', []),
+                 'executed': sorted(case['test'] for case in cases),
+                 'deselected': executed.get('deselected', [])}
+    complete = (collected.returncode == 0 and bool(inventory['collected']) and
+                inventory['collected'] == inventory['execution_collected'] and
+                sorted(inventory['collected']) == inventory['executed'] and
+                (unit or not inventory['deselected']))
+    return run.returncode, cases, inventory, complete
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, default=ROOT / 'build/family')
@@ -99,30 +146,15 @@ def main():
     tests = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(tests)
     missing = [] if args.unit else [str(p) for p in tests.required_artifacts() if not (args.output / p).is_file()]
-    env = {**os.environ, 'FAMILY_OUTPUT': str(args.output.resolve()), 'FAMILY_REQUIRE_OUTPUTS': '1'}
-    with tempfile.TemporaryDirectory(prefix='family-qa-') as temp:
-        junit = Path(temp) / 'results.xml'
-        command = [sys.executable, '-m', 'pytest', str(ROOT / 'tests/test_family.py'), '-q', f'--junitxml={junit}']
-        if args.unit:
-            command += ['-k', 'not TestFullArtifacts']
-        run = subprocess.run(command, cwd=ROOT, env=env)
-        cases = []
-        if junit.is_file():
-            for case in ET.parse(junit).getroot().iter('testcase'):
-                status = 'passed'
-                detail = ''
-                for tag in ('failure', 'error', 'skipped'):
-                    result = case.find(tag)
-                    if result is not None:
-                        status = tag
-                        detail = result.attrib.get('message', '')
-                        break
-                cases.append({'test': case.attrib.get('classname', '') + '.' + case.attrib.get('name', ''), 'status': status, 'detail': detail})
+    before = snapshot(ROOT, args.output)
+    returncode, cases, inventory, complete_inventory = run_pytest_inventory(args.output, unit=args.unit)
     counts = {state: sum(c['status'] == state for c in cases) for state in ('passed', 'failure', 'error', 'skipped')}
-    incomplete = bool(missing or counts['skipped'] or not cases or run.returncode not in (0, 1))
-    outcome = 'incomplete' if incomplete else 'failed' if run.returncode else 'passed'
+    incomplete = bool(missing or counts['skipped'] or not cases or returncode not in (0, 1) or not complete_inventory)
+    outcome = 'incomplete' if incomplete else 'failed' if returncode else 'passed'
     report = {'scope': 'source-and-sample-only' if args.unit else 'full-family-structural-verification',
               'outcome': outcome, 'counts': counts, 'missing_artifacts': missing,
+              'execution': {'exit_code': returncode, 'test_roots': ['tests', 'family/tests'],
+                            'selection_environment_sanitized': True, 'inventory': inventory},
               'nominal_pixel_sizes': list(tests.STRIKE_SIZES), 'expected_bitmap_strikes': len(tests.STYLE_KEYS) * len(tests.STRIKE_SIZES),
               'visual_legibility_certified': False,
               'warning': 'Passing verifies structural and binary checks only. Expanded Kanji remain component/composition drafts, not individually proofread; this is not a legibility certificate. Consult coverage.json for exact identities and status counts.',
@@ -134,11 +166,13 @@ def main():
             report['bitmap_collision_audit'] = {'outcome': 'incomplete', 'error': str(error)}
             incomplete = True
             report['outcome'] = 'incomplete'
+    report = seal_report(report, before, snapshot(ROOT, args.output))
+    incomplete = report['outcome'] == 'incomplete'
     if args.report:
         args.report.parent.mkdir(parents=True, exist_ok=True)
         args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
-    print(json.dumps({k: v for k, v in report.items() if k not in {'tests', 'bitmap_collision_audit'}}, ensure_ascii=False, indent=2))
-    return 2 if incomplete else 1 if run.returncode else 0
+    print(json.dumps({k: v for k, v in report.items() if k not in {'tests', 'bitmap_collision_audit', 'subject'}}, ensure_ascii=False, indent=2))
+    return 2 if incomplete else 1 if returncode else 0
 
 
 if __name__ == '__main__':

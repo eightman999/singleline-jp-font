@@ -2,12 +2,639 @@
   "scope": "full-family-structural-verification",
   "outcome": "passed",
   "counts": {
-    "passed": 123,
+    "passed": 203,
     "failure": 0,
     "error": 0,
     "skipped": 0
   },
   "missing_artifacts": [],
+  "execution": {
+    "exit_code": 0,
+    "test_roots": [
+      "tests",
+      "family/tests"
+    ],
+    "selection_environment_sanitized": true,
+    "inventory": {
+      "collection_exit_code": 0,
+      "collected": [
+        "tests/test_circle_reproducibility.py::test_frozen_paths_match_original_full_precision_provenance",
+        "tests/test_circle_reproducibility.py::test_jis_module_does_not_depend_on_platform_trigonometry",
+        "tests/test_circle_reproducibility.py::test_fixed_paths_are_copied_not_shared",
+        "tests/test_circle_reproducibility.py::test_circles_keep_intended_geometry_and_empty_counters",
+        "tests/test_family.py::test_legacy_original_files_byte_identical",
+        "tests/test_family.py::test_centerlines_exports_deterministic_lossless_svgz",
+        "tests/test_family.py::test_editable_svg_from_compressed_source[False]",
+        "tests/test_family.py::test_editable_svg_from_compressed_source[True]",
+        "tests/test_family.py::test_package_rejects_stale_raw_centerlines",
+        "tests/test_family.py::test_jis_manifest_exact_identities_and_level_counts",
+        "tests/test_family.py::test_jinmeiyo_raw_property_identity_counts",
+        "tests/test_family.py::test_all_kanji_target_identities_are_present",
+        "tests/test_family.py::test_all_jis_identities_including_nonkanji_and_sequences_are_present",
+        "tests/test_family.py::test_missing_characters_are_not_synthetic_coverage",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[singleline]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[pc98-mincho]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[gothic]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[italian]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[serif]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[italic]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[subscript]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[superscript]",
+        "tests/test_family.py::test_master_compatibility_and_actual_two_axis_interpolation[gothic]",
+        "tests/test_family.py::test_master_compatibility_and_actual_two_axis_interpolation[serif]",
+        "tests/test_family.py::test_sample_font_shapes_all_25_jis_sequences",
+        "tests/test_family.py::test_opentype_super_sub_have_smaller_raised_lowered_outlines",
+        "tests/test_family.py::test_italic_authored_a_g_differ_from_shear",
+        "tests/test_family.py::test_italian_is_upright_reverse_contrast",
+        "tests/test_family.py::test_negative_enclosures_have_real_outline_and_bitmap_counters",
+        "tests/test_family.py::test_negative_enclosure_font_renders_white_counters",
+        "tests/test_family.py::test_sample_font_build_is_byte_deterministic[gothic]",
+        "tests/test_family.py::test_sample_font_build_is_byte_deterministic[serif]",
+        "tests/test_family.py::test_sample_bitmap_exact_png_roundtrip_and_sequences",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[singleline]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[pc98-mincho]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[gothic]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[italian]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[serif]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[italic]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[subscript]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[superscript]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[short_header]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[bad_magic]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[version]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[header_flags]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[index_out_of_bounds]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[payload_truncated]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[record_flags]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[empty_key]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[zero_size]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[duplicate_key]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[index_overlap]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[invalid_baseline]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[negative_advance]",
+        "tests/test_family.py::TestFullArtifacts::test_inventory_complete",
+        "tests/test_family.py::TestFullArtifacts::test_coverage_exactly_matches_encoded_font_and_provenance",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[italian]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[serif]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[italic]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[italian]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[serif]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[italic]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[italian]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[serif]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[italic]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[italian]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[serif]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[italic]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[italian]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[serif]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[italic]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_variable_tables_and_real_endpoint_instances[gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_variable_tables_and_real_endpoint_instances[serif]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-italian]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-serif]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-italic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-italian]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-serif]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-italic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-italian]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-serif]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-italic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-italian]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-serif]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-italic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_centerlines_svg_and_build_provenance",
+        "tests/test_packaging.py::test_report_binds_exact_source_and_artifact_inventory",
+        "tests/test_packaging.py::test_after_test_input_changes_are_rejected[source.py]",
+        "tests/test_packaging.py::test_after_test_input_changes_are_rejected[build/family/static/SinglelineJPLab-gothic.ttf]",
+        "tests/test_packaging.py::test_after_test_input_changes_are_rejected[family/package-manifest.json]",
+        "tests/test_packaging.py::test_after_test_input_changes_are_rejected[family/release-gates.json]",
+        "tests/test_packaging.py::test_missing_input_is_rejected",
+        "tests/test_packaging.py::test_old_pass_boolean_is_not_verification",
+        "tests/test_packaging.py::test_edited_report_is_rejected",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>0]",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>1]",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>2]",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>3]",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>4]",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>5]",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>6]",
+        "tests/test_packaging.py::test_changes_during_verification_invalidate_run",
+        "tests/test_packaging.py::test_known_failure_blocks_rc_and_release",
+        "tests/test_packaging.py::test_unrun_gates_block_formal_release_only",
+        "tests/test_packaging.py::test_passed_gate_requires_current_artifact_evidence",
+        "tests/test_packaging.py::test_formal_version_can_disclose_experimental_quality_without_false_certification",
+        "tests/test_packaging.py::test_allowlist_excludes_arbitrary_untracked_files",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[../secret]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[/secret]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[family/../../secret]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[./source.py]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[family//file]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[family\\\\secret]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[D:/secret]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[C:secret]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[source.py:stream]",
+        "tests/test_packaging.py::test_symlinked_input_is_rejected",
+        "tests/test_packaging.py::test_symlinked_parent_is_rejected",
+        "tests/test_packaging.py::test_destination_cannot_overwrite_verified_input",
+        "tests/test_packaging.py::test_change_during_packaging_leaves_previous_destination_untouched",
+        "tests/test_packaging.py::test_stale_raw_svg_is_rejected_without_overwriting_package",
+        "tests/test_packaging.py::test_archives_are_deterministic_independent_and_checksummed[static]",
+        "tests/test_packaging.py::test_archives_are_deterministic_independent_and_checksummed[variable]",
+        "tests/test_packaging.py::test_archives_are_deterministic_independent_and_checksummed[bitmap]",
+        "tests/test_packaging.py::test_archives_are_deterministic_independent_and_checksummed[source]",
+        "tests/test_packaging.py::test_split_distribution_names_and_outer_checksums",
+        "tests/test_packaging.py::test_pytest_selection_environment_cannot_weaken_full_verification",
+        "tests/test_packaging.py::test_sealed_deselected_inventory_is_rejected",
+        "tests/test_packaging.py::test_sealed_partial_execution_inventory_is_rejected",
+        "tests/test_packaging.py::test_channel_and_version_must_agree[rc-2.0.0]",
+        "tests/test_packaging.py::test_channel_and_version_must_agree[release-2.0.0-rc.1]",
+        "tests/test_packaging.py::test_binary_docs_keep_available_links_and_label_omitted_references",
+        "tests/test_packaging.py::test_gate_evidence_binds_browser_generators[family/specimen.py]",
+        "tests/test_packaging.py::test_gate_evidence_binds_browser_generators[family/tools/package_family.py]",
+        "tests/test_packaging.py::test_gate_evidence_binds_specimen_assets_without_metadata_cycles",
+        "tests/test_priority_glyph_qa.py::test_expected_priority_inventory",
+        "tests/test_priority_glyph_qa.py::test_crop_padding_does_not_hide_collision",
+        "tests/test_priority_glyph_qa.py::test_baseline_origin_advance_and_pixels_remain_significant",
+        "tests/test_priority_glyph_qa.py::test_svg_proof_embeds_exact_pixels_without_external_font_assets",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_all_jis_multiscalar_identities",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_all_jis_nonkanji_identities",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_black_and_white_shapes_keep_different_fill_semantics",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_box_weight_identities_are_distinct",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_marks_are_zero_width",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_math_equality_has_two_bars",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_negative_enclosure_protocol",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_source_bounds_and_nonblank_geometry",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_blank_does_not_count_as_coverage",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_canonical_is_preserved",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_compatibility_scalar_is_not_normalized",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_complete_target_has_real_distinct_geometry",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_duplicate_does_not_count_as_new_coverage",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_history_foot_is_a_separate_bottom_band",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_missing_has_no_placeholder",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_numbered_ids_placeholder_never_rendered",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_reviewed_error_sites_use_explicit_structure_drafts",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_surname_extras_are_real_and_distinct",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_target_validation"
+      ],
+      "execution_collected": [
+        "tests/test_circle_reproducibility.py::test_frozen_paths_match_original_full_precision_provenance",
+        "tests/test_circle_reproducibility.py::test_jis_module_does_not_depend_on_platform_trigonometry",
+        "tests/test_circle_reproducibility.py::test_fixed_paths_are_copied_not_shared",
+        "tests/test_circle_reproducibility.py::test_circles_keep_intended_geometry_and_empty_counters",
+        "tests/test_family.py::test_legacy_original_files_byte_identical",
+        "tests/test_family.py::test_centerlines_exports_deterministic_lossless_svgz",
+        "tests/test_family.py::test_editable_svg_from_compressed_source[False]",
+        "tests/test_family.py::test_editable_svg_from_compressed_source[True]",
+        "tests/test_family.py::test_package_rejects_stale_raw_centerlines",
+        "tests/test_family.py::test_jis_manifest_exact_identities_and_level_counts",
+        "tests/test_family.py::test_jinmeiyo_raw_property_identity_counts",
+        "tests/test_family.py::test_all_kanji_target_identities_are_present",
+        "tests/test_family.py::test_all_jis_identities_including_nonkanji_and_sequences_are_present",
+        "tests/test_family.py::test_missing_characters_are_not_synthetic_coverage",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[singleline]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[pc98-mincho]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[gothic]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[italian]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[serif]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[italic]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[subscript]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[superscript]",
+        "tests/test_family.py::test_master_compatibility_and_actual_two_axis_interpolation[gothic]",
+        "tests/test_family.py::test_master_compatibility_and_actual_two_axis_interpolation[serif]",
+        "tests/test_family.py::test_sample_font_shapes_all_25_jis_sequences",
+        "tests/test_family.py::test_opentype_super_sub_have_smaller_raised_lowered_outlines",
+        "tests/test_family.py::test_italic_authored_a_g_differ_from_shear",
+        "tests/test_family.py::test_italian_is_upright_reverse_contrast",
+        "tests/test_family.py::test_negative_enclosures_have_real_outline_and_bitmap_counters",
+        "tests/test_family.py::test_negative_enclosure_font_renders_white_counters",
+        "tests/test_family.py::test_sample_font_build_is_byte_deterministic[gothic]",
+        "tests/test_family.py::test_sample_font_build_is_byte_deterministic[serif]",
+        "tests/test_family.py::test_sample_bitmap_exact_png_roundtrip_and_sequences",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[singleline]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[pc98-mincho]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[gothic]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[italian]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[serif]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[italic]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[subscript]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[superscript]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[short_header]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[bad_magic]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[version]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[header_flags]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[index_out_of_bounds]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[payload_truncated]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[record_flags]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[empty_key]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[zero_size]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[duplicate_key]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[index_overlap]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[invalid_baseline]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[negative_advance]",
+        "tests/test_family.py::TestFullArtifacts::test_inventory_complete",
+        "tests/test_family.py::TestFullArtifacts::test_coverage_exactly_matches_encoded_font_and_provenance",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[italian]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[serif]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[italic]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[italian]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[serif]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[italic]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[italian]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[serif]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[italic]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[italian]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[serif]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[italic]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[italian]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[serif]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[italic]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_variable_tables_and_real_endpoint_instances[gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_variable_tables_and_real_endpoint_instances[serif]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-italian]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-serif]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-italic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-italian]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-serif]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-italic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-italian]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-serif]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-italic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-italian]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-serif]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-italic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_centerlines_svg_and_build_provenance",
+        "tests/test_packaging.py::test_report_binds_exact_source_and_artifact_inventory",
+        "tests/test_packaging.py::test_after_test_input_changes_are_rejected[source.py]",
+        "tests/test_packaging.py::test_after_test_input_changes_are_rejected[build/family/static/SinglelineJPLab-gothic.ttf]",
+        "tests/test_packaging.py::test_after_test_input_changes_are_rejected[family/package-manifest.json]",
+        "tests/test_packaging.py::test_after_test_input_changes_are_rejected[family/release-gates.json]",
+        "tests/test_packaging.py::test_missing_input_is_rejected",
+        "tests/test_packaging.py::test_old_pass_boolean_is_not_verification",
+        "tests/test_packaging.py::test_edited_report_is_rejected",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>0]",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>1]",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>2]",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>3]",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>4]",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>5]",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>6]",
+        "tests/test_packaging.py::test_changes_during_verification_invalidate_run",
+        "tests/test_packaging.py::test_known_failure_blocks_rc_and_release",
+        "tests/test_packaging.py::test_unrun_gates_block_formal_release_only",
+        "tests/test_packaging.py::test_passed_gate_requires_current_artifact_evidence",
+        "tests/test_packaging.py::test_formal_version_can_disclose_experimental_quality_without_false_certification",
+        "tests/test_packaging.py::test_allowlist_excludes_arbitrary_untracked_files",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[../secret]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[/secret]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[family/../../secret]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[./source.py]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[family//file]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[family\\\\secret]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[D:/secret]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[C:secret]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[source.py:stream]",
+        "tests/test_packaging.py::test_symlinked_input_is_rejected",
+        "tests/test_packaging.py::test_symlinked_parent_is_rejected",
+        "tests/test_packaging.py::test_destination_cannot_overwrite_verified_input",
+        "tests/test_packaging.py::test_change_during_packaging_leaves_previous_destination_untouched",
+        "tests/test_packaging.py::test_stale_raw_svg_is_rejected_without_overwriting_package",
+        "tests/test_packaging.py::test_archives_are_deterministic_independent_and_checksummed[static]",
+        "tests/test_packaging.py::test_archives_are_deterministic_independent_and_checksummed[variable]",
+        "tests/test_packaging.py::test_archives_are_deterministic_independent_and_checksummed[bitmap]",
+        "tests/test_packaging.py::test_archives_are_deterministic_independent_and_checksummed[source]",
+        "tests/test_packaging.py::test_split_distribution_names_and_outer_checksums",
+        "tests/test_packaging.py::test_pytest_selection_environment_cannot_weaken_full_verification",
+        "tests/test_packaging.py::test_sealed_deselected_inventory_is_rejected",
+        "tests/test_packaging.py::test_sealed_partial_execution_inventory_is_rejected",
+        "tests/test_packaging.py::test_channel_and_version_must_agree[rc-2.0.0]",
+        "tests/test_packaging.py::test_channel_and_version_must_agree[release-2.0.0-rc.1]",
+        "tests/test_packaging.py::test_binary_docs_keep_available_links_and_label_omitted_references",
+        "tests/test_packaging.py::test_gate_evidence_binds_browser_generators[family/specimen.py]",
+        "tests/test_packaging.py::test_gate_evidence_binds_browser_generators[family/tools/package_family.py]",
+        "tests/test_packaging.py::test_gate_evidence_binds_specimen_assets_without_metadata_cycles",
+        "tests/test_priority_glyph_qa.py::test_expected_priority_inventory",
+        "tests/test_priority_glyph_qa.py::test_crop_padding_does_not_hide_collision",
+        "tests/test_priority_glyph_qa.py::test_baseline_origin_advance_and_pixels_remain_significant",
+        "tests/test_priority_glyph_qa.py::test_svg_proof_embeds_exact_pixels_without_external_font_assets",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_all_jis_multiscalar_identities",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_all_jis_nonkanji_identities",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_black_and_white_shapes_keep_different_fill_semantics",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_box_weight_identities_are_distinct",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_marks_are_zero_width",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_math_equality_has_two_bars",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_negative_enclosure_protocol",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_source_bounds_and_nonblank_geometry",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_blank_does_not_count_as_coverage",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_canonical_is_preserved",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_compatibility_scalar_is_not_normalized",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_complete_target_has_real_distinct_geometry",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_duplicate_does_not_count_as_new_coverage",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_history_foot_is_a_separate_bottom_band",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_missing_has_no_placeholder",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_numbered_ids_placeholder_never_rendered",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_reviewed_error_sites_use_explicit_structure_drafts",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_surname_extras_are_real_and_distinct",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_target_validation"
+      ],
+      "executed": [
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_all_jis_multiscalar_identities",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_all_jis_nonkanji_identities",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_black_and_white_shapes_keep_different_fill_semantics",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_box_weight_identities_are_distinct",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_marks_are_zero_width",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_math_equality_has_two_bars",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_negative_enclosure_protocol",
+        "family/tests/test_jis_symbols.py::JISSymbolTests::test_source_bounds_and_nonblank_geometry",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_blank_does_not_count_as_coverage",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_canonical_is_preserved",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_compatibility_scalar_is_not_normalized",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_complete_target_has_real_distinct_geometry",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_duplicate_does_not_count_as_new_coverage",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_history_foot_is_a_separate_bottom_band",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_missing_has_no_placeholder",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_numbered_ids_placeholder_never_rendered",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_reviewed_error_sites_use_explicit_structure_drafts",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_surname_extras_are_real_and_distinct",
+        "family/tests/test_kanji.py::KanjiCoverageTests::test_target_validation",
+        "tests/test_circle_reproducibility.py::test_circles_keep_intended_geometry_and_empty_counters",
+        "tests/test_circle_reproducibility.py::test_fixed_paths_are_copied_not_shared",
+        "tests/test_circle_reproducibility.py::test_frozen_paths_match_original_full_precision_provenance",
+        "tests/test_circle_reproducibility.py::test_jis_module_does_not_depend_on_platform_trigonometry",
+        "tests/test_family.py::TestFullArtifacts::test_centerlines_svg_and_build_provenance",
+        "tests/test_family.py::TestFullArtifacts::test_coverage_exactly_matches_encoded_font_and_provenance",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[italian]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[italic]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[serif]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[italian]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[italic]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[serif]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-italian]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-italic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-serif]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-italian]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-italic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-serif]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-italian]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-italic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-serif]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-italian]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-italic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-serif]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_full_variable_tables_and_real_endpoint_instances[gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_full_variable_tables_and_real_endpoint_instances[serif]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[italian]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[italic]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[serif]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_inventory_complete",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[italian]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[italic]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[serif]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[superscript]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[gothic]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[italian]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[italic]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[pc98-mincho]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[serif]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[singleline]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[subscript]",
+        "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[superscript]",
+        "tests/test_family.py::test_all_jis_identities_including_nonkanji_and_sequences_are_present",
+        "tests/test_family.py::test_all_kanji_target_identities_are_present",
+        "tests/test_family.py::test_centerlines_exports_deterministic_lossless_svgz",
+        "tests/test_family.py::test_editable_svg_from_compressed_source[False]",
+        "tests/test_family.py::test_editable_svg_from_compressed_source[True]",
+        "tests/test_family.py::test_italian_is_upright_reverse_contrast",
+        "tests/test_family.py::test_italic_authored_a_g_differ_from_shear",
+        "tests/test_family.py::test_jinmeiyo_raw_property_identity_counts",
+        "tests/test_family.py::test_jis_manifest_exact_identities_and_level_counts",
+        "tests/test_family.py::test_legacy_original_files_byte_identical",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[bad_magic]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[duplicate_key]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[empty_key]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[header_flags]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[index_out_of_bounds]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[index_overlap]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[invalid_baseline]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[negative_advance]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[payload_truncated]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[record_flags]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[short_header]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[version]",
+        "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[zero_size]",
+        "tests/test_family.py::test_master_compatibility_and_actual_two_axis_interpolation[gothic]",
+        "tests/test_family.py::test_master_compatibility_and_actual_two_axis_interpolation[serif]",
+        "tests/test_family.py::test_missing_characters_are_not_synthetic_coverage",
+        "tests/test_family.py::test_negative_enclosure_font_renders_white_counters",
+        "tests/test_family.py::test_negative_enclosures_have_real_outline_and_bitmap_counters",
+        "tests/test_family.py::test_opentype_super_sub_have_smaller_raised_lowered_outlines",
+        "tests/test_family.py::test_package_rejects_stale_raw_centerlines",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[gothic]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[italian]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[italic]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[pc98-mincho]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[serif]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[singleline]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[subscript]",
+        "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[superscript]",
+        "tests/test_family.py::test_sample_bitmap_exact_png_roundtrip_and_sequences",
+        "tests/test_family.py::test_sample_font_build_is_byte_deterministic[gothic]",
+        "tests/test_family.py::test_sample_font_build_is_byte_deterministic[serif]",
+        "tests/test_family.py::test_sample_font_shapes_all_25_jis_sequences",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[gothic]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[italian]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[italic]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[pc98-mincho]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[serif]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[singleline]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[subscript]",
+        "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[superscript]",
+        "tests/test_packaging.py::test_after_test_input_changes_are_rejected[build/family/static/SinglelineJPLab-gothic.ttf]",
+        "tests/test_packaging.py::test_after_test_input_changes_are_rejected[family/package-manifest.json]",
+        "tests/test_packaging.py::test_after_test_input_changes_are_rejected[family/release-gates.json]",
+        "tests/test_packaging.py::test_after_test_input_changes_are_rejected[source.py]",
+        "tests/test_packaging.py::test_allowlist_excludes_arbitrary_untracked_files",
+        "tests/test_packaging.py::test_archives_are_deterministic_independent_and_checksummed[bitmap]",
+        "tests/test_packaging.py::test_archives_are_deterministic_independent_and_checksummed[source]",
+        "tests/test_packaging.py::test_archives_are_deterministic_independent_and_checksummed[static]",
+        "tests/test_packaging.py::test_archives_are_deterministic_independent_and_checksummed[variable]",
+        "tests/test_packaging.py::test_binary_docs_keep_available_links_and_label_omitted_references",
+        "tests/test_packaging.py::test_change_during_packaging_leaves_previous_destination_untouched",
+        "tests/test_packaging.py::test_changes_during_verification_invalidate_run",
+        "tests/test_packaging.py::test_channel_and_version_must_agree[rc-2.0.0]",
+        "tests/test_packaging.py::test_channel_and_version_must_agree[release-2.0.0-rc.1]",
+        "tests/test_packaging.py::test_destination_cannot_overwrite_verified_input",
+        "tests/test_packaging.py::test_edited_report_is_rejected",
+        "tests/test_packaging.py::test_formal_version_can_disclose_experimental_quality_without_false_certification",
+        "tests/test_packaging.py::test_gate_evidence_binds_browser_generators[family/specimen.py]",
+        "tests/test_packaging.py::test_gate_evidence_binds_browser_generators[family/tools/package_family.py]",
+        "tests/test_packaging.py::test_gate_evidence_binds_specimen_assets_without_metadata_cycles",
+        "tests/test_packaging.py::test_known_failure_blocks_rc_and_release",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[../secret]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[./source.py]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[/secret]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[C:secret]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[D:/secret]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[family/../../secret]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[family//file]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[family\\\\secret]",
+        "tests/test_packaging.py::test_manifest_cannot_escape_root[source.py:stream]",
+        "tests/test_packaging.py::test_missing_input_is_rejected",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>0]",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>1]",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>2]",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>3]",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>4]",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>5]",
+        "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>6]",
+        "tests/test_packaging.py::test_old_pass_boolean_is_not_verification",
+        "tests/test_packaging.py::test_passed_gate_requires_current_artifact_evidence",
+        "tests/test_packaging.py::test_pytest_selection_environment_cannot_weaken_full_verification",
+        "tests/test_packaging.py::test_report_binds_exact_source_and_artifact_inventory",
+        "tests/test_packaging.py::test_sealed_deselected_inventory_is_rejected",
+        "tests/test_packaging.py::test_sealed_partial_execution_inventory_is_rejected",
+        "tests/test_packaging.py::test_split_distribution_names_and_outer_checksums",
+        "tests/test_packaging.py::test_stale_raw_svg_is_rejected_without_overwriting_package",
+        "tests/test_packaging.py::test_symlinked_input_is_rejected",
+        "tests/test_packaging.py::test_symlinked_parent_is_rejected",
+        "tests/test_packaging.py::test_unrun_gates_block_formal_release_only",
+        "tests/test_priority_glyph_qa.py::test_baseline_origin_advance_and_pixels_remain_significant",
+        "tests/test_priority_glyph_qa.py::test_crop_padding_does_not_hide_collision",
+        "tests/test_priority_glyph_qa.py::test_expected_priority_inventory",
+        "tests/test_priority_glyph_qa.py::test_svg_proof_embeds_exact_pixels_without_external_font_assets"
+      ],
+      "deselected": []
+    }
+  },
   "nominal_pixel_sizes": [
     16,
     18,
@@ -19,617 +646,1017 @@
   "warning": "Passing verifies structural and binary checks only. Expanded Kanji remain component/composition drafts, not individually proofread; this is not a legibility certificate. Consult coverage.json for exact identities and status counts.",
   "tests": [
     {
-      "test": "tests.test_family.test_legacy_original_files_byte_identical",
+      "test": "tests/test_circle_reproducibility.py::test_frozen_paths_match_original_full_precision_provenance",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_jis_manifest_exact_identities_and_level_counts",
+      "test": "tests/test_circle_reproducibility.py::test_jis_module_does_not_depend_on_platform_trigonometry",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_jinmeiyo_raw_property_identity_counts",
+      "test": "tests/test_circle_reproducibility.py::test_fixed_paths_are_copied_not_shared",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_all_kanji_target_identities_are_present",
+      "test": "tests/test_circle_reproducibility.py::test_circles_keep_intended_geometry_and_empty_counters",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_all_jis_identities_including_nonkanji_and_sequences_are_present",
+      "test": "tests/test_family.py::test_legacy_original_files_byte_identical",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_missing_characters_are_not_synthetic_coverage",
+      "test": "tests/test_family.py::test_centerlines_exports_deterministic_lossless_svgz",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[singleline]",
+      "test": "tests/test_family.py::test_editable_svg_from_compressed_source[False]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[pc98-mincho]",
+      "test": "tests/test_family.py::test_editable_svg_from_compressed_source[True]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[gothic]",
+      "test": "tests/test_family.py::test_package_rejects_stale_raw_centerlines",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[italian]",
+      "test": "tests/test_family.py::test_jis_manifest_exact_identities_and_level_counts",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[serif]",
+      "test": "tests/test_family.py::test_jinmeiyo_raw_property_identity_counts",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[italic]",
+      "test": "tests/test_family.py::test_all_kanji_target_identities_are_present",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[subscript]",
+      "test": "tests/test_family.py::test_all_jis_identities_including_nonkanji_and_sequences_are_present",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_outlines_have_ink_and_valid_metrics[superscript]",
+      "test": "tests/test_family.py::test_missing_characters_are_not_synthetic_coverage",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_master_compatibility_and_actual_two_axis_interpolation[gothic]",
+      "test": "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[singleline]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_master_compatibility_and_actual_two_axis_interpolation[serif]",
+      "test": "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[pc98-mincho]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_font_shapes_all_25_jis_sequences",
+      "test": "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[gothic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_opentype_super_sub_have_smaller_raised_lowered_outlines",
+      "test": "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[italian]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_italic_authored_a_g_differ_from_shear",
+      "test": "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[serif]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_italian_is_upright_reverse_contrast",
+      "test": "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[italic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_negative_enclosures_have_real_outline_and_bitmap_counters",
+      "test": "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[subscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_negative_enclosure_font_renders_white_counters",
+      "test": "tests/test_family.py::test_sample_outlines_have_ink_and_valid_metrics[superscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_font_build_is_byte_deterministic[gothic]",
+      "test": "tests/test_family.py::test_master_compatibility_and_actual_two_axis_interpolation[gothic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_font_build_is_byte_deterministic[serif]",
+      "test": "tests/test_family.py::test_master_compatibility_and_actual_two_axis_interpolation[serif]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_bitmap_exact_png_roundtrip_and_sequences",
+      "test": "tests/test_family.py::test_sample_font_shapes_all_25_jis_sequences",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[singleline]",
+      "test": "tests/test_family.py::test_opentype_super_sub_have_smaller_raised_lowered_outlines",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[pc98-mincho]",
+      "test": "tests/test_family.py::test_italic_authored_a_g_differ_from_shear",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[gothic]",
+      "test": "tests/test_family.py::test_italian_is_upright_reverse_contrast",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[italian]",
+      "test": "tests/test_family.py::test_negative_enclosures_have_real_outline_and_bitmap_counters",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[serif]",
+      "test": "tests/test_family.py::test_negative_enclosure_font_renders_white_counters",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[italic]",
+      "test": "tests/test_family.py::test_sample_font_build_is_byte_deterministic[gothic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[subscript]",
+      "test": "tests/test_family.py::test_sample_font_build_is_byte_deterministic[serif]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_sample_all_sizes_are_unclipped_and_baseline_aligned[superscript]",
+      "test": "tests/test_family.py::test_sample_bitmap_exact_png_roundtrip_and_sequences",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[short_header]",
+      "test": "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[singleline]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[bad_magic]",
+      "test": "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[pc98-mincho]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[version]",
+      "test": "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[gothic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[header_flags]",
+      "test": "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[italian]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[index_out_of_bounds]",
+      "test": "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[serif]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[payload_truncated]",
+      "test": "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[italic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[record_flags]",
+      "test": "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[subscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[empty_key]",
+      "test": "tests/test_family.py::test_sample_all_sizes_are_unclipped_and_baseline_aligned[superscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[zero_size]",
+      "test": "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[short_header]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[duplicate_key]",
+      "test": "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[bad_magic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[index_overlap]",
+      "test": "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[version]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[invalid_baseline]",
+      "test": "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[header_flags]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.test_malformed_bitmap_pack_is_rejected[negative_advance]",
+      "test": "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[index_out_of_bounds]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_inventory_complete",
+      "test": "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[payload_truncated]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_coverage_exactly_matches_encoded_font_and_provenance",
+      "test": "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[record_flags]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_static_cmap_outlines_names_and_notdef[singleline]",
+      "test": "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[empty_key]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_static_cmap_outlines_names_and_notdef[pc98-mincho]",
+      "test": "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[zero_size]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_static_cmap_outlines_names_and_notdef[gothic]",
+      "test": "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[duplicate_key]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_static_cmap_outlines_names_and_notdef[italian]",
+      "test": "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[index_overlap]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_static_cmap_outlines_names_and_notdef[serif]",
+      "test": "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[invalid_baseline]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_static_cmap_outlines_names_and_notdef[italic]",
+      "test": "tests/test_family.py::test_malformed_bitmap_pack_is_rejected[negative_advance]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_static_cmap_outlines_names_and_notdef[subscript]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_inventory_complete",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_static_cmap_outlines_names_and_notdef[superscript]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_coverage_exactly_matches_encoded_font_and_provenance",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_svs_format14_keeps_compatibility_identity[singleline]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[singleline]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_svs_format14_keeps_compatibility_identity[pc98-mincho]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[pc98-mincho]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_svs_format14_keeps_compatibility_identity[gothic]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[gothic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_svs_format14_keeps_compatibility_identity[italian]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[italian]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_svs_format14_keeps_compatibility_identity[serif]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[serif]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_svs_format14_keeps_compatibility_identity[italic]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[italic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_svs_format14_keeps_compatibility_identity[subscript]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[subscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_svs_format14_keeps_compatibility_identity[superscript]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_static_cmap_outlines_names_and_notdef[superscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_gsub_and_harfbuzz_latin_math_japanese[singleline]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[singleline]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_gsub_and_harfbuzz_latin_math_japanese[pc98-mincho]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[pc98-mincho]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_gsub_and_harfbuzz_latin_math_japanese[gothic]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[gothic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_gsub_and_harfbuzz_latin_math_japanese[italian]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[italian]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_gsub_and_harfbuzz_latin_math_japanese[serif]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[serif]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_gsub_and_harfbuzz_latin_math_japanese[italic]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[italic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_gsub_and_harfbuzz_latin_math_japanese[subscript]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[subscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_gsub_and_harfbuzz_latin_math_japanese[superscript]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_svs_format14_keeps_compatibility_identity[superscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_each_encoded_jis_multiscalar_identity_shapes_exactly[singleline]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[singleline]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_each_encoded_jis_multiscalar_identity_shapes_exactly[pc98-mincho]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[pc98-mincho]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_each_encoded_jis_multiscalar_identity_shapes_exactly[gothic]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[gothic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_each_encoded_jis_multiscalar_identity_shapes_exactly[italian]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[italian]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_each_encoded_jis_multiscalar_identity_shapes_exactly[serif]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[serif]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_each_encoded_jis_multiscalar_identity_shapes_exactly[italic]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[italic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_each_encoded_jis_multiscalar_identity_shapes_exactly[subscript]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[subscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_each_encoded_jis_multiscalar_identity_shapes_exactly[superscript]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_gsub_and_harfbuzz_latin_math_japanese[superscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_every_encoded_identity_shapes_without_missing_glyphs[singleline]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[singleline]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_every_encoded_identity_shapes_without_missing_glyphs[pc98-mincho]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[pc98-mincho]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_every_encoded_identity_shapes_without_missing_glyphs[gothic]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[gothic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_every_encoded_identity_shapes_without_missing_glyphs[italian]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[italian]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_every_encoded_identity_shapes_without_missing_glyphs[serif]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[serif]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_every_encoded_identity_shapes_without_missing_glyphs[italic]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[italic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_every_encoded_identity_shapes_without_missing_glyphs[subscript]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[subscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_every_encoded_identity_shapes_without_missing_glyphs[superscript]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_each_encoded_jis_multiscalar_identity_shapes_exactly[superscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_variable_tables_and_real_endpoint_instances[gothic]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[singleline]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_variable_tables_and_real_endpoint_instances[serif]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[pc98-mincho]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[16-singleline]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[gothic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[16-pc98-mincho]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[italian]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[16-gothic]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[serif]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[16-italian]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[italic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[16-serif]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[subscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[16-italic]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_every_encoded_identity_shapes_without_missing_glyphs[superscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[16-subscript]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_variable_tables_and_real_endpoint_instances[gothic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[16-superscript]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_variable_tables_and_real_endpoint_instances[serif]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[18-singleline]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-singleline]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[18-pc98-mincho]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-pc98-mincho]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[18-gothic]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-gothic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[18-italian]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-italian]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[18-serif]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-serif]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[18-italic]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-italic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[18-subscript]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-subscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[18-superscript]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[16-superscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[24-singleline]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-singleline]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[24-pc98-mincho]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-pc98-mincho]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[24-gothic]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-gothic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[24-italian]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-italian]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[24-serif]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-serif]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[24-italic]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-italic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[24-subscript]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-subscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[24-superscript]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[18-superscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[32-singleline]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-singleline]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[32-pc98-mincho]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-pc98-mincho]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[32-gothic]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-gothic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[32-italian]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-italian]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[32-serif]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-serif]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[32-italic]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-italic]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[32-subscript]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-subscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_full_bitmap_pack_png_exactness[32-superscript]",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[24-superscript]",
       "status": "passed",
       "detail": ""
     },
     {
-      "test": "tests.test_family.TestFullArtifacts.test_centerlines_svg_and_build_provenance",
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-singleline]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-pc98-mincho]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-gothic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-italian]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-serif]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-italic]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-subscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_family.py::TestFullArtifacts::test_full_bitmap_pack_png_exactness[32-superscript]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_family.py::TestFullArtifacts::test_centerlines_svg_and_build_provenance",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_report_binds_exact_source_and_artifact_inventory",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_after_test_input_changes_are_rejected[source.py]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_after_test_input_changes_are_rejected[build/family/static/SinglelineJPLab-gothic.ttf]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_after_test_input_changes_are_rejected[family/package-manifest.json]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_after_test_input_changes_are_rejected[family/release-gates.json]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_missing_input_is_rejected",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_old_pass_boolean_is_not_verification",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_edited_report_is_rejected",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>0]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>1]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>2]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>3]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>4]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>5]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_non_full_or_inconsistent_runs_cannot_package[<lambda>6]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_changes_during_verification_invalidate_run",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_known_failure_blocks_rc_and_release",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_unrun_gates_block_formal_release_only",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_passed_gate_requires_current_artifact_evidence",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_formal_version_can_disclose_experimental_quality_without_false_certification",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_allowlist_excludes_arbitrary_untracked_files",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_manifest_cannot_escape_root[../secret]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_manifest_cannot_escape_root[/secret]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_manifest_cannot_escape_root[family/../../secret]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_manifest_cannot_escape_root[./source.py]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_manifest_cannot_escape_root[family//file]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_manifest_cannot_escape_root[family\\\\secret]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_manifest_cannot_escape_root[D:/secret]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_manifest_cannot_escape_root[C:secret]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_manifest_cannot_escape_root[source.py:stream]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_symlinked_input_is_rejected",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_symlinked_parent_is_rejected",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_destination_cannot_overwrite_verified_input",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_change_during_packaging_leaves_previous_destination_untouched",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_stale_raw_svg_is_rejected_without_overwriting_package",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_archives_are_deterministic_independent_and_checksummed[static]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_archives_are_deterministic_independent_and_checksummed[variable]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_archives_are_deterministic_independent_and_checksummed[bitmap]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_archives_are_deterministic_independent_and_checksummed[source]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_split_distribution_names_and_outer_checksums",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_pytest_selection_environment_cannot_weaken_full_verification",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_sealed_deselected_inventory_is_rejected",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_sealed_partial_execution_inventory_is_rejected",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_channel_and_version_must_agree[rc-2.0.0]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_channel_and_version_must_agree[release-2.0.0-rc.1]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_binary_docs_keep_available_links_and_label_omitted_references",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_gate_evidence_binds_browser_generators[family/specimen.py]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_gate_evidence_binds_browser_generators[family/tools/package_family.py]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_packaging.py::test_gate_evidence_binds_specimen_assets_without_metadata_cycles",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_priority_glyph_qa.py::test_expected_priority_inventory",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_priority_glyph_qa.py::test_crop_padding_does_not_hide_collision",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_priority_glyph_qa.py::test_baseline_origin_advance_and_pixels_remain_significant",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "tests/test_priority_glyph_qa.py::test_svg_proof_embeds_exact_pixels_without_external_font_assets",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "family/tests/test_jis_symbols.py::JISSymbolTests::test_all_jis_multiscalar_identities",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "family/tests/test_jis_symbols.py::JISSymbolTests::test_all_jis_nonkanji_identities",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "family/tests/test_jis_symbols.py::JISSymbolTests::test_black_and_white_shapes_keep_different_fill_semantics",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "family/tests/test_jis_symbols.py::JISSymbolTests::test_box_weight_identities_are_distinct",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "family/tests/test_jis_symbols.py::JISSymbolTests::test_marks_are_zero_width",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "family/tests/test_jis_symbols.py::JISSymbolTests::test_math_equality_has_two_bars",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "family/tests/test_jis_symbols.py::JISSymbolTests::test_negative_enclosure_protocol",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "family/tests/test_jis_symbols.py::JISSymbolTests::test_source_bounds_and_nonblank_geometry",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "family/tests/test_kanji.py::KanjiCoverageTests::test_blank_does_not_count_as_coverage",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "family/tests/test_kanji.py::KanjiCoverageTests::test_canonical_is_preserved",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "family/tests/test_kanji.py::KanjiCoverageTests::test_compatibility_scalar_is_not_normalized",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "family/tests/test_kanji.py::KanjiCoverageTests::test_complete_target_has_real_distinct_geometry",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "family/tests/test_kanji.py::KanjiCoverageTests::test_duplicate_does_not_count_as_new_coverage",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "family/tests/test_kanji.py::KanjiCoverageTests::test_history_foot_is_a_separate_bottom_band",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "family/tests/test_kanji.py::KanjiCoverageTests::test_missing_has_no_placeholder",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "family/tests/test_kanji.py::KanjiCoverageTests::test_numbered_ids_placeholder_never_rendered",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "family/tests/test_kanji.py::KanjiCoverageTests::test_reviewed_error_sites_use_explicit_structure_drafts",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "family/tests/test_kanji.py::KanjiCoverageTests::test_surname_extras_are_real_and_distinct",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "test": "family/tests/test_kanji.py::KanjiCoverageTests::test_target_validation",
       "status": "passed",
       "detail": ""
     }
@@ -5201,5 +6228,279 @@
     "complete_inventory": true,
     "strikes_with_raster_only_collapses": 22,
     "warning": "Exact collisions are disclosed separately from structural test success. Different characters can be indistinguishable at low resolution; all glyphs still require visual proofreading."
-  }
+  },
+  "schema_version": 1,
+  "subject": {
+    "manifest_sha256": "4ca4426b69169e394dff1b7270c4f00aab5d8a4169069c80c2868b78c4237e6e",
+    "sources": {
+      ".github/workflows/family-validation.yml": "ab512cf258ec91e295897621586cdea43ac83764595a2e314a72a86069706433",
+      ".gitignore": "b9a37a2eac9dc0721b877f348adabd1f85a2b601faf368348f32021811136e58",
+      "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "NOTICE.md": "83a23fc02d22ea8340413f6d24802b83ee160d1c13610c9a7c8e7813d8f83860",
+      "README.md": "3a7f97212b0110ccfa04c57db24c41a94d077362defe0a77866ec25718a0ea21",
+      "assets/fonts/CHARACTERS.md": "985490106abcf353154afa8f426fcb72ca4147d06d7340fd57c0e4a2f4db23fb",
+      "assets/fonts/README.md": "a719d4ea4b4d6e85fd3372adf420e6b1f1840fc5677c0a1120ff139e81e878a3",
+      "assets/fonts/catalog.html": "294edc7109301f39ebce007529e621a400fd13ac154a4488424f7daa01e16f6e",
+      "assets/fonts/catalog.png": "1c8a1a111c1b949607f3ed08a035948e121994d98743d5ef5fbbcd1c6d6e7f24",
+      "assets/fonts/custom-ascii-18.json": "7be62102651179829cb9904a172a0f787da6fdb9023c187263331a64649e5052",
+      "assets/fonts/custom-ascii-18.png": "534eb22c4fee4dd1f16c126736ca21d944eb8cdf42db278aff3fd8aee29105d9",
+      "assets/fonts/custom-ascii-24.json": "38a8e24e3a53012c685e8105737e334b812920317d91caab7c6fbf2346ab2016",
+      "assets/fonts/custom-ascii-24.png": "44aadc13afa59713c421c9205089499d4bfe02355450e3464fa7b49a53dc9248",
+      "assets/fonts/custom-jp-18.json": "00cca6e95141ccd59873dcaef8ff3483f25cd133a8a2e003c01b0b9beef603c0",
+      "assets/fonts/custom-jp-18.png": "36f9cbf3c973957ae5d4f85d8f56847c2f086a04545986ba2a479fcf36ff33a1",
+      "assets/fonts/custom-jp-24.json": "465a7f8096e43ad6fc3968ed6ee6d706b1f9fbfd6ea88876bb54653909ec7c23",
+      "assets/fonts/custom-jp-24.png": "c33cbb1c44b0f6541b64948de5b00fb8dc524e9e9742123a5ff733bc46dcbce2",
+      "assets/fonts/education-grade-1.png": "e39397c99690969f370589fe660ed38c201865a113ba145563834595e6fea6a6",
+      "assets/fonts/education-grade-2.png": "b4beb94f7b8bc48aba3dff13abb2cb34cbd20aa204c8a209bba9aee2fa93d606",
+      "assets/fonts/education-grade-3.png": "fd3549e918defcba233e500556685996bcf7b40a048d42e0e3f0d9df7469abc2",
+      "assets/fonts/education-grade-4.png": "a108ea44628581d535dfd108193815e9fec120ae5e2f78d69bad150d10d4039d",
+      "assets/fonts/education-grade-5.png": "d4dc410d3c156b18934952b1d664de1094e4f8c35ea942f9d68c82c13348e057",
+      "assets/fonts/education-grade-6.png": "dc591f0291a5808d8fdfbd4b83f76a53e784700bdc4825679ef0bb653b41f89a",
+      "assets/fonts/joyo-secondary-1.png": "edb885dec513cb9b781dd39f3c11f9579d6a0244a04787d596ccc5a93cd46d59",
+      "assets/fonts/joyo-secondary-2.png": "6399130518d7010172d8ef0971bb0878fecf0978e4fd1dd1e421b428fb509cc8",
+      "assets/fonts/joyo-secondary-3.png": "60c473bc86b4a154a6f048ad7ec8926dd29a8803f68311df2a24811135d7bb22",
+      "assets/fonts/joyo-secondary-4.png": "ac5b05961180b1ca66dbc19ed1659d81bd1a95f5cb3fded311089e9dbca456de",
+      "assets/fonts/joyo-secondary-5.png": "fc6c6e1a59db8b6ac3966ebf3f465b3807d12859852fdf7a44bdb8a12afa2afb",
+      "assets/fonts/joyo-secondary-6.png": "9b4f323ed996fd54dec493277c3e689a817e06ae7570d7e745636bbdcdb42f47",
+      "assets/fonts/source/CJKVI-IDS-COPYING.txt": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+      "assets/fonts/source/CJKVI-IDS-README.md": "810382e8b554a6adca612e915191cd031b9bb02121c12aa3387131af57ea46de",
+      "assets/fonts/source/education-kanji.txt": "c4b228fcc26feb628bf2d09d121fb905c348a396546e66191d18cac2f3f4e3f4",
+      "assets/fonts/source/joyo-additions-1.txt": "87983bc00db2a61ecd39d19fcc9ed98887b45d09fdf1265cc2a22dbf30479c02",
+      "assets/fonts/source/joyo-additions-2.txt": "e5116c156a349dfa6fd1fb183c68099e0745e6addb7772e23959f1991442c22a",
+      "assets/fonts/source/joyo-additions-3.txt": "a77cd2b62c647cc99610536f36c76eb0d4c003ec4858c7eecc446506f43f2fe2",
+      "assets/fonts/source/joyo-compositions-source.json": "705915cd16e0e2354f022ce03ae05787b60ce057df0e69c39185b05c8786bc42",
+      "assets/fonts/source/joyo-compositions.json": "fa70a52741154797d8aab1fe55fe094c5abac0dd3469f561e920e4238dd26550",
+      "assets/fonts/source/joyo-kanji-sources.json": "bea744f842ee8c7b8f440277e2e6c5ec2fe97c01ad1986c0b70f708d43773b3a",
+      "assets/fonts/source/joyo-kanji.txt": "a02756d5ec7ffaf8b2ddceac430e46f005dd503f5a1c740dbe51fb50e4347950",
+      "build_custom_ascii.py": "1b0ca330d90d3a9beab2f8ebb39c4702289435f4b2992d0dc5c426e07f676b97",
+      "build_custom_japanese.py": "2b26c8a423fdfeddb7e2464d006f24f55d5b2f9fe8798248c8160a4e23aa4d24",
+      "build_dot_fonts.py": "42190b8ca5d3015014a23571de78b9efc87f604242fcdccf67ddd30cf6f86ecb",
+      "build_family.py": "36a72e3d10a7738e2e67c1bc63272f883a0e138f69b025cfb7f136e826a83010",
+      "build_font_catalog.py": "861a714dc44cb3890a3ba2004b91416fe4d03f8613a6b3687b7ed70d79e2a6c2",
+      "build_ttf.py": "c95e5b119d7ee09ad02abcb982159a25aaa027dc444bcef9c04d1761fa6c87f6",
+      "custom_ascii_strokes.py": "3216ab1aa7f9ccd45b709edc2b9681c7d9caa6040644c49ea8956cde49c28cbe",
+      "custom_japanese_strokes.py": "a56877cadc9e272d9bd4346245ac987aef958eb476bb3db70898edc5f3c2ac16",
+      "custom_symbol_strokes.py": "baa8ccd6a6a133f3fa940f6f65629c83e35657f295966f897d4088a1fb7f2d22",
+      "docs/BUILD-RESULTS-ja.md": "ee641710bf3f8617a1d34bb21279548d01ed64b301df203bbdc68456ce17e64a",
+      "docs/CHANGELOG.md": "6cf7618b2a41ded506913da6bac0aeed1e0c8255c5cd963d80d6c9ee6e829ff6",
+      "docs/DISTRIBUTION.md": "ca48a55bc6907f85fc9acf7353aa661b6190ed12daddceadc60085a4f980262e",
+      "docs/FAMILY.md": "c7423e0d24d4f2b60ecf5419ec61cfe62e55b2df488411e56a14134d066cde1e",
+      "docs/INSTALL.md": "89f3350f2080d67a2fc3252e052971a714b050c599256544adb42826c6ab540f",
+      "docs/PRIORITY-GLYPH-QA.md": "5bf835092747f96759354f26eb2bbd06fa53809b4fab2fe872c09c307c63bcab",
+      "docs/REFERENCE-NOTES.md": "49061768b062db1499e15f59cd4827fb4a437e0d78443eedd5056bc55fefb431",
+      "docs/REPRODUCIBILITY.md": "011f612dcce37472a195366db470b72acaf7ef75e1ed95407dbf99edfeca5d30",
+      "docs/STYLE-RASTER-QA.md": "5c343e3d47a01c1308ead52a7cf31d80e73ee86392c8ba2ca33f16b1cf88a1e0",
+      "docs/UPDATE-16-32.md": "85ffc53d188cb7d01e46630bfe29a1f95ad42c9afcbe44170293a34f614635bb",
+      "docs/VISUAL-QA.md": "6ee1d8872dfecba43d8200ac8e604e1eb26eeab9bba67a818c93b50b555eac83",
+      "dot_font.py": "11358c5fae9a26472ada55b54b2078adc678af7fc5a5afc78fbbe7de4cb08104",
+      "family/JIS_SYMBOLS.md": "2219f9681714bcff931ae08f98d45b8d83e2518d9d5fdf65ea4572bca588d8c5",
+      "family/SYMBOLS_AND_PICTOGRAMS.md": "836efcb540aaaddf0e1902f9acfd7ab2d2b0f61d8ace29529a2f9019c1e47e7a",
+      "family/__init__.py": "cc85218090cc199ccb17fc5f69d879ae1fd8a0e4206461095ff9abc97a18f7ef",
+      "family/bitmap.py": "80334ec4c237d120c8504421b2dbf4a710ee862014e766681700579b7c2d2f9e",
+      "family/bitmap_reader.py": "1fe67d8318dc13b3d158473d6628f513d1ed10527a718de878e6c2666233412e",
+      "family/data/KANJI-SOURCES.md": "8ba62e1b05c80dfbda40c6385ca0eaa65273b9ced1ead4fa0466438c00234ebd",
+      "family/data/UNICODE-LICENSE.txt": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96",
+      "family/data/generate_jis_manifest.py": "1e8a3e18c0ce7cd3e5aa609ac498bb00c3080af70ee3363fd5ac6a83454c4935",
+      "family/data/ids-trees.json": "c5d7b66550e38db822cc3438e1e8e5dee502b5cfc53240ca08c71448a8229085",
+      "family/data/jis-circle-paths.json": "92a4766f49db3babee0d4af631029cfb086cfe334aff67686b036a063bd45a75",
+      "family/data/jis-compatibility-svs.json": "71920f6511c5adee592021fd347d7375fd1467b986be3f9a77d506877f25d7bb",
+      "family/data/jisx0213-2004.json": "ad41353c4dad9f3d447fcb22336984a05c91fff5a7d58f3c122bea6459222ab9",
+      "family/data/kanji-coverage-summary.json": "3a3b950bac3a790250c6ae2ddf22270e62b66a20929df5859e0d88c82cde7a85",
+      "family/data/kanji-review-corrections.json": "cafa7c2badd8d2ae0122a7fca42a1936de52187e7ec7ae581e49512465984ccb",
+      "family/data/kanji-sources.json": "df158734709e1a7e242cb05fcbd451a258bedcce96d25dc3a297b40a225de24a",
+      "family/data/kanji-structure-notes.json": "438373477d707c29b8c3cc34ee24c743a3959f5bca1798fa095bd9bcb3ac0e6a",
+      "family/data/legacy-components.json": "37ee3278e5a5bc869ae5f263da355d6ff431d5295d05fde61e36375f982ca21c",
+      "family/data/legacy-sha256.json": "7a6f8c407a10230907b4c7a787bf2e9bb9ff0140b0caed70d63350c4f8472277",
+      "family/data/sources-lock.json": "8045462cd3099d1f097f00864f9390722129dfb1c74615fa399aaebb1eb68b34",
+      "family/data/unicode-jinmeiyo.json": "14c9c2b6b75aed19b72645d3cee3c2ffd0d9b337e00161e1b169e08369ae11d3",
+      "family/data_loader.py": "2e1a73eda9c14bbb9fb02bd653d09270e23a3ea82ff90765654355c05482ef24",
+      "family/font_builder.py": "dd3eda8a94f2b4a02372af7b09d451d18a6e8fd183a9920f11d2f938ac54a5fa",
+      "family/geometry.py": "5ae1d3366035465c24598241e41f5b9ff14d64a8927b2dc338a10427940a4e03",
+      "family/jis_symbols.py": "e65aa3d9bcb5790eb7748772123326f77d43e82b6460d9428b449ca95fc9a150",
+      "family/kanji.py": "a540a3f1a7a3a5d3dd815d3154a6eb0943251fdb2587b1a652ebb6c1cac13ea8",
+      "family/kanji_components.py": "7050af5aa1a9781ac792e8c083ac126d893b00c8c24b36f6da99aa61dc2af2de",
+      "family/kanji_dense_corrections.py": "034c50f7027f7861dd9001078bbeca0b2990ac85b2237ad1e8a98970a612d428",
+      "family/kanji_rare_components.py": "4bf8b4d14a31100a52c60e3284074421298834b6f390ab42d69e58d7751d0567",
+      "family/kanji_review_corrections.py": "0a4a84b0825ada45d6ea5300b865c1ce697853680706840528be69fb285cd7af",
+      "family/kanji_variant_components.py": "9145a9e78a509d430f846dc999505fba19bfd8f61b8e7f0db6e1a0ca1d4bcd70",
+      "family/model.py": "5c7538fda05271491410b8ea78817503910a03ec0997e5db2a81eec603c4b98b",
+      "family/original_pictograms.py": "0dcb3469b26b2d970f44a4ce0779d67e4af5f3e60ef31e606e3265b64e2b3c28",
+      "family/package-manifest.json": "4ca4426b69169e394dff1b7270c4f00aab5d8a4169069c80c2868b78c4237e6e",
+      "family/qa_inventory.py": "aa378942ee1a8ceb8c0206b45c6e12d1e8664fe54396d36c77b01e0e33e5a327",
+      "family/release-gates.json": "9386ea6cde44ebf7cbb4be0ed07b79e16a150abc0f58f5561670a716eece9673",
+      "family/release.py": "ac27e6557db93471ed8f4ab7a62cbbd10b96a5babbc312c8ce475f4565105287",
+      "family/repertoire.py": "9f7787306ba26561debd9e8f39d895acd1fde6292dd451feb090f42da294fddc",
+      "family/specimen.py": "4ad7e69631c9210c73ca8dc587d0515828a59ffb495c5319a7dcc9d47f2a1cc7",
+      "family/styles.py": "efb6d6df780f2a80ddda88b4426add2f41070e00ff04ff12da4be28757016894",
+      "family/symbols.py": "660fd539f8b17603fb5a0c5fdb9ca4f9b2a677a7d59fd191c486f15df3a425ea",
+      "family/tests/jis-symbol-review/page-1.png": "28ce33ebb3f59df92e5565f5185a1f7898577359f06bab714787f56ccda20c86",
+      "family/tests/jis-symbol-review/page-2.png": "6f7101789eb9a38cc7e28bd13af6e1ad72ca95f455c45fe845f97a37068c0c32",
+      "family/tests/jis-symbol-review/page-3.png": "55d3201b8f4139ee779f65c66986aecde8df79b48495674bc4b83ea2ef588db7",
+      "family/tests/jis-symbol-review/page-4.png": "86c6ea759c5b09b199d4fc8f099fa3254fab0add58476d841bb886c0931db214",
+      "family/tests/jis-symbol-review/page-5.png": "ebac29d92c427bbae633c8ce8cfbb0022ec07509a30924da7b8ca80083c6a1c6",
+      "family/tests/jis-symbol-review/page-6.png": "202711714940005b380d827c20a661272b9d15bd83ef0c851601a388a86d1185",
+      "family/tests/render_jis_symbols.py": "b8e715650234741b772eda4ce28441aa341635ed77de74bdcf61dd0c5bb7cd68",
+      "family/tests/test_jis_symbols.py": "5e535a654bf32d932c84116598b264b065253e59433dc2cf54b12c782fae0091",
+      "family/tests/test_kanji.py": "981411e31f53dfbf43bd3995ecf1bcdcfb1544349fb9cd410e3afc5f92cc6cb1",
+      "family/tools/audit_bitmap_collisions.py": "f9fdd5e43105a48feabdbce987dec75781af650028f17b1bcdd0beb2e1ead4bb",
+      "family/tools/audit_kanji.py": "6906d503f691ce0cf04d60c60394895270a3eaca8cedde51ca59416080d14f80",
+      "family/tools/import_kanji_sources.py": "37236196064ba0e805992f40a90f7688485c3bf4b0a325d46045dda774797757",
+      "family/tools/package_family.py": "c73d4081cd5a5d6655b922bea96b4eb618d29070470674125ca2d88692b0e0aa",
+      "family/tools/priority_glyph_qa.py": "78ad5a504f32ea0328c2ee7b989919a3ceeb5b194e64a1608e6decbb4248b432",
+      "family/tools/refresh_bitmap_glyphs.py": "3ecef8f7109662bc9a5c7f6200e2ce8721b7e4375d807b13c85c8255c1441e3d",
+      "fonts/SinglelineJPASCII18-Regular.ttf": "5aa75626d397c927e3ee46edb4c72a707bb3cce168b1ffd96f0bc6fa5260888b",
+      "fonts/SinglelineJPASCII24-Regular.ttf": "6dcc2153d0e35032aae28ac6de37edaf31664dace7473a67d215798ed9a50a55",
+      "fonts/SinglelineJPFull18-Regular.ttf": "e86a921879e53ee3b3358205dacf3bff24dff91075392f2f3efd91ab80dadf06",
+      "fonts/SinglelineJPFull24-Regular.ttf": "c85799a328594a216dd7353dc40a1af15f40da4a10dc16233ba9caa0adb851c9",
+      "fonts/preview.png": "19eb2af0d0065acdca1f841ede8b2b50bf7aa3fe4043a2e6eca28cb2505ce2d4",
+      "glyphs/__init__.py": "97373cdf75894881585dd79de2f5eb5e00448a10825fa7cf8f83aaa247eb29fd",
+      "glyphs/ascii.py": "1e767f7da365b0c2b189170bdd4c67e918b2bec643978d1d01bce32aadcbdddd",
+      "glyphs/hiragana.py": "904991213fa12b1027128e010a17be43a49f8c13b035453f04adf342edae0f86",
+      "glyphs/kanji.py": "d0411bdc8ed96e5d7918b7f7dc59d7588a9180f7d032d767bd2f992c4ac4b5be",
+      "glyphs/katakana.py": "b6b8aa9e682db2f92ca45d674c8beb28ff0c2b5e2bcfc934cd0e54d9992577e5",
+      "glyphs/paths.py": "a0cbf98d2d895d797455c31270936e4d0ab0889605f25bb1193ee990d54ac288",
+      "glyphs/symbols.py": "27c6d075613f71a7f583bd52415a7803d94032d88e4870ce94bf64a18e3454b5",
+      "joyo_repertoire.py": "6114b7ebccba435ec3d3abedeeafc846a9f76bc24dbbbe4627f79e444bac9fd0",
+      "render.py": "c3bdb79bcf93405bd0b20e94faf893c182e11e1f340d04ffa25ba8ba806d4008",
+      "render_bitmap_proof.py": "91712870179cbfa14ffd22c115d7b83719b5e9d7f0212cc90cabea56c42f291a",
+      "requirements-build.txt": "03a1bbe8a07be6af622811988d6b14d10d8669d1046e0ab4e65864490b65a394",
+      "requirements-family.txt": "678716780dabb7f03ea38524b8f80216985d15379218e7b3bca664d19845104d",
+      "requirements.txt": "ece352becb3f1a251b669208ab0e5670f48298befa5e1ad551388a9db94ceeeb",
+      "tests/test_circle_reproducibility.py": "68f290e66b9df45b7c2794bfc1c13b208f0514ce6c457120352f55e20037223c",
+      "tests/test_family.py": "905fa19b4417597334fa9876bf18bd4e2e55b2c6ef69b01e82aa8d23c63c80ae",
+      "tests/test_packaging.py": "ac7f1faaec797484e8878ffb7167c34b36fbafe40cee3ace485469793a32d4ba",
+      "tests/test_priority_glyph_qa.py": "f8ac247d1163d965a345ee195f77f4c571a8956df2f1d7e58224ea11665f9aad",
+      "verify.py": "d2ef92a92243a67926ea3c8673acdfaaf7ced3730500d53716c114264e125399",
+      "verify_family.py": "6e75807e5a06c91e1a92910ceb6b1bf48dee77097afffa1de43fe72c708fa462",
+      "verify_ttf.py": "83f1097fa850e1dfc7e5ad34d50f5f66522392a129678f48d22b120c71e03588"
+    },
+    "artifacts": {
+      "bitmaps/gothic-16.json": "e87717d2736a20b9da01d2f956913dc4a42cd33513482e598b8fba010373ea57",
+      "bitmaps/gothic-16.png": "4f759e9875019d9bd6f22f34877d3d9065112535df11e2a53cc202763fb6ad42",
+      "bitmaps/gothic-16.sjpb": "5ea5b8e73d0bb2516c8fad7c743e01d8f3e74a1adae16ccd96f4c01e6e0f6e02",
+      "bitmaps/gothic-18.json": "9a9c4959852e97928383313c1e17f6efc607794e7a5cf8ebf631ee0a425e22f5",
+      "bitmaps/gothic-18.png": "2bc0e4cf658707d01502ab0495dc9b5de5d1d7098863c1cfef385ca4f87a2b24",
+      "bitmaps/gothic-18.sjpb": "d1ec14aa8f3423f8499231cfbcbfc314b002f54f7dd5c2898ecb5282ea232f47",
+      "bitmaps/gothic-24.json": "f7fa2a63e7a4266ea1c0ad4824863ec3cd6309dc3c961aa31f244dbf1a7c17e2",
+      "bitmaps/gothic-24.png": "952c094a50fdde47a29a5b22c54a499e6cb3df0bbac10632a75eeb38c9ac980a",
+      "bitmaps/gothic-24.sjpb": "652e2bb8c7f3ce98d6cb26c5b6042f24a4f51ba2caa8e07d44b39a0169b03b10",
+      "bitmaps/gothic-32.json": "45ad18d22aa4f1af483799d9ca316471d9fa8f8b7aad1c416ea94291088cd25c",
+      "bitmaps/gothic-32.png": "1888ca41871c6decb1ba5820b04ab2a753904cd86e1a99a0441ce0b64e1faa14",
+      "bitmaps/gothic-32.sjpb": "2bda84ab4e84524f86d0f18ea986c2648848d1c4adb4496ef7c6e6d904e75892",
+      "bitmaps/italian-16.json": "cc6c6052c69ca04aacf250a7d3289697850bf4e56464619720c5aa6b7970828a",
+      "bitmaps/italian-16.png": "8ad8d82a42dc446de5c711fd987c8ab7525ef18695295274c63915dd6cba7ed6",
+      "bitmaps/italian-16.sjpb": "3e1655723056e7887950678f270e74a77d1e70b4f222bf51944b1a5139458025",
+      "bitmaps/italian-18.json": "235213171dc1fa8d94353d02668ccb05f43051043620c02990c5d98457d26daf",
+      "bitmaps/italian-18.png": "71d6a6c0ed683cf80e3784381c0fc140a71cf52099e797a9aa1b09a9b757aeb2",
+      "bitmaps/italian-18.sjpb": "b7d76fdbf472107eba88c2465be5bc3ca5c595a16dbc4ef489931f746e386e3d",
+      "bitmaps/italian-24.json": "1ad9c07cf35045f20892f4c97909186f39bedf010ec68f8b2aabff568a36dea6",
+      "bitmaps/italian-24.png": "20b9ab8edb51ff9f0dd7fdcf891caa07d9ee62b4d62636f78374818e342f42e0",
+      "bitmaps/italian-24.sjpb": "e0ea5529bffdeb73298084343c70262928ef11051e36130bfc081f6ad2f85363",
+      "bitmaps/italian-32.json": "6a618b991b8548aad620d8110b720194512fcfc0b7d7d9d0fce4ced23c120523",
+      "bitmaps/italian-32.png": "b0e977c6fb900d064c0129feffe9d2a39b22e4e638b1ae62d62594c532fa60ab",
+      "bitmaps/italian-32.sjpb": "2dd00290095d9ae377bc2f9a065a896137323583bfc8afd7fa7a67cb1e2ce120",
+      "bitmaps/italic-16.json": "4a9dd981fd3f17e82c9bd11185f7d48cc6bddc6821f32a1df8d280dbf53b7621",
+      "bitmaps/italic-16.png": "7963d4abbbbb5e49dd4b21b8276c6f62b275ca37f458a8f450d05d3267d6b59e",
+      "bitmaps/italic-16.sjpb": "26031e966987afe7cd0750a813b96291d076df08ba56747a524905c0f6c52f3a",
+      "bitmaps/italic-18.json": "bf65de02d64757e074045f8071426ca1207f234e5487849a08d49f0399fc8508",
+      "bitmaps/italic-18.png": "d4eb7f4b748e4404ffd4d435f3e2639101e08a6abab2cdd0365a3492d308f41d",
+      "bitmaps/italic-18.sjpb": "a0c677773796c13bd8c10976e444eb4bdbfab2b153c06bd137c98e3e9b7b913d",
+      "bitmaps/italic-24.json": "c866581d844f94ad1883959b2cf251f7b5f39fbd0f538e72298b47ac567f16e1",
+      "bitmaps/italic-24.png": "f613bef618fbe81e5f3d903f7d22a56ab99eed263883dcc6a5c6172991108284",
+      "bitmaps/italic-24.sjpb": "c061355d5831f73c9d82b032e51156c6a982f5d3d36ccf3730dd2678e8f47ce7",
+      "bitmaps/italic-32.json": "c83004796ca7f4ddf21d9399697ee371c95da3c2f88f0dcbf6408b4061014ae1",
+      "bitmaps/italic-32.png": "c3525cdb51100cc064d123bb38adf0fb0c104ec775e4161da7a53b7e8551fc4f",
+      "bitmaps/italic-32.sjpb": "1fd8e2cda461583a440c8d80763b42c34c052f56c51fb1fdadf202bdb419fb16",
+      "bitmaps/pc98-mincho-16.json": "f6cf79b706347c5d7b1231cbd0ce4f0ed4f8ea03786aeb19c34c5f121729444b",
+      "bitmaps/pc98-mincho-16.png": "2e4c69ee53c6c81bc3d1ec96ee4ea1a0b4ea07eff7e7462c76059ff20c3de4a7",
+      "bitmaps/pc98-mincho-16.sjpb": "ece78289723b31d2d5fb253b1bbbddf8488ef2864062e895bc8ff621b2523501",
+      "bitmaps/pc98-mincho-18.json": "6d59f0f79c45006f986314cb5b7f0e2267d4e4f2fe42b6e4399b2e35be1656a0",
+      "bitmaps/pc98-mincho-18.png": "f1f67001726cbdf2bb71e0d7902fba0d5ef8cf9c891be64676b3870812d77c17",
+      "bitmaps/pc98-mincho-18.sjpb": "6e47b4904efc9309c840c101299399f19bda93b9acaa97a3bdcaad7c6ba77686",
+      "bitmaps/pc98-mincho-24.json": "bf9281284b5ff222f1778c7c64ae0c69f24b597e5d7a690b481b833fc1e41c85",
+      "bitmaps/pc98-mincho-24.png": "d9f3510ea4bf6bc5567af346c13b4edc789cd953ed4b59a74d84fb3d295f1884",
+      "bitmaps/pc98-mincho-24.sjpb": "c36a5b27f475d4fb8679b9d428fdfd6f980cda4dd049ba553756f4f2b6c2340d",
+      "bitmaps/pc98-mincho-32.json": "e639d3d617ea611800fde412e60f0e7af27a7b1ca27654af0f8c431dc9f55522",
+      "bitmaps/pc98-mincho-32.png": "05261f794020645c552ed4d33d69f0bfadd07e503966d41f5dd922f437e9cac6",
+      "bitmaps/pc98-mincho-32.sjpb": "ad9b1f58a844f34105205c2e24aee0fb09d76e0c8c137d0ebaaf86a97a480d7e",
+      "bitmaps/serif-16.json": "e9e39dbbfe34b0b93cf6ecacf3ed2005d3114145f2f82bb8f884ceedae99f562",
+      "bitmaps/serif-16.png": "5936e9e94314d4d8798bd07e9055d28867ac5e3767fb7cd674e0069ed597019e",
+      "bitmaps/serif-16.sjpb": "1640493c3d4bbcfcad59b278d7d9cd39ee1fa1c6447b5fed7dc9731277381b0b",
+      "bitmaps/serif-18.json": "a17d6a56830894081a61bdad1fe86339f2d37242b341dcc33238e999ad8d9c70",
+      "bitmaps/serif-18.png": "71c451651244509a170b48b4183cf89b8e09235c78817c6bb0bd1634303664ff",
+      "bitmaps/serif-18.sjpb": "e8490e43ad9bcc1962d39aeaf431127076052ce9cbe191d420a207d1123e49f3",
+      "bitmaps/serif-24.json": "a2ceacc5ac57d94ebd40bff4e95cd6ad9b88997bbc815a555b6c818f62e4642a",
+      "bitmaps/serif-24.png": "f4f125d8443120e7a7fc266f0c9ae17e35804468ad0390c37d8e3a0899fea812",
+      "bitmaps/serif-24.sjpb": "9e9b061f94cd612c6add6fb01162b3618c332d3ab9f1b0c5c27d2c2f0ba15c46",
+      "bitmaps/serif-32.json": "8fc403db86ce70401430651ac639f55b75c982100988b464325dcf71b9d850ff",
+      "bitmaps/serif-32.png": "dd7d227d3f4640abe5abed89a014b9b7b9e6186a998e4c5f8c0f142193dd63dd",
+      "bitmaps/serif-32.sjpb": "3fcec5e5b19f6a47dc859171cb2d5f7184123cb15d366ef5f007bc98d2c37a52",
+      "bitmaps/singleline-16.json": "b39135730e6c15c7f2040957cfd240766a79b5ba46f1fdbd8de785fcf0a59b65",
+      "bitmaps/singleline-16.png": "976a49ee34c5d070bf4b4199b10a2e86979bb0f50037b7c7a6d7c41776e51efd",
+      "bitmaps/singleline-16.sjpb": "73e953675bc79227d854aac950294b8f690b711546547e9d217f66350b06bc5a",
+      "bitmaps/singleline-18.json": "43e69b6f132cb90cbafd75da0a5ca3aa4e7cce05a943b93fca66cf3b3b64b124",
+      "bitmaps/singleline-18.png": "00e101f7f019824c8684ae21f6635da26e4018ab40e17285d7646f161c8b503c",
+      "bitmaps/singleline-18.sjpb": "5e8343feb2ebe31067c6087cbdb8eeba225e5923ac91b0127f49e490e74637c8",
+      "bitmaps/singleline-24.json": "bc42da97ba23f02027ee500cbf6f28026531d494f32b983ed2c5354002fe5cad",
+      "bitmaps/singleline-24.png": "92f13ae26ea8a6bd849f4d8d14c724fb4b9a583b2978462086d6c073409d3585",
+      "bitmaps/singleline-24.sjpb": "09779da472c1707c5389c52cb83325c4f61768f122642ab8e4fb8d1e268811fa",
+      "bitmaps/singleline-32.json": "2003e14118159ca6984ce045baf4316dfc44a0fa1852baa948019deb24130fd0",
+      "bitmaps/singleline-32.png": "9443fbfc7522c214f54fa0a39a00ace881bb8f6763713b91ab1bb6259d6104f5",
+      "bitmaps/singleline-32.sjpb": "994fabbc159e2a28f582dfc9aba9eefc419948fce8608807af2d9ebcc3c76309",
+      "bitmaps/subscript-16.json": "634be0a08074a0655d9c6b2bcdf37bd11f0f95965a08b95cd347016920a21642",
+      "bitmaps/subscript-16.png": "fe8b2df6c98aa6df2cac3fe96233efb35aca09845d157e0b5c7f9196721c313e",
+      "bitmaps/subscript-16.sjpb": "92d64132005f4742ff20f68b46124ad0734c1e443752546a4af5d5932c58785d",
+      "bitmaps/subscript-18.json": "4a1f6fad1451c32df1cdba563627ffff6de8f86864deda4396dce7e93af17166",
+      "bitmaps/subscript-18.png": "1341014de3735f57eb6ffdedd581dce3d1478c3abd628394c6022b3829b8435c",
+      "bitmaps/subscript-18.sjpb": "2d74f14089e25abc55767efe43b09e42dd89327f4a7c9cbc3c8d17570cca6d37",
+      "bitmaps/subscript-24.json": "ae063b9c04bd85a371f9d09352299c9b141654d819e9c0354cc41d3a54fa8995",
+      "bitmaps/subscript-24.png": "74b14d79357751b5d449f4c3057deaab21d13297cdfb7e82e9a327ca036358b0",
+      "bitmaps/subscript-24.sjpb": "ba910e83e61fc1af1ab158598bc407d196620c1715767a3065e314fd3946974b",
+      "bitmaps/subscript-32.json": "3863bd6627a33aca79533f9da2f164ddfc52d45596ee16db10b8b2dd1dc3c3cd",
+      "bitmaps/subscript-32.png": "3aa2b27275ab561a0863908cfa66190ca0b4f90766ff885d748043537534eedf",
+      "bitmaps/subscript-32.sjpb": "cd0f64db7170da6770d18375bb4bb27eae0d1d343554d60bb4a3f3101e4df267",
+      "bitmaps/superscript-16.json": "595fa3e44e6b9139563ab30fa0e3744991f5fe2974342313db6237e2be0b0944",
+      "bitmaps/superscript-16.png": "92e6d27fb69667a50d18ae24631de231a0b424e47df4d2954027b2921017f4bf",
+      "bitmaps/superscript-16.sjpb": "0d106e694c20673d188cc69b40cb6c50d511a72f4eccc72dc2b0608b8310de28",
+      "bitmaps/superscript-18.json": "eda8ade1f3f3bc476ae83452694afdd4a498a937915306d629b33eca4e30aa79",
+      "bitmaps/superscript-18.png": "82f949b4b485c348828f9a27c6411754fa903aa885015c2fabf4d6a811af98ad",
+      "bitmaps/superscript-18.sjpb": "f29a906f1fd68a1f51219380962db8c4e90f475b8de2ecda83c4aa4e49fadedc",
+      "bitmaps/superscript-24.json": "3c87537056a0f15987efebe6902c757ecdedb6cfcf63e394b147f4ee63038d7c",
+      "bitmaps/superscript-24.png": "251a29dd53ab9397351d12926f781500f29877a5aaf990a8fc15dc346b8218cc",
+      "bitmaps/superscript-24.sjpb": "6c823390d4996c6e1543ab4bbe2116e61a9a3d9049ea7733b07f381222ac5f5d",
+      "bitmaps/superscript-32.json": "e1511febe99e602176c897fa5f9ba1d895c1dfeae02da436d00f09a8aea4e3cf",
+      "bitmaps/superscript-32.png": "c8c2c26483d0aabe55bc55c37f6a7b93eaa3025e52a9da4cd389228b736cbf1f",
+      "bitmaps/superscript-32.sjpb": "0c06dc60315bb27b02d6d7a144d3de4abb6bbba8358a07a7cc2c798479862865",
+      "build-summary.json": "4023230779ecc86b274bed2d308ef2348c72a60faf5f71d74a5a5a21ef87ab50",
+      "centerlines.svgz": "851aa309a1a121cecfb1d10b836ab55c9b8c9728938b4db0308587846e4b6308",
+      "coverage.json": "9673eab3438bfee023c08a38947487e5f41e3389c355308df94c0bc6d5190280",
+      "glyph-provenance.json.gz": "c78f5612ce2db05934955e47647e655392f019bd36f83bd3b11af1d2be9b2606",
+      "proofs/priority-glyphs/gothic.svg": "239395f9e5f17a4af92ffe277e1b7d23aed5ff49984a04db5d13580dcdb7b7ec",
+      "proofs/priority-glyphs/italian.svg": "5e03f43dde636cba1edad601e78338fd4e78d39acef269605a05f817d767160a",
+      "proofs/priority-glyphs/italic.svg": "ba2521a82078f06ce9a5111a11420045e3a3a55f83b46afa59c833a45773de57",
+      "proofs/priority-glyphs/pc98-mincho.svg": "2d9b79540d192bb9e321ac62f427ac9f0148cfedb3701724e67f2b1b53d5e541",
+      "proofs/priority-glyphs/serif.svg": "0ceb55c7b3871a3bc8865164f3ea9efe43d03ef99efcecd99d059b01eb86c3ea",
+      "proofs/priority-glyphs/singleline.svg": "3724a7d6fe5163ae2ed215a2d6b6fd898a281ea4dde4fcd56adaf0c53fddc320",
+      "proofs/priority-glyphs/subscript.svg": "fc2e079a205367b713b0f47269b9eaab004266cbe72b24519bb18dc735e676db",
+      "proofs/priority-glyphs/superscript.svg": "fb28be19a8de458a89ee401b406589dadec6fb603f37832bcd1e50e3680eaaff",
+      "reports/fontconfig-discovery.json": "a49420d2a427f344e79ae2ce558fe5865f464dadc7dc0f4a3c4e62f1700b8601",
+      "reports/priority-glyph-qa.json": "2d5417732d2b8008b9972a2d31abc8a9bce4ad6c113c4bb1cb6cc43557bd6ee1",
+      "specimen/index.html": "b4c915743df43d3a7a9499341e8ef52aa4dbc3ddf4fd350ecfbcffaa9c5b6a97",
+      "specimen/pictograms.png": "83825bfe50ae90c573e9c356c6586ed88125722ea4ffd53ef2daf3fd36da0c38",
+      "static/SinglelineJPLab-gothic.ttf": "e0c24f700d2a5b3927e329b9670b6bdf8874ef586b6afb0feb1d1f439b80dc2e",
+      "static/SinglelineJPLab-italian.ttf": "402a85539652fe5d611c905f210ca526ad3fed8d76431d2f01192548990aa976",
+      "static/SinglelineJPLab-italic.ttf": "7e6055aad4fd4fd6ccaa26bb9058d8e693e1eaa7627c097f272cc4ec1b1724b4",
+      "static/SinglelineJPLab-pc98-mincho.ttf": "13dcaf5cc99d8bca55a3283b650ce672d1bd84decf2bf4ce4a311fa48cbccddc",
+      "static/SinglelineJPLab-serif.ttf": "393149da327a6904a62dff20be3e156346a33c5c3b3927aac71fa163862c1e3f",
+      "static/SinglelineJPLab-singleline.ttf": "3334b16aab005e1506e9f9dc0cafdacde4bf8dd625c193f402d6fb053deaa369",
+      "static/SinglelineJPLab-subscript.ttf": "b8993c081a787d8be9996609b982279f5cfaee3b74c376d4e4a2fa570aeb672c",
+      "static/SinglelineJPLab-superscript.ttf": "5f66863c42bff3c2b9e71adef02458375476c295deb146b766131ced3fb4f515",
+      "variable/SinglelineJPLab-gothic-VF.ttf": "888daad7893f6f03eeded45fdb7c07182cb8fa606db3372f2200ba7914b3d345",
+      "variable/SinglelineJPLab-serif-VF.ttf": "c6606e04a566b3da86be55cb6d281c820c3d18f0f0deeecfde8883d94c04fd43"
+    },
+    "missing": []
+  },
+  "inputs_unchanged": true,
+  "integrity_notice": "SHA-256 content binding; not a signature or trusted attestation",
+  "report_sha256": "4d3aff8c3a605f2fdcbaf2d18a898cf9a79d5ff94c9e47557ab9bf3e2af53e23"
 }
