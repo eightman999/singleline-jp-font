@@ -1,0 +1,630 @@
+{
+  "schema_version": 1,
+  "purpose": "Sanitized user-facing glyph proofreading reports; not raw private review history",
+  "part_limit_bytes": 131072,
+  "outputs": [
+    {
+      "output": "full-glyph-proofread-compact.json.gz",
+      "output_bytes": 5997218,
+      "output_sha256": "d4a820cbe8b46e1c49866e56eccc274e0e621e0a1fa9eb361c1253c819271491",
+      "transport_codec": "identity",
+      "transport_bytes": 5997218,
+      "transport_sha256": "d4a820cbe8b46e1c49866e56eccc274e0e621e0a1fa9eb361c1253c819271491",
+      "part_encoding": "base64-ascii",
+      "parts": [
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0000",
+          "bytes": 87385,
+          "sha256": "942236334e81db88e986e46b275905b52fb2fd98c8f975e796ace9d490b5dd13"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0001",
+          "bytes": 87385,
+          "sha256": "75a47cc031e1cdaf9a73e4ba30b7097fad8a63acf01c4d5e55bc2c5b97af5d0a"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0002",
+          "bytes": 87385,
+          "sha256": "8b90377b43ee031691ab24b721a837d54fdeeac216aa65c1a806f1ad2ca2eed2"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0003",
+          "bytes": 87385,
+          "sha256": "64d295b66542e4e385282225574f137b64067c7e7e4507bdf339bbc525f75aac"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0004",
+          "bytes": 87385,
+          "sha256": "c1d01e0c9e51e66bd436dfca9f460686b6ca9dbcb06f10681a702bf644eb99d2"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0005",
+          "bytes": 87385,
+          "sha256": "41b785ae682102127b34ed77fdae3cb274b6d88405be21f791bdf563767b77ca"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0006",
+          "bytes": 87385,
+          "sha256": "d2565a59a96f73d944188b34d9a312cf2c96e6c4080e18cc5aedd4e7fcad6464"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0007",
+          "bytes": 87385,
+          "sha256": "d7e4788cee11421bc9ea81b088b4435561b779765cb8d09b4d3a0d33257a0184"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0008",
+          "bytes": 87385,
+          "sha256": "e8946c4ca1ff6db4aef1cfb8f0ef34bcbd3759974c0010436cd4a4959c1a13dc"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0009",
+          "bytes": 87385,
+          "sha256": "ff7f87a843492a2095b7315b1181f60fc88e0d1e3a4a6c1f02ba917dabcf00e6"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0010",
+          "bytes": 87385,
+          "sha256": "fa5e42302654e974c670955a42a4dfd0a9e8c5bc8d1f87257555eab489847a88"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0011",
+          "bytes": 87385,
+          "sha256": "95e769c54705fac5ee3124e074f9f5da78571985ecdc3f6ab09f9263c7883451"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0012",
+          "bytes": 87385,
+          "sha256": "babc88a94c7ec229ebf4cccc19ff18b4d4c73ea8a348471aa0b6a597484be643"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0013",
+          "bytes": 87385,
+          "sha256": "aa58ac579a865df45e5dbf8c18af116d9cb4e899603e16b1f3d20729704bf719"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0014",
+          "bytes": 87385,
+          "sha256": "4f5676b456cbac20090941ac749a5ae1cf005efd6525b073f9edc10583f077df"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0015",
+          "bytes": 87385,
+          "sha256": "3eacf3f5ba651b1a9a1763457b2c7aed62f7bd0a6e37025ff971a8d6a1d40578"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0016",
+          "bytes": 87385,
+          "sha256": "9c1f4ec9ac206260a1453b4352969dfc9345d6745ba45c4617301b664d8716bc"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0017",
+          "bytes": 87385,
+          "sha256": "bbf14cfc2c800f7741a241d5870ff587c2b7e8c6ee592f3a4aad9b7552d82f18"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0018",
+          "bytes": 87385,
+          "sha256": "719462988061333029f49989043765130bc613b9c4143c5a047134d259c727e9"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0019",
+          "bytes": 87385,
+          "sha256": "d77328c042932042c8b28adcfc2bac89b8e24dbcc8497e0f4d07cd2b55e95a5a"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0020",
+          "bytes": 87385,
+          "sha256": "c56376b9515f47c398f0f8ee6a2631b325d3b5d526b955f2415e95dda2e501ea"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0021",
+          "bytes": 87385,
+          "sha256": "790e5b9a82a38f6a746ec1e386817f643225df5fffc9a4e624698f0fb778273c"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0022",
+          "bytes": 87385,
+          "sha256": "6d5478c3e664d5b51e25186e72ee85a303f75774482c134335a2e141bad9dca8"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0023",
+          "bytes": 87385,
+          "sha256": "35fe9511d0213ab9849c58da636a8da986951af5d27cfd4a1ebac8d859942581"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0024",
+          "bytes": 87385,
+          "sha256": "0389abef5747d6ad70bf81d647b2c8ba0ff29192c1c8b8a937564069a8294fdc"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0025",
+          "bytes": 87385,
+          "sha256": "2befbd25c20695585789e02511e427fbda437fc2001ab7c3883180c5aee1455f"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0026",
+          "bytes": 87385,
+          "sha256": "b1c4e629ea412337f4bf75fc0716ab07e93722f142f2e66cad2e38646dfc5e2f"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0027",
+          "bytes": 87385,
+          "sha256": "d813405268399979e2da8e923425a827ce70be2b1027454f8be7c119b5a0211a"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0028",
+          "bytes": 87385,
+          "sha256": "997ca1565eee375339619be87c28d9231aadb929ded3050718835e21cf0f80d4"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0029",
+          "bytes": 87385,
+          "sha256": "a0cf42434440a7d746e9a3b8b4126337bbf26a057d03cd7b6651253ca723c543"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0030",
+          "bytes": 87385,
+          "sha256": "8213f13a51895f29cf9f9a78a8fb55093b71eb8fce68b853fdb4e843780faf80"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0031",
+          "bytes": 87385,
+          "sha256": "18980a92889a1733be3861e9f4586e70ea1329afe907f52f2c51b95ed027c09f"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0032",
+          "bytes": 87385,
+          "sha256": "f35628b3f5ffc9d08078a091ed39f7618883999fae61925b7e579af2670a36c6"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0033",
+          "bytes": 87385,
+          "sha256": "0f9771634130dd80c3eaf3abe260e4831159ce60a95584552a3fbe495176195c"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0034",
+          "bytes": 87385,
+          "sha256": "cab89c0c8f11d0b6c6231b1bf0e6ab1daf3ff9dc6ecce29dfbaba371ec04ae5e"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0035",
+          "bytes": 87385,
+          "sha256": "53ad56075bdee8f223a2a9364f294b8052018a42b816f612a09d9c21914369d4"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0036",
+          "bytes": 87385,
+          "sha256": "83102827f42405566b35a3601e59f5ee45fadf4188db0a1ee82e551232031a0b"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0037",
+          "bytes": 87385,
+          "sha256": "635bc4c8d61433469daa127c74728809912f7bb6b0894eade8845790cc9bb081"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0038",
+          "bytes": 87385,
+          "sha256": "9959f72ca1ab343cb05395c80e40729e1ee676516f7f86f71efad53a9a75b31c"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0039",
+          "bytes": 87385,
+          "sha256": "bb6fb25a087730fdff230ddb7b133a2b43c79c6333a547d410c2c7dcc3cca564"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0040",
+          "bytes": 87385,
+          "sha256": "7da6f28964a16e96f625f9d408c40c9e72a66df8b3182016f60c6d11f7712c03"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0041",
+          "bytes": 87385,
+          "sha256": "c8d628c3798ee037d9546aab568535c1491dc43681539cef84e4e73a4601d458"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0042",
+          "bytes": 87385,
+          "sha256": "0eaaf6cbe242aa9fd4c1202debd6771fac47fb9cc44c5e950774c9a2f5ac92e3"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0043",
+          "bytes": 87385,
+          "sha256": "d221a464e23d6ef634362b64eda1c75d72b90ef399fcd3579c775313a5718c3b"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0044",
+          "bytes": 87385,
+          "sha256": "bb4ef544e86e7dc55d7a313661739c3bd38fa8f411e85c6dfaff9aa1651530bc"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0045",
+          "bytes": 87385,
+          "sha256": "802189851fae0543ead8015d7a8a6e875c24c31db6c127311e041c75a80636c7"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0046",
+          "bytes": 87385,
+          "sha256": "3b15f42f0a5ba299934e6361615be295f6c3fef81854973af7592a78cbca99fd"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0047",
+          "bytes": 87385,
+          "sha256": "f0a39e88d3c1d98d74d85f4e192a83822e973e3530fda33e4a878bd4740a6713"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0048",
+          "bytes": 87385,
+          "sha256": "5795f5fbb7db88a6b0dfe057dbbe41447ab1d2fb5c8a1f749cedb0d6f4c531bd"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0049",
+          "bytes": 87385,
+          "sha256": "140858fc842ced1c7af7013f1940bbab9a84f50a67e717e6050641bdbc96ed1a"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0050",
+          "bytes": 87385,
+          "sha256": "7d330bb4faecf7db4df8dbf7218b79b505b03b10349fd785950dee4b626cde18"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0051",
+          "bytes": 87385,
+          "sha256": "a239d59f7579231000c1e15c1998a06918f4f2ed71dfc2846205153753d019ec"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0052",
+          "bytes": 87385,
+          "sha256": "a38c8b6449086e472705dba8b0c048fdad383352850c4935c5b4e68846ca2e37"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0053",
+          "bytes": 87385,
+          "sha256": "6b516ac09b7970a210e0e56896820ad1126dc151be0f6a432a2b38675e16dc6e"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0054",
+          "bytes": 87385,
+          "sha256": "1c562e619d0f1c6696e94133839f79c8fa709e09e18473c3b83e5b1dfec92506"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0055",
+          "bytes": 87385,
+          "sha256": "3252c1dc6d1122a02fd01a08e304fc63b57664ad2edc04c2d602ad42ce372525"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0056",
+          "bytes": 87385,
+          "sha256": "cbc146d27e410e585d77eb47fe486c80b06ad8d48ff4f3daf8ee7534435f847a"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0057",
+          "bytes": 87385,
+          "sha256": "6ec88be65af149e4624258a39d0a6bb576bc8ecb9423f4af9324719db096e14b"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0058",
+          "bytes": 87385,
+          "sha256": "296966605d955fa747da68d0145b02872bfcd7b31e0959986f987b19dbb7845f"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0059",
+          "bytes": 87385,
+          "sha256": "2e03c60d0822ded8fec2cc8b81be3a58a31c165412abdb4eee2830c557bfe556"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0060",
+          "bytes": 87385,
+          "sha256": "d0c2e734dd6d92840c77cdb2eecd5ea385129162c42ed34151639fa6fdcec293"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0061",
+          "bytes": 87385,
+          "sha256": "e08711e7b90fa49f6bc1af06ca7081b8e8860cf1e9deeb2f2ff7c1d87553afac"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0062",
+          "bytes": 87385,
+          "sha256": "68681a8cf0a7359164add1fa68e49111415f70f62bf8e95a1b3dac7e83b64c8f"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0063",
+          "bytes": 87385,
+          "sha256": "564d9906315e90a836f60b5b5a3f9b18b5fa1d54c8a8034f518bf8f516ce595c"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0064",
+          "bytes": 87385,
+          "sha256": "0f8b3c3afbb430e7d4c6a0e4c3b7b67b5a8ece6a89489955e0d67688c7be3cb8"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0065",
+          "bytes": 87385,
+          "sha256": "18673469f6f1fe6f490ecf2ee0104660675fe213a07edd8bc95ce66b31100009"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0066",
+          "bytes": 87385,
+          "sha256": "9bfbef306ffdd41012a7077f39a8f473b058794c24c254aff03afcccb642f619"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0067",
+          "bytes": 87385,
+          "sha256": "84fee6ca6a881ce8b965d310318be3fcbd6e7265270824575a2438d58fbc310e"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0068",
+          "bytes": 87385,
+          "sha256": "0d52ae8ed3980d254c70a26808a0b5168a46714a464bdddceb91e3d92b8bb9b7"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0069",
+          "bytes": 87385,
+          "sha256": "2f4f40eb84accd43519b1bfbd86679774228f8df817f75b8d00762c63b26c229"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0070",
+          "bytes": 87385,
+          "sha256": "69680c872be5fe9e60c767b4f52aa473b720feecda286d30323f919a61c671a5"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0071",
+          "bytes": 87385,
+          "sha256": "be620c4db73aacfd3b30ae89a50bbb58705399fc35398d41ff5d0a81e4bc35be"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0072",
+          "bytes": 87385,
+          "sha256": "2d71bbfdf3fc0e6d4e6c694b425f5adcd10504e68a922097b6ab0eebf754dfd0"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0073",
+          "bytes": 87385,
+          "sha256": "38df0a063ed659ec710b0e5bc64b94f547627e8903136d7044beede7665d77d4"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0074",
+          "bytes": 87385,
+          "sha256": "c4ab34bb34e4cf467a9c074f80747be068cb6360eb2464a1d56659a1a34bf79a"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0075",
+          "bytes": 87385,
+          "sha256": "bcd88a03b1e3a75311b16a2f1b19dc93d1421f960d1d0fcb7bd4102286f53eef"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0076",
+          "bytes": 87385,
+          "sha256": "57aeffc3f256da585cf2be9ea3f29e388588159149882d63c49fe5033f7281c7"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0077",
+          "bytes": 87385,
+          "sha256": "0a36a17865645eccc4fdd357b928ee2cd6adf8ab3da637dd2427db067904384b"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0078",
+          "bytes": 87385,
+          "sha256": "34d3f35925e594614010220d9801ac9ea3f36370198a17e66b96cd0cb8565e9f"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0079",
+          "bytes": 87385,
+          "sha256": "baf3a9cbbeb044585e60ce807f8e9ad1b6ae8f46f2d56fa2565c7098c42949a4"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0080",
+          "bytes": 87385,
+          "sha256": "a793d551509ab32bcdc454faa87b86f6740d6e09c3bae874a32c1afe707848df"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0081",
+          "bytes": 87385,
+          "sha256": "1ff9c129e56806b801d2c19791c68d4516e394fc9b121cb5533f70b85b993cfc"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0082",
+          "bytes": 87385,
+          "sha256": "323c2d8fd48e2ef4b9cb51b2564985dbf5292149b6ae146a4dc6a5adebd7d6c4"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0083",
+          "bytes": 87385,
+          "sha256": "6d03fd9600998b764809338e97d5be22f9f7c538339aa02342947f3ccde737f0"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0084",
+          "bytes": 87385,
+          "sha256": "372f09eb2e46e4a92494745ac65a3a61c9cb64af691541bb43cfcb3442f22014"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0085",
+          "bytes": 87385,
+          "sha256": "da050b86dbc1c3e3ded81a6216473bb8c8d4c6f6533c1ee27650c878f2e83d96"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0086",
+          "bytes": 87385,
+          "sha256": "5eba6ca0034ec5d4126d04004684369c0b2ad209cb28dbc7389cc60fae91e31e"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0087",
+          "bytes": 87385,
+          "sha256": "c338a6a2ecb9d5e980187778edbbd965ca43d0eca26a1ac614f7b5a9621f5f88"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0088",
+          "bytes": 87385,
+          "sha256": "9b47fbdc6b0476d67810e1c5059a9ba7d7b10b20b21532d76a03806236e9f90c"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0089",
+          "bytes": 87385,
+          "sha256": "cbac98fa14adb0dffad43c638c6cfd8c26ef30ebbee4de579e1b7c850c650fee"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0090",
+          "bytes": 87385,
+          "sha256": "a832625dc8af88e7b63d7c99efb9eb1b03513dce7f248c31844c06a08fc64ac4"
+        },
+        {
+          "file": "full-glyph-proofread-compact.json.gz.part-0091",
+          "bytes": 44593,
+          "sha256": "719687e587e11c10c56bb5b774a7cef7bd3c93ee13bf9500c5b8d15f4c3b1b55"
+        }
+      ]
+    },
+    {
+      "output": "full-glyph-proofread-coverage.csv",
+      "output_bytes": 8015653,
+      "output_sha256": "f8d1fc15c5003a5ef6c4a83963f53b2ba70667e5a1159c8ca4d1d59a6f898284",
+      "transport_codec": "gzip",
+      "transport_bytes": 1099066,
+      "transport_sha256": "fb627e62793082888149b8cc566d2f7d081b96d00ae861ae88f604eb6dcb63f2",
+      "part_encoding": "base64-ascii",
+      "parts": [
+        {
+          "file": "full-glyph-proofread-coverage.csv.part-0000",
+          "bytes": 87385,
+          "sha256": "578c5207fef15607bb4cbd7c3a5c919dafae73fd7a3de99222ed8cfe52095d80"
+        },
+        {
+          "file": "full-glyph-proofread-coverage.csv.part-0001",
+          "bytes": 87385,
+          "sha256": "b48d33e4513af88361fbddb97c5f5d75c5efe4838be4d3c11e3b25c6d5db6640"
+        },
+        {
+          "file": "full-glyph-proofread-coverage.csv.part-0002",
+          "bytes": 87385,
+          "sha256": "f6f6c734d97e9c45e40e2cf5206fe7ed24314949b6a288f86e5691fda51d0ee1"
+        },
+        {
+          "file": "full-glyph-proofread-coverage.csv.part-0003",
+          "bytes": 87385,
+          "sha256": "e26d0b89e31778493d539fa5ac9603e59672449116b3cb1330ef1280439d2e38"
+        },
+        {
+          "file": "full-glyph-proofread-coverage.csv.part-0004",
+          "bytes": 87385,
+          "sha256": "8a62b6e1ff5e78df7d3e1073444e64ee45aa9baf9b62ede69a1fafa338cfe434"
+        },
+        {
+          "file": "full-glyph-proofread-coverage.csv.part-0005",
+          "bytes": 87385,
+          "sha256": "e444a65baeeebb1ea2b61f8a344c913bab581b19169b3ae577f1fe6b625d44ac"
+        },
+        {
+          "file": "full-glyph-proofread-coverage.csv.part-0006",
+          "bytes": 87385,
+          "sha256": "2029cd64ced27c7ba146958615060eb7705160de64de6b55804a824795a2e5d6"
+        },
+        {
+          "file": "full-glyph-proofread-coverage.csv.part-0007",
+          "bytes": 87385,
+          "sha256": "d240c5e82452565ea1d8a57da50c406797477339d77a76b90822b5d5a5fdadac"
+        },
+        {
+          "file": "full-glyph-proofread-coverage.csv.part-0008",
+          "bytes": 87385,
+          "sha256": "02af972cc4b664805add7444f41a8b140bb2d99a2272e14a1b00235bc4c3b460"
+        },
+        {
+          "file": "full-glyph-proofread-coverage.csv.part-0009",
+          "bytes": 87385,
+          "sha256": "f4b7ad5e39a5edafed8bfec91e1add2299603dbc028c82ab4c76ff1380ddf58e"
+        },
+        {
+          "file": "full-glyph-proofread-coverage.csv.part-0010",
+          "bytes": 87385,
+          "sha256": "ef4735c91bcfdc067ce3726507e94172cb8f540c81ffac71d8dbe9ceb526a494"
+        },
+        {
+          "file": "full-glyph-proofread-coverage.csv.part-0011",
+          "bytes": 87385,
+          "sha256": "7466de2cf6a8f1a94bcb1e16724242a416be7c41f1fe559579228a26e0ba546b"
+        },
+        {
+          "file": "full-glyph-proofread-coverage.csv.part-0012",
+          "bytes": 87385,
+          "sha256": "cfb323ad14c0a496fd360402a343a221a84c8963dfa5d73d44f47361253d20d6"
+        },
+        {
+          "file": "full-glyph-proofread-coverage.csv.part-0013",
+          "bytes": 87385,
+          "sha256": "be8614a4482b7dc67948568b4233d677358ff971ad84dd7b7d160949a35017b1"
+        },
+        {
+          "file": "full-glyph-proofread-coverage.csv.part-0014",
+          "bytes": 87385,
+          "sha256": "1221580fb189c5570cf3cae151b4a8698db0d3ac74f09e4d166bbce019a0fc8e"
+        },
+        {
+          "file": "full-glyph-proofread-coverage.csv.part-0015",
+          "bytes": 87385,
+          "sha256": "224930665f2cfd05f6889abed6f6b70442e5cf2613e8b890600fc2bfcc2ef6c1"
+        },
+        {
+          "file": "full-glyph-proofread-coverage.csv.part-0016",
+          "bytes": 67321,
+          "sha256": "0e5785dc148d7b751b23c777f134891e615371097af22b45efd6b1a6c1694221"
+        }
+      ]
+    },
+    {
+      "output": "full-glyph-proofread-summary.json",
+      "output_bytes": 11872,
+      "output_sha256": "1ad57ed45515b2f2dc7e7e09f29e663b14df4209ead265154d38762346b02ead",
+      "transport_codec": "identity",
+      "transport_bytes": 11872,
+      "transport_sha256": "1ad57ed45515b2f2dc7e7e09f29e663b14df4209ead265154d38762346b02ead",
+      "part_encoding": "base64-ascii",
+      "parts": [
+        {
+          "file": "full-glyph-proofread-summary.json.part-0000",
+          "bytes": 15833,
+          "sha256": "fa9f3762ff41c67c8c78e45bf62093d8e5200784b13d5030f60ea94229d4524d"
+        }
+      ]
+    },
+    {
+      "output": "full-glyph-proofread-summary.txt",
+      "output_bytes": 1835,
+      "output_sha256": "e4b4170fa79cc9a0afad40eb58766543a9453e486ad876b8f71d318b227a32dc",
+      "transport_codec": "identity",
+      "transport_bytes": 1835,
+      "transport_sha256": "e4b4170fa79cc9a0afad40eb58766543a9453e486ad876b8f71d318b227a32dc",
+      "part_encoding": "base64-ascii",
+      "parts": [
+        {
+          "file": "full-glyph-proofread-summary.txt.part-0000",
+          "bytes": 2449,
+          "sha256": "e3815ac9e1cfc6e389e2c708fed50efa0fc80bdc75425616ccc98683278b1d32"
+        }
+      ]
+    },
+    {
+      "output": "full-glyph-proofread-index.html",
+      "output_bytes": 2568,
+      "output_sha256": "bed98f4db8ad96c5362c2d0ba0f76f3d559a2f824cb0a3cf22fe7edd1ddc8e15",
+      "transport_codec": "identity",
+      "transport_bytes": 2568,
+      "transport_sha256": "bed98f4db8ad96c5362c2d0ba0f76f3d559a2f824cb0a3cf22fe7edd1ddc8e15",
+      "part_encoding": "base64-ascii",
+      "parts": [
+        {
+          "file": "full-glyph-proofread-index.html.part-0000",
+          "bytes": 3425,
+          "sha256": "6045355685978c5b052ddd561bf03e08ea43c7bae6540260a02a5377a84999dc"
+        }
+      ]
+    }
+  ],
+  "excluded_assets": [
+    "font binaries",
+    "PNG evidence",
+    "Unicode PDFs",
+    "reference chart images",
+    "raw private reviewer records"
+  ],
+  "verification": "Exact part SHA, decoded transport SHA, and restored output SHA; all outputs verified before replacement."
+}

@@ -60,6 +60,15 @@ def write_centerlines(glyphs,path):
     path.with_suffix('.svgz').write_bytes(compress_centerlines(svg))
 
 
+def portable_build_paths(summary, output):
+    """Keep review metadata independent of private checkout locations."""
+    output=Path(output).resolve()
+    for records,key in ((summary['fonts'],'path'),(summary['bitmaps'],'binary')):
+        for record in records:
+            record[key]=Path(record[key]).resolve().relative_to(output).as_posix()
+    summary['artifact_path_base']='directory containing build-summary.json'
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output',type=Path,default=ROOT/'build/family')
@@ -130,6 +139,7 @@ def main():
     summary['source_hashes']={name:sha(safe_path(ROOT,name))
                               for name in load_manifest(ROOT)['source_files']}
     summary['legacy_after']=legacy_check()
+    portable_build_paths(summary,out)
     (out/'build-summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({k:{'present':v['present'],'target':v['target']} for k,v in coverage['groups'].items()},ensure_ascii=False),flush=True)
 

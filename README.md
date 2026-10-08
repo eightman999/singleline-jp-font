@@ -1,17 +1,20 @@
 # Singleline JP Font
 
-**V2 配布準備版: 2.0.0-rc.1。正式リリースではありません。** 独自中心線から作った静的TTF 8書体、可変TTF 2書体、16/18/24/32px × 8書体の1bitビットマップ32組を扱います。従来の2,584文字・18/24px資産は維持します。拡張漢字は機械合成を含む未校正の試作字形で、収録率やテスト成功は日本語字体の正確性・可読性の認定ではありません。
+**全字校正Draft:** この枝ではソースと校正記録を先に更新しています。Git管理下のLab TTF/bitmapの直接更新は未完了です。本校正の新しいフォントは、Draft PRに対応するCIの再生成artifactとSHAを確認して使用してください。従来2,584字の互換版は変更していません。
+
+**V2 配布準備版: 2.0.0-rc.1。正式リリースではありません。** 独自中心線から作った静的TTF 8書体、可変TTF 2書体、16/18/24/32px × 8書体の1bitビットマップ32組を扱います。従来の2,584文字・18/24px資産は維持します。拡張漢字は機械合成由来を含む試作字形で、全条件の校了は未完了です。収録率やテスト成功は日本語字体の正確性・可読性の認定ではありません。
 
 **TTFをアプリで使うだけならPythonは不要です。** ZIPを展開して `.ttf` をOSへインストールします。まず [インストール・更新・削除](docs/INSTALL.md) を参照してください。
 
 - [用途別の4分割ZIP・検証とバージョン対応](docs/DISTRIBUTION.md): static / variable / bitmap / source。各ZIPは独立して使えます
 - [変更履歴](docs/CHANGELOG.md) · [再現性・macOS差分への対処](docs/REPRODUCIBILITY.md) · [出典・ライセンス対応表](NOTICE.md)
-- [優先字形の実測: 己已巳・未末・土士・高髙・吉𠮷](docs/PRIORITY-GLYPH-QA.md): 一部の16/18pxビットマップに同形が残ります
+- [全12,776字の一次画像校正と残件](docs/FULL-GLYPH-PROOFREAD.md): 個別判定・限定修正・小サイズ制約。全面校了の宣言ではありません
+- [優先字形の実測: 己已巳・未末・土士・高髙・吉𠮷](docs/PRIORITY-GLYPH-QA.md): 修正前の実測履歴。[今回の限定修正と再確認](docs/PRIORITY-GLYPH-CORRECTIONS.md)も参照
 - [ファミリー設計・生成・検証](docs/FAMILY.md): 正確な収録数と欠字は `build/family/coverage.json` を参照
 
 配布版 `2.0.0-rc.1` とフォント内部の版番号は別です。新ファミリーは `Singleline JP Lab …` / `Version 0.201`、従来TTFは `Singleline JP …` / `Version 1.000` のままです。V2という名前を理由に既存フォントを上書きしたり版番号を一括変更したりしません。OSの導入・アプリ別表示試験は、機械検査とは別の未完了項目です。
 
-[新8書体TTF](build/family/static/) · [可変TTF](build/family/variable/) · [16/18/24/32pxの1bit資産](build/family/bitmaps/) · [全書体の再検査](docs/STYLE-RASTER-QA.md)
+[Git管理下の旧8書体TTF](build/family/static/) · [旧可変TTF](build/family/variable/) · [旧1bit資産](build/family/bitmaps/) · [全書体の再検査](docs/STYLE-RASTER-QA.md)
 
 [編集用の完全な中心線SVGZ](build/family/centerlines.svgz)はgzip圧縮です。[展開手順](docs/FAMILY.md#editable-centerline-svg)で元のSVGを復元できます。生成時とソースZIPには生SVGも含みます。
 
