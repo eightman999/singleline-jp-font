@@ -14,7 +14,7 @@ from CJKVI-IDS revision `86b4d16159f0079437870408f0ca186e529015db`. This is stru
 only: Unicode character relationships, with no stroke positions, curves,
 bitmaps, font outlines or font-derived coordinates. Its GPL-2.0 notice and license
 remain in `assets/fonts/source/CJKVI-IDS-README.md` and `CJKVI-IDS-COPYING.txt`.
-The combination is **not** represented as OFL or unrestricted font licensing.
+Those upstream structure datasets retain their GPL v2-related notices when distributed. Whether any separately authored TTF output contains protected third-party expression is a distinct, output-specific question; the project does **not** claim those datasets are proprietary. See [LICENSING.md](../../LICENSING.md) and [NOTICE.md](../../NOTICE.md).
 The pinned URL, content hashes and original source file names are recorded in
 `kanji-sources.json`.
 

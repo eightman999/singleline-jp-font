@@ -90,8 +90,8 @@ def build_font(glyphs,style,path,*,variable=False):
         'psName':postscript,'version':'Version 0.201; EXPERIMENTAL composition drafts',
         'manufacturer':'singleline-jp-font project','designer':'Project-original geometric centerline family',
         'description':'Experimental family. Additional Kanji are structure-composition drafts, not individually proofread. Italian = reverse contrast; PC98 is an original stylistic interpretation, not ROM data.',
-        'licenseDescription':'Original code and coordinates retain AGPL v3. CJKVI-IDS structure and derived Japanese assets retain GPL v2 notices. See bundled NOTICE.md and source.',
-        'licenseInfoURL':'https://github.com/eightman999/singleline-jp-font/blob/main/NOTICE.md'})
+        'licenseDescription':'Newly issued V2+ original font outputs: Singleline JP Font Commercial License (release designation required). V1 original font assets: additional Apache-2.0 grant. Historic distributions retain previous grants; third-party input data are separately licensed. See LICENSING.md and NOTICE.md.',
+        'licenseInfoURL':'https://github.com/eightman999/singleline-jp-font/blob/main/LICENSING.md'})
     fb.setupOS2(version=4,sTypoAscender=ascent,sTypoDescender=descent,sTypoLineGap=0,usWinAscent=max(1100,ascent),
         usWinDescent=max(250,-descent),usWeightClass=style.weight,fsType=0,
         fsSelection=(1 if style.italic else 64)|128, sxHeight=460,sCapHeight=770,

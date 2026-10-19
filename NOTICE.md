@@ -1,56 +1,46 @@
-# Provenance and licenses
+# Provenance, historic notices, and upstream licenses
 
-V2 distribution preparation, 2026-10-07: the mapping below documents existing
-notices. It does not relicense any source or output, introduce a font-embedding
-exception, or certify that a proposed redistribution satisfies all obligations.
+## Ownership and versioned policy
 
-Extracted from https://github.com/Takemura-hackathon-2026/hackathon-2026 at `04fe462d816c025f5c911efa0cea79fced2eeb3e` (host font files).
-Original code and authored stroke coordinates retain the source repository's GNU AGPL v3 license (LICENSE). No relicensing is implied.
+The copyright holder states that the original Singleline JP glyph geometry and original code are owned by **eightman999**. The source code is newly offered under **GPL-2.0-only OR AGPL-3.0-only**; original V1.0.0 font assets have an additional **Apache-2.0** grant; and only **newly issued, explicitly designated** V2+ font products use the proposed proprietary font license.
 
-Character decomposition data: CJKVI-IDS / CHISE, GPL v2. The source attribution, pinned revision and license are in assets/fonts/source/CJKVI-IDS-README.md, CJKVI-IDS-COPYING.txt and joyo-compositions-source.json. The Japanese generated assets retain the source project's GPL v2 notice. These licenses are not an unrestricted or OFL font grant.
+**The authoritative new scope matrix is [LICENSING.md](LICENSING.md).** This NOTICE records provenance and obligations for independent inputs, not a blanket declaration that every generated font is GPL-licensed.
 
-The centerline coordinates are project-authored; the CJKVI data supplies character structure only. No ChocoKanji, KanjiVG or Hershey outlines are included.
-Official repertoire source: https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/joyokanjihyo_sakuin/index.html
+Previously distributed artifacts (including public V2 laboratory binaries and files with older embedded notices) retain rights granted with those copies. The published V1 archive/tag is historical and immutable; a new license grant is additive.
 
-Categorization update: resolved final coordinates are now canonical in glyphs/. Identical paths are interned without changing geometry. The original composition data is retained for provenance, not executed at build time. TrueType outputs trace lit pixels as closed rectangles and preserve the respective asset notices.
+## Origin of original assets
 
-The preceding pixel-tracing description applies to the legacy `fonts/*.ttf`.
-The experimental Lab TTFs instead expand authored centerlines into filled
-outlines. Their different construction does not remove inherited notices.
+The font source was extracted from https://github.com/Takemura-hackathon-2026/hackathon-2026 at commit `04fe462d816c025f5c911efa0cea79fced2eeb3e`. Original authored code and original glyph coordinates were historically distributed with GNU AGPL v3 notices. The current rightsholder offers an additional choice for **their own code and V1 original font artwork**, without retracting historical grants.
 
-## Source-to-notice mapping
+Original centerline coordinates are project-authored. V2 new glyphs are built using independently designed project stroke paths and algorithmic layouts; **no third-party font glyph outlines, bitmaps, or stroke coordinates are imported**. No ChocoKanji, KanjiVG, Hershey, PC-98 ROM or carrier emoji artwork is incorporated as glyph outlines.
 
-| Material | Repository location / evidence | Preserved notice |
+## Third-party source data (not relicensed)
+
+| Data | Location / provenance | License or notice |
 | --- | --- | --- |
-| Original program code and authored coordinates; subsequent project code and original centerline designs | root Python files, `glyphs/`, `family/*.py`, `family/tools/`, `family/data/legacy-components.json`; provenance in `family/data/KANJI-SOURCES.md` and `kanji-sources.json` | GNU AGPL v3, root `LICENSE`; upstream origin above |
-| CJKVI-IDS / CHISE character structures, without imported outlines or stroke positions | `assets/fonts/source/joyo-compositions-source.json`, `family/data/ids-trees.json`; pinned revision `86b4d16159f0079437870408f0ca186e529015db` and hashes in `family/data/kanji-sources.json` | Existing GPL v2-related notices in `assets/fonts/source/CJKVI-IDS-README.md` and full `CJKVI-IDS-COPYING.txt`; keep upstream file-specific wording |
-| Unicode character properties, names, variation mappings and identity data | `family/data/unicode-jinmeiyo.json`, `jis-compatibility-svs.json`, Unicode-derived fields in character manifests; inputs and hashes in `family/data/sources-lock.json` | Unicode License V3 in `family/data/UNICODE-LICENSE.txt`; © 1991–2026 Unicode, Inc. |
-| Repertoire enumeration and project-authored metadata | `family/data/generate_jis_manifest.py`, `jisx0213-2004.json`, coverage/provenance reports | Retain project notice and applicable Unicode data notice; a character inventory is not a license to another font's outlines |
+| CJKVI-IDS / CHISE character decomposition structure (not outlines) | `family/data/ids-trees.json`, `assets/fonts/source/joyo-compositions-source.json`; pinned CJKVI revision `86b4d16159f0079437870408f0ca186e529015db` | Upstream **GPL v2-related terms**, with `assets/fonts/source/CJKVI-IDS-README.md` and `CJKVI-IDS-COPYING.txt`. Preserve for copies/derivatives of those datasets. |
+| Unicode identity, property, variation and repertoire data | `family/data/unicode-jinmeiyo.json`, `jis-compatibility-svs.json`, `sources-lock.json` | **Unicode License v3**, `family/data/UNICODE-LICENSE.txt`, © 1991–2026 Unicode, Inc. |
+| Official Jōyō index | https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/joyokanjihyo_sakuin/index.html | Official repertoire reference; not third-party glyph artwork. |
 
-The CJKVI README distinguishes source files and CHISE derivation. The row above
-preserves this repository's existing attribution rather than replacing it with
-a new blanket interpretation. Consult the bundled original text for that scope.
-No ChocoKanji, KanjiVG, Hershey, PC-98 ROM or carrier emoji artwork is imported.
+The CJKVI README distinguishes `ids.txt` (CHISE-derived) from other source files and their upstream terms. This repository contains the source notices to preserve provenance. **Using character structure alone does not establish that a separately authored TTF reproduces upstream copyrighted glyph artwork.** Conversely, the absence of imported outlines does not automatically resolve every possible dependency claim. Review the particular data and output.
 
-## Artifact-to-source mapping
+## File/artifact boundary
 
-| Artifact | Inputs represented | Notices to retain with redistribution |
-| --- | --- | --- |
-| Legacy ASCII PNG/JSON and `fonts/SinglelineJPASCII*.ttf` | Authored ASCII/symbol coordinates and pixel rendering code | Project AGPL notice and source attribution |
-| Legacy Japanese PNG/JSON and `fonts/SinglelineJPFull*.ttf` | Authored coordinates; preserved Japanese-asset provenance | Project AGPL notice plus inherited GPL v2 Japanese-asset/CJKVI notices |
-| Lab static and variable TTFs | Authored centerlines and style code, IDS-structured Japanese composition drafts, Unicode identity/variation metadata | Project AGPL, inherited Japanese-asset/CJKVI notices, and Unicode data notice; root NOTICE plus the full referenced texts |
-| Lab PNG/JSON/SJPB strikes, centerline SVG/SVGZ and sample proofs | The same Lab glyph sources and metadata in different representations | The same relevant source notices; image/binary conversion is not a new license grant |
-| Lab coverage/provenance reports and HTML specimens | Project tooling and metadata; samples of the same glyphs; Unicode-derived identities | Project notice, applicable glyph/source notices and Unicode notice |
+| Material | Policy |
+| --- | --- |
+| Original generator/runtime program code, tests and scripts | Dual license **GPL-2.0-only OR AGPL-3.0-only**, copyright holder's portions only. Original older AGPL grants remain valid. |
+| Original V1.0.0 `fonts/*.ttf`, `assets/fonts/custom-*.png/json` and identical legacy copies | Additional **Apache-2.0** license grant under `V1-APACHE-GRANT.md`. Previous rights remain intact. |
+| New V2+ TTF, bitmap output and original new centerline artwork, if expressly issued as commercial | Proposed independent retail license `FONT-LICENSE-V2PLUS.md`. **Not retroactive to historical published files.** |
+| Mixed source ZIPs containing CJKVI/Unicode datasets and authored artwork | Each copyrightable component keeps its own terms. A single broad font license must not be applied to all inputs. |
+| Archived V2 RC artifacts built with old embedded AGPL/GPL text | Historic grants and actual embedded notices must be honored. Metadata is changed only for a newly generated and checked release. |
 
-All four V2 package categories (static, variable, bitmap and source) carry these
-notices and full license texts. Binary packages identify the matching source
-package; retain that relationship when redistributing. Splitting ZIPs does not
-change the source or notice obligations. Build dependencies listed in
-`requirements-family.txt` retain their own licenses; naming or using those tools
-does not imply that their code or font designs are bundled in the TTF outputs.
+The font `fsType=0` OS/2 technical field is **not** a copyright license. The fact that a program is GPL-licensed does not automatically make its generated outputs GPL-licensed; any copyrightable material reproduced from third-party inputs requires separate review.
 
-The font metadata's `fsType=0` is a technical embedding-permissions field, not
-a replacement for the license notices or an additional unrestricted embedding
-grant. This project does not describe the resulting mixed-source family as OFL,
-public domain, or unrestricted. For a use needing a single permissive font
-license, that condition has not been established here.
+## Before publishing a new commercial archive
+
+- Check commercial output against `family/data/KANJI-SOURCES.md`, the pinned dataset revisions, and project glyph provenance.
+- Exclude third-party raw input datasets from any font-only package unless separately licensed and accompanied by their notices.
+- Make TTF name/license tables, version, package documentation and legal terms agree.
+- Complete technical and visual release gates: a machine test pass alone does not certify every Japanese glyph.
+
+See [docs/DISTRIBUTION.md](docs/DISTRIBUTION.md) and [FONT-LICENSE-V2PLUS.md](FONT-LICENSE-V2PLUS.md).
