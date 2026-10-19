@@ -133,7 +133,7 @@ def package_readme(kind, version, gates):
             f'{instructions}\n\n'
             'Known limits: composition drafts have not all been proofread; small-size collisions remain. Structural/encoding success is not Japanese typographic approval. '
             f'Unrun platform/visual gates: {", ".join(gates["not_run"]) or "none"}.\n\n'
-            'Read LICENSE, NOTICE.md, the CJKVI-IDS notices and Unicode license before redistribution or embedding. No OFL or unrestricted font license is implied.\n\n'
+            'Read LICENSING.md for the versioned grants: author-owned program code GPL-2.0-only OR AGPL-3.0-only; author-owned V1 font assets have an additional Apache-2.0 grant; newly issued and explicitly designated V2+ font assets use FONT-LICENSE-V2PLUS.md. Historic public copies retain their original grants. Third-party CJKVI/CHISE and Unicode data are not relicensed; see NOTICE.md. This historic RC archive is not automatically a newly designated commercial release.\n\n'
             'Copied binary-package docs mark links to omitted historical files as repository-only; editable source-package docs retain their original references.\n\n'
             'PACKAGE-SHA256.json and SHA256SUMS cover every other file except these two checksum indexes. QA-REPORT.json binds the complete reviewed source and artifact inventory, including files shipped in the other ZIPs. Digests detect changes; they are not signatures.\n').encode('utf-8')
 

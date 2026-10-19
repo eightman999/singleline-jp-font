@@ -1,5 +1,7 @@
 # Singleline JP Font
 
+**Licenses by version:** [Program dual GPL-2.0-only OR AGPL-3.0-only / V1 font Apache-2.0 additional grant / newly issued V2+ font proprietary](LICENSING.md). 新規商用V2+はゲーム・アプリへの同梱、Webフォント・商用作品利用を許可し、フォント単体の再配布を禁止。Historical binaries and third-party datasets remain separately scoped.
+
 **全字校正Draft:** この枝ではソースと校正記録を先に更新しています。Git管理下のLab TTF/bitmapの直接更新は未完了です。本校正の新しいフォントは、Draft PRに対応するCIの再生成artifactとSHAを確認して使用してください。従来2,584字の互換版は変更していません。
 
 **V2 配布準備版: 2.0.0-rc.1。正式リリースではありません。** 独自中心線から作った静的TTF 8書体、可変TTF 2書体、16/18/24/32px × 8書体の1bitビットマップ32組を扱います。従来の2,584文字・18/24px資産は維持します。拡張漢字は機械合成由来を含む試作字形で、全条件の校了は未完了です。収録率やテスト成功は日本語字体の正確性・可読性の認定ではありません。
@@ -58,7 +60,7 @@ pixels = font.mask('日本語 ABC')   # NumPy bool配列
 
 線分は24単位の座標から1px幅・アンチエイリアスなしで生成します。`glyphs/kanji.py`・`hiragana.py`・`katakana.py`・`ascii.py`が字種別の正本、`symbols.py`が記号です。同一の線分は`paths.py`で共有します。旧部品合成器と重複した字形・後勝ちの修正定義を除去し、確定済みの全座標とPNGを維持しています。`custom_*_strokes.py`は既存利用者向けの薄い入口です。生成物のJSONに出典とハッシュを記録します。
 
-コード・独自線分は元プロジェクトのAGPL v3、外部構成データと日本語生成物の扱いは[NOTICE.md](NOTICE.md)を参照してください。ゲーム、通信、Pi制御、旧フォント資産は含みません。
+**ライセンス:** 原著作者が権利を持つプログラムは **GPL-2.0-only OR AGPL-3.0-only**（選択式）。**V1.0.0のオリジナルフォント資産にはApache-2.0の追加許諾**、**新たに発行・指定するV2以降のオリジナルフォント資産には独自商用ライセンス**を適用する方針です。既に公開されたコピーの利用許諾は取り消されません。第三者の文字構造・Unicodeデータには元の条件が残ります。正確な範囲は[LICENSING.md](LICENSING.md)、出典は[NOTICE.md](NOTICE.md)を参照してください。ゲーム、通信、Pi制御などの本体資産は含みません。
 
 ## 従来版のインストール用 TrueType
 

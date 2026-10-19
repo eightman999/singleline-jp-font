@@ -4,9 +4,14 @@
   "source_files": [
     ".github/workflows/family-validation.yml",
     ".gitignore",
+    "FONT-LICENSE-V2PLUS.md",
     "LICENSE",
+    "LICENSE-APACHE-2.0.txt",
+    "LICENSE-GPL-2.0.txt",
+    "LICENSING.md",
     "NOTICE.md",
     "README.md",
+    "V1-APACHE-GRANT.md",
     "assets/fonts/CHARACTERS.md",
     "assets/fonts/README.md",
     "assets/fonts/catalog.html",
@@ -451,8 +456,13 @@
     "variable/SinglelineJPLab-serif-VF.ttf"
   ],
   "licenses": [
+    "FONT-LICENSE-V2PLUS.md",
     "LICENSE",
+    "LICENSE-APACHE-2.0.txt",
+    "LICENSE-GPL-2.0.txt",
+    "LICENSING.md",
     "NOTICE.md",
+    "V1-APACHE-GRANT.md",
     "assets/fonts/source/CJKVI-IDS-COPYING.txt",
     "assets/fonts/source/CJKVI-IDS-README.md",
     "family/data/UNICODE-LICENSE.txt"
