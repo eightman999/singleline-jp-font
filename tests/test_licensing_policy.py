@@ -35,3 +35,17 @@ def test_generated_font_license_points_to_versioned_policy():
     builder = (ROOT / "family/font_builder.py").read_text(encoding="utf-8")
     assert "Singleline JP Font Commercial License" in builder
     assert "blob/main/LICENSING.md" in builder
+
+
+def test_new_font_license_allows_real_embedding_but_prohibits_standalone_distribution():
+    eula = (ROOT / "FONT-LICENSE-V2PLUS.md").read_text(encoding="utf-8")
+    assert "## 3. Permitted integration and distribution with finished products" in eula
+    assert "desktop/mobile applications and games" in eula
+    assert "self-hosted webfonts" in eula
+    assert "technical accessibility alone" in eula
+    assert "## 4. Prohibited standalone redistribution" in eula
+    assert "unchanged, renamed, converted, subsetted, or modified" in eula
+    assert "Encryption, DRM, obfuscation, or other anti-extraction measures are not required" in eula
+    assert "does not restrict the additional **Apache-2.0 grant" in eula
+    assert "previously granted" in eula
+    assert "include installable/usable font binaries as part of redistributable applications" not in eula

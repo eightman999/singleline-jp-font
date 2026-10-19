@@ -1,6 +1,6 @@
 # Singleline JP Font
 
-**Licenses by version:** [Program dual GPL-2.0-only OR AGPL-3.0-only / V1 font Apache-2.0 additional grant / newly issued V2+ font proprietary](LICENSING.md). Historical binaries and third-party datasets remain separately scoped.
+**Licenses by version:** [Program dual GPL-2.0-only OR AGPL-3.0-only / V1 font Apache-2.0 additional grant / newly issued V2+ font proprietary](LICENSING.md). 新規商用V2+はゲーム・アプリへの同梱、Webフォント・商用作品利用を許可し、フォント単体の再配布を禁止。Historical binaries and third-party datasets remain separately scoped.
 
 **全字校正Draft:** この枝ではソースと校正記録を先に更新しています。Git管理下のLab TTF/bitmapの直接更新は未完了です。本校正の新しいフォントは、Draft PRに対応するCIの再生成artifactとSHAを確認して使用してください。従来2,584字の互換版は変更していません。
 
